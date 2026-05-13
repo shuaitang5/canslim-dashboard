@@ -1,4 +1,5 @@
 _verify*.png
+!_verify_closeup.png
 __pycache__/
 *.pyc
 .DS_Store

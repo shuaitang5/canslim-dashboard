@@ -5,7 +5,10 @@ A personal digest page on top of the upstream
 reports down to **full-match** tickers only, shows the **top 10**, and surfaces
 **day-over-day rank deltas** so movement is visible at a glance.
 
-Open the final artifact by double-clicking `dashboard.html`.
+**🔗 Live dashboard:** https://shuaitang5.github.io/canslim-dashboard/dashboard.html
+(auto-refreshes daily at 23:00 UTC via GitHub Actions; mobile-friendly)
+
+Or open the local artifact by double-clicking `dashboard.html`.
 
 ![dashboard](./_verify_closeup.png)
 
