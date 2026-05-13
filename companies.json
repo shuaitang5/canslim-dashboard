@@ -1,0 +1,114 @@
+{
+  "ALAB": {
+    "ticker": "ALAB",
+    "name": "Astera Labs, Inc.",
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "blurb": "Astera Labs, Inc. designs, manufactures, and sells semiconductor-based connectivity solutions for cloud and AI infrastructure."
+  },
+  "APLS": {
+    "ticker": "APLS",
+    "name": "Apellis Pharmaceuticals, Inc.",
+    "industry": "Biotechnology",
+    "sector": "Healthcare",
+    "blurb": "Apellis Pharmaceuticals, Inc., a commercial-stage biopharmaceutical company, focuses on the discovery, development, and commercialization of novel therapeutic compounds to treat diseases with high unmet needs."
+  },
+  "CBL": {
+    "ticker": "CBL",
+    "name": "CBL & Associates Properties, Inc.",
+    "industry": "REIT - Retail",
+    "sector": "Real Estate",
+    "blurb": "CBL & Associates Properties, Inc. owns and manages a national portfolio of market-dominant properties located in dynamic and growing communities."
+  },
+  "CLS": {
+    "ticker": "CLS",
+    "name": "Celestica Inc.",
+    "industry": "Electronic Components",
+    "sector": "Technology",
+    "blurb": "Celestica Inc., together with its subsidiaries, provides supply chain solutions in Asia, North America, and internationally. It operates through two segments, Advanced Technology Solutions, and Connectivity and Cloud Solutions."
+  },
+  "CRDO": {
+    "ticker": "CRDO",
+    "name": "Credo Technology Group Holding Ltd",
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "blurb": "Credo Technology Group Holding Ltd provides various high-speed connectivity solutions for optical and electrical Ethernet, and PCIe applications in the United States, Taiwan, Mainland China, Hong Kong, and internationally."
+  },
+  "ENS": {
+    "ticker": "ENS",
+    "name": "EnerSys",
+    "industry": "Electrical Equipment & Parts",
+    "sector": "Industrials",
+    "blurb": "EnerSys engages in the provision of stored energy solutions for industrial applications worldwide. The company operates in four segments: Energy Systems, Motive Power, Specialty, and New Ventures."
+  },
+  "GCT": {
+    "ticker": "GCT",
+    "name": "GigaCloud Technology Inc.",
+    "industry": "Software - Infrastructure",
+    "sector": "Technology",
+    "blurb": "GigaCloud Technology Inc. provides end-to-end B2B ecommerce solutions for large parcel merchandise in the United States and internationally."
+  },
+  "GEV": {
+    "ticker": "GEV",
+    "name": "GE Vernova Inc.",
+    "industry": "Specialty Industrial Machinery",
+    "sector": "Industrials",
+    "blurb": "GE Vernova Inc., an energy company, engages in the provision of various products and services that generate, transfer, orchestrate, convert, and store electricity in the United States, Europe, Asia, the Middle East, and Africa."
+  },
+  "HWM": {
+    "ticker": "HWM",
+    "name": "Howmet Aerospace Inc.",
+    "industry": "Aerospace & Defense",
+    "sector": "Industrials",
+    "blurb": "Howmet Aerospace Inc. provides advanced engineered solutions for the aerospace and transportation industries in the United States, Japan, France, Germany, the United Kingdom, Mexico, Italy, Canada, Poland, China, and internationally."
+  },
+  "INOD": {
+    "ticker": "INOD",
+    "name": "Innodata Inc.",
+    "industry": "Information Technology Services",
+    "sector": "Technology",
+    "blurb": "Innodata Inc. operates as a data engineering company in the United States, the United Kingdom, the Netherlands, Canada, Germany, Belgium, and internationally."
+  },
+  "OUT": {
+    "ticker": "OUT",
+    "name": "OUTFRONT Media Inc.",
+    "industry": "REIT - Specialty",
+    "sector": "Real Estate",
+    "blurb": "OUTFRONT Media Inc. is one of the largest and most trusted out-of-home media companies in the U.S., helping brands connect with audiences in the moments and environments that matter most."
+  },
+  "PARR": {
+    "ticker": "PARR",
+    "name": "Par Pacific Holdings, Inc.",
+    "industry": "Oil & Gas Refining & Marketing",
+    "sector": "Energy",
+    "blurb": "Par Pacific Holdings, Inc., an energy company, provides renewable and conventional fuels in the United States. The company operates through three segments: Refining, Retail, and Logistics."
+  },
+  "STRL": {
+    "ticker": "STRL",
+    "name": "Sterling Infrastructure, Inc.",
+    "industry": "Engineering & Construction",
+    "sector": "Industrials",
+    "blurb": "Sterling Infrastructure, Inc. engages in the provision of e-infrastructure, transportation, and building solutions in the United States."
+  },
+  "TGTX": {
+    "ticker": "TGTX",
+    "name": "TG Therapeutics, Inc.",
+    "industry": "Biotechnology",
+    "sector": "Healthcare",
+    "blurb": "TG Therapeutics, Inc., a commercial stage biopharmaceutical company, focuses on the acquisition, development, and commercialization of novel treatments for B-cell mediated diseases in the United States and internationally."
+  },
+  "XOMA": {
+    "ticker": "XOMA",
+    "name": "XOMA Royalty Corporation",
+    "industry": "Biotechnology",
+    "sector": "Healthcare",
+    "blurb": "XOMA Royalty Corporation operates as a biotech royalty aggregator in the United States, Switzerland, the Asia Pacific, and Australia. It has a portfolio of economic rights to future potential milestone and royalty payments associated with commercial products and pre-commercial therapeutic candidates."
+  },
+  "ZVRA": {
+    "ticker": "ZVRA",
+    "name": "Zevra Therapeutics, Inc.",
+    "industry": "Biotechnology",
+    "sector": "Healthcare",
+    "blurb": "Zevra Therapeutics, Inc., a commercial-stage company, focuses on addressing unmet needs for the treatment of rare diseases in the United States. The company develops its products through Ligand Activated Technology platform."
+  }
+}

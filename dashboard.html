@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CANSLIM full-match dashboard</title>
+<style>
+  :root {
+    --bg: #ffffff; --bg-alt: #f7f8f9; --bg-dark: #eceef0;
+    --border: #d8dde3; --text: #1a1f2b; --muted: #5b6473;
+    --accent: #1a4480; --pass: #2e7d32; --fail: #c62828;
+    --warn: #e9740b; --info: #0277bd;
+    --mono: ui-monospace, "SF Mono", Menlo, monospace;
+    --sans: -apple-system, "Inter", "Segoe UI", system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body { font: 13px/1.5 var(--sans); color: var(--text); background: var(--bg); margin: 0; }
+  header { padding: 14px 20px; border-bottom: 1px solid var(--border);
+           display: flex; gap: 16px; align-items: center; flex-wrap: wrap;
+           position: sticky; top: 0; background: var(--bg); z-index: 10; }
+  header h1 { margin: 0; font-size: 16px; font-weight: 600; }
+  .regime { display: inline-block; padding: 2px 10px; border-radius: 3px;
+            font-size: 11px; font-weight: 700; letter-spacing: 0.05em; }
+  .regime-UPTREND { background: var(--pass); color: white; }
+  .regime-CAUTION { background: var(--warn); color: white; }
+  .regime-DOWN    { background: var(--fail); color: white; }
+  header select { font: inherit; padding: 4px 8px; border: 1px solid var(--border);
+                  border-radius: 3px; background: white; }
+  header a { color: var(--accent); text-decoration: none; font-family: var(--mono); font-size: 12px; }
+  header a:hover { text-decoration: underline; }
+  .compare-note { color: var(--muted); font-size: 12px; }
+
+  main { display: grid; grid-template-columns: 1fr 1fr; gap: 20px;
+         padding: 20px; max-width: 1700px; margin: 0 auto; }
+  @media (max-width: 1100px) { main { grid-template-columns: 1fr; } }
+  .panel h2 { margin: 0 0 4px 0; font-size: 14px; }
+  .panel .sub { color: var(--muted); font-size: 12px; margin-bottom: 10px; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 6px 8px; border-bottom: 1px solid var(--border); text-align: left; font-size: 13px; }
+  th { background: var(--bg-alt); font-size: 11px; text-transform: uppercase;
+       letter-spacing: 0.04em; color: var(--muted); font-weight: 600; }
+  td.rank { font-family: var(--mono); color: var(--muted); width: 28px; vertical-align: top; }
+  td.ticker { vertical-align: top; min-width: 240px; }
+  td.ticker .sym { font-family: var(--mono); font-weight: 700; }
+  td.ticker .sym a { color: var(--accent); text-decoration: none; }
+  td.ticker .sym a:hover { text-decoration: underline; }
+  td.ticker .co { color: var(--text); margin-left: 6px; font-size: 12px; }
+  td.ticker .industry { color: var(--muted); font-size: 11px; margin-left: 6px; }
+  td.ticker .blurb { display: block; color: var(--muted); font-size: 11.5px;
+                     line-height: 1.45; margin-top: 2px; max-width: 520px; }
+  td.num { font-family: var(--mono); text-align: right; vertical-align: top; }
+  td.ad { font-family: var(--mono); text-align: center; width: 34px; vertical-align: top; }
+  td.delta { text-align: right; width: 110px; vertical-align: top; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 10px;
+           font-size: 11px; font-weight: 700; font-family: var(--mono); }
+  .b-new   { background: #e1f5fe; color: var(--info); }
+  .b-up    { background: #c8e6c9; color: var(--pass); }
+  .b-down  { background: #ffcdd2; color: var(--fail); }
+  .b-same  { background: var(--bg-dark); color: var(--muted); }
+  .b-drop  { background: #ffcdd2; color: var(--fail); text-decoration: line-through; }
+  tr.dropped td { color: var(--muted); }
+  .empty { color: var(--muted); padding: 20px; text-align: center; font-style: italic; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>CANSLIM full matches</h1>
+  <span id="regime" class="regime"></span>
+  <label class="compare-note">Date <select id="dateSelect"></select></label>
+  <span class="compare-note" id="compareNote"></span>
+  <a id="sourceLink" href="#" target="_blank" rel="noopener">open source report ↗</a>
+</header>
+
+<main>
+  <section class="panel">
+    <h2 id="leftTitle">Today — top 10</h2>
+    <div class="sub" id="leftSub"></div>
+    <table id="leftTable">
+      <thead>
+        <tr><th>#</th><th>Ticker</th><th class="num">Score</th><th>AD</th><th class="delta">Δ vs prior</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+  <section class="panel">
+    <h2 id="rightTitle">Prior day — top 10</h2>
+    <div class="sub" id="rightSub"></div>
+    <table id="rightTable">
+      <thead>
+        <tr><th>#</th><th>Ticker</th><th class="num">Score</th><th>AD</th><th class="delta">Status today</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+</main>
+
+<script id="data" type="application/json">{"dates": ["2026-05-13", "2026-05-12", "2026-05-10"], "reports": {"2026-05-13": {"date": "2026-05-13", "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-13_003852/", "regime": "UPTREND", "full_matches_total": 11, "full_matches": [{"rank": 1, "ticker": "ENS", "score": 0.96, "gates": "CANSLIM", "ad": "A"}, {"rank": 2, "ticker": "XOMA", "score": 0.94, "gates": "CANSLIM", "ad": "A"}, {"rank": 3, "ticker": "APLS", "score": 0.93, "gates": "CANSLIM", "ad": "A"}, {"rank": 4, "ticker": "CBL", "score": 0.92, "gates": "CANSLIM", "ad": "A"}, {"rank": 5, "ticker": "CLS", "score": 0.92, "gates": "CANSLIM", "ad": "B"}, {"rank": 6, "ticker": "TGTX", "score": 0.92, "gates": "CANSLIM", "ad": "A"}, {"rank": 7, "ticker": "INOD", "score": 0.89, "gates": "CANSLIM", "ad": "A"}, {"rank": 8, "ticker": "ALAB", "score": 0.88, "gates": "CAnSLIM", "ad": "A"}, {"rank": 9, "ticker": "ZVRA", "score": 0.85, "gates": "CANSLIM", "ad": "A"}, {"rank": 10, "ticker": "OUT", "score": 0.78, "gates": "CANSLIM", "ad": "B"}, {"rank": 11, "ticker": "PARR", "score": 0.77, "gates": "CANSLIM", "ad": "B"}]}, "2026-05-12": {"date": "2026-05-12", "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-12_000058/", "regime": "UPTREND", "full_matches_total": 12, "full_matches": [{"rank": 1, "ticker": "STRL", "score": 0.98, "gates": "CANSLIM", "ad": "A"}, {"rank": 2, "ticker": "INOD", "score": 0.96, "gates": "CANSLIM", "ad": "A"}, {"rank": 3, "ticker": "HWM", "score": 0.95, "gates": "CANSLIM", "ad": "B"}, {"rank": 4, "ticker": "XOMA", "score": 0.94, "gates": "CANSLIM", "ad": "A"}, {"rank": 5, "ticker": "CLS", "score": 0.94, "gates": "CANSLIM", "ad": "B"}, {"rank": 6, "ticker": "APLS", "score": 0.92, "gates": "CANSLIM", "ad": "A"}, {"rank": 7, "ticker": "CBL", "score": 0.91, "gates": "CANSLIM", "ad": "A"}, {"rank": 8, "ticker": "GCT", "score": 0.88, "gates": "CAnSLIM", "ad": "C"}, {"rank": 9, "ticker": "ALAB", "score": 0.87, "gates": "CAnSLIM", "ad": "A"}, {"rank": 10, "ticker": "ZVRA", "score": 0.83, "gates": "CAnSLIM", "ad": "A"}, {"rank": 11, "ticker": "OUT", "score": 0.8, "gates": "CANSLIM", "ad": "B"}, {"rank": 12, "ticker": "PARR", "score": 0.79, "gates": "CANSLIM", "ad": "B"}]}, "2026-05-10": {"date": "2026-05-10", "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-10_160738/", "regime": "UPTREND", "full_matches_total": 12, "full_matches": [{"rank": 1, "ticker": "STRL", "score": 0.97, "gates": "CANSLIM", "ad": "A"}, {"rank": 2, "ticker": "XOMA", "score": 0.95, "gates": "CANSLIM", "ad": "A"}, {"rank": 3, "ticker": "HWM", "score": 0.95, "gates": "CANSLIM", "ad": "B"}, {"rank": 4, "ticker": "CBL", "score": 0.93, "gates": "CANSLIM", "ad": "A"}, {"rank": 5, "ticker": "CLS", "score": 0.93, "gates": "CANSLIM", "ad": "B"}, {"rank": 6, "ticker": "APLS", "score": 0.92, "gates": "CANSLIM", "ad": "A"}, {"rank": 7, "ticker": "INOD", "score": 0.9, "gates": "CANSLIM", "ad": "A"}, {"rank": 8, "ticker": "CRDO", "score": 0.9, "gates": "CANSLIM", "ad": "A"}, {"rank": 9, "ticker": "GEV", "score": 0.89, "gates": "CANSLIM", "ad": "B"}, {"rank": 10, "ticker": "GCT", "score": 0.88, "gates": "CAnSLIM", "ad": "D"}, {"rank": 11, "ticker": "ZVRA", "score": 0.86, "gates": "CANSLIM", "ad": "A"}, {"rank": 12, "ticker": "PARR", "score": 0.79, "gates": "CANSLIM", "ad": "B"}]}}, "companies": {"ALAB": {"ticker": "ALAB", "name": "Astera Labs, Inc.", "industry": "Semiconductors", "sector": "Technology", "blurb": "Astera Labs, Inc. designs, manufactures, and sells semiconductor-based connectivity solutions for cloud and AI infrastructure."}, "APLS": {"ticker": "APLS", "name": "Apellis Pharmaceuticals, Inc.", "industry": "Biotechnology", "sector": "Healthcare", "blurb": "Apellis Pharmaceuticals, Inc., a commercial-stage biopharmaceutical company, focuses on the discovery, development, and commercialization of novel therapeutic compounds to treat diseases with high unmet needs."}, "CBL": {"ticker": "CBL", "name": "CBL & Associates Properties, Inc.", "industry": "REIT - Retail", "sector": "Real Estate", "blurb": "CBL & Associates Properties, Inc. owns and manages a national portfolio of market-dominant properties located in dynamic and growing communities."}, "CLS": {"ticker": "CLS", "name": "Celestica Inc.", "industry": "Electronic Components", "sector": "Technology", "blurb": "Celestica Inc., together with its subsidiaries, provides supply chain solutions in Asia, North America, and internationally. It operates through two segments, Advanced Technology Solutions, and Connectivity and Cloud Solutions."}, "CRDO": {"ticker": "CRDO", "name": "Credo Technology Group Holding Ltd", "industry": "Semiconductors", "sector": "Technology", "blurb": "Credo Technology Group Holding Ltd provides various high-speed connectivity solutions for optical and electrical Ethernet, and PCIe applications in the United States, Taiwan, Mainland China, Hong Kong, and internationally."}, "ENS": {"ticker": "ENS", "name": "EnerSys", "industry": "Electrical Equipment & Parts", "sector": "Industrials", "blurb": "EnerSys engages in the provision of stored energy solutions for industrial applications worldwide. The company operates in four segments: Energy Systems, Motive Power, Specialty, and New Ventures."}, "GCT": {"ticker": "GCT", "name": "GigaCloud Technology Inc.", "industry": "Software - Infrastructure", "sector": "Technology", "blurb": "GigaCloud Technology Inc. provides end-to-end B2B ecommerce solutions for large parcel merchandise in the United States and internationally."}, "GEV": {"ticker": "GEV", "name": "GE Vernova Inc.", "industry": "Specialty Industrial Machinery", "sector": "Industrials", "blurb": "GE Vernova Inc., an energy company, engages in the provision of various products and services that generate, transfer, orchestrate, convert, and store electricity in the United States, Europe, Asia, the Middle East, and Africa."}, "HWM": {"ticker": "HWM", "name": "Howmet Aerospace Inc.", "industry": "Aerospace & Defense", "sector": "Industrials", "blurb": "Howmet Aerospace Inc. provides advanced engineered solutions for the aerospace and transportation industries in the United States, Japan, France, Germany, the United Kingdom, Mexico, Italy, Canada, Poland, China, and internationally."}, "INOD": {"ticker": "INOD", "name": "Innodata Inc.", "industry": "Information Technology Services", "sector": "Technology", "blurb": "Innodata Inc. operates as a data engineering company in the United States, the United Kingdom, the Netherlands, Canada, Germany, Belgium, and internationally."}, "OUT": {"ticker": "OUT", "name": "OUTFRONT Media Inc.", "industry": "REIT - Specialty", "sector": "Real Estate", "blurb": "OUTFRONT Media Inc. is one of the largest and most trusted out-of-home media companies in the U.S., helping brands connect with audiences in the moments and environments that matter most."}, "PARR": {"ticker": "PARR", "name": "Par Pacific Holdings, Inc.", "industry": "Oil & Gas Refining & Marketing", "sector": "Energy", "blurb": "Par Pacific Holdings, Inc., an energy company, provides renewable and conventional fuels in the United States. The company operates through three segments: Refining, Retail, and Logistics."}, "STRL": {"ticker": "STRL", "name": "Sterling Infrastructure, Inc.", "industry": "Engineering & Construction", "sector": "Industrials", "blurb": "Sterling Infrastructure, Inc. engages in the provision of e-infrastructure, transportation, and building solutions in the United States."}, "TGTX": {"ticker": "TGTX", "name": "TG Therapeutics, Inc.", "industry": "Biotechnology", "sector": "Healthcare", "blurb": "TG Therapeutics, Inc., a commercial stage biopharmaceutical company, focuses on the acquisition, development, and commercialization of novel treatments for B-cell mediated diseases in the United States and internationally."}, "XOMA": {"ticker": "XOMA", "name": "XOMA Royalty Corporation", "industry": "Biotechnology", "sector": "Healthcare", "blurb": "XOMA Royalty Corporation operates as a biotech royalty aggregator in the United States, Switzerland, the Asia Pacific, and Australia. It has a portfolio of economic rights to future potential milestone and royalty payments associated with commercial products and pre-commercial therapeutic candidates."}, "ZVRA": {"ticker": "ZVRA", "name": "Zevra Therapeutics, Inc.", "industry": "Biotechnology", "sector": "Healthcare", "blurb": "Zevra Therapeutics, Inc., a commercial-stage company, focuses on addressing unmet needs for the treatment of rare diseases in the United States. The company develops its products through Ligand Activated Technology platform."}}}</script>
+<script>
+(function () {
+  const DATA = JSON.parse(document.getElementById("data").textContent);
+  const TOP_N = 10;
+  const dates = DATA.dates;
+  const reports = DATA.reports;
+  const companies = DATA.companies || {};
+
+  function escapeHtml(s) {
+    return String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+  }
+
+  const sel = document.getElementById("dateSelect");
+  dates.forEach((d, i) => {
+    const o = document.createElement("option");
+    o.value = d; o.textContent = d + (i === 0 ? "  (latest)" : "");
+    sel.appendChild(o);
+  });
+  sel.value = dates[0];
+  sel.addEventListener("change", render);
+
+  function rankMap(report) {
+    const m = new Map();
+    (report.full_matches || []).forEach(it => m.set(it.ticker, it));
+    return m;
+  }
+
+  function deltaBadge(primaryItem, priorMap) {
+    if (!priorMap) return { cls: "b-same", text: "—" };
+    const prior = priorMap.get(primaryItem.ticker);
+    if (!prior) return { cls: "b-new", text: "NEW" };
+    const delta = prior.rank - primaryItem.rank; // +ve = moved up
+    if (delta === 0) return { cls: "b-same", text: "=" };
+    if (delta > 0) return { cls: "b-up", text: "↑" + delta };
+    return { cls: "b-down", text: "↓" + Math.abs(delta) };
+  }
+
+  function priorStatus(priorItem, primaryMap) {
+    if (!primaryMap) return { cls: "b-same", text: "—" };
+    const today = primaryMap.get(priorItem.ticker);
+    if (!today) return { cls: "b-drop", text: "DROPPED" };
+    const delta = priorItem.rank - today.rank;
+    if (delta === 0) return { cls: "b-same", text: "held #" + today.rank };
+    if (delta > 0) return { cls: "b-up", text: "↑ to #" + today.rank };
+    return { cls: "b-down", text: "↓ to #" + today.rank };
+  }
+
+  function renderTable(tbody, items, deltaFn, options={}) {
+    tbody.innerHTML = "";
+    if (!items.length) {
+      const tr = document.createElement("tr");
+      tr.innerHTML = '<td colspan="5" class="empty">No full matches.</td>';
+      tbody.appendChild(tr);
+      return;
+    }
+    items.forEach(it => {
+      const tr = document.createElement("tr");
+      const d = deltaFn(it);
+      if (options.droppedCheck && options.droppedCheck(it)) {
+        tr.classList.add("dropped");
+      }
+      const co = companies[it.ticker] || {};
+      const nameHtml   = co.name     ? '<span class="co">' + escapeHtml(co.name) + '</span>' : '';
+      const indHtml    = co.industry ? '<span class="industry">· ' + escapeHtml(co.industry) + '</span>' : '';
+      const blurbHtml  = co.blurb    ? '<span class="blurb">' + escapeHtml(co.blurb) + '</span>' : '';
+      tr.innerHTML =
+        '<td class="rank">' + it.rank + '</td>' +
+        '<td class="ticker">' +
+          '<span class="sym"><a href="' + options.sourceUrl + '#c-' + it.ticker + '" target="_blank" rel="noopener">' + it.ticker + '</a></span>' +
+          nameHtml + indHtml + blurbHtml +
+        '</td>' +
+        '<td class="num">' + (it.score != null ? it.score.toFixed(2) : '—') + '</td>' +
+        '<td class="ad">' + (it.ad || '—') + '</td>' +
+        '<td class="delta"><span class="badge ' + d.cls + '">' + d.text + '</span></td>';
+      tbody.appendChild(tr);
+    });
+  }
+
+  function render() {
+    const primaryDate = sel.value;
+    const idx = dates.indexOf(primaryDate);
+    const priorDate = dates[idx + 1] || null;
+    const primary = reports[primaryDate];
+    const prior = priorDate ? reports[priorDate] : null;
+
+    const regimeEl = document.getElementById("regime");
+    regimeEl.textContent = primary.regime || "UNKNOWN";
+    regimeEl.className = "regime regime-" + (primary.regime || "UNKNOWN");
+
+    document.getElementById("sourceLink").href = primary.source_url;
+    document.getElementById("compareNote").textContent =
+      prior ? "comparing " + primaryDate + "  vs  " + priorDate
+            : "no prior report available for comparison";
+
+    document.getElementById("leftTitle").textContent =
+      primaryDate + " — top " + TOP_N + " (of " + primary.full_matches_total + ")";
+    document.getElementById("leftSub").textContent =
+      "Full CANSLIM matches ranked by composite score.";
+
+    document.getElementById("rightTitle").textContent =
+      prior ? priorDate + " — top " + TOP_N + " (of " + prior.full_matches_total + ")"
+            : "No prior report";
+    document.getElementById("rightSub").textContent =
+      prior ? "Prior trading day — used as the comparison baseline." : "";
+
+    const primaryTop = (primary.full_matches || []).slice(0, TOP_N);
+    const priorTop   = prior ? (prior.full_matches || []).slice(0, TOP_N) : [];
+
+    const primaryMap = rankMap(primary);
+    const priorMap   = prior ? rankMap(prior) : null;
+
+    renderTable(
+      document.querySelector("#leftTable tbody"),
+      primaryTop,
+      it => deltaBadge(it, priorMap),
+      { sourceUrl: primary.source_url }
+    );
+    renderTable(
+      document.querySelector("#rightTable tbody"),
+      priorTop,
+      it => priorStatus(it, primaryMap),
+      {
+        sourceUrl: prior ? prior.source_url : "#",
+        droppedCheck: it => primaryMap && !primaryMap.has(it.ticker),
+      }
+    );
+  }
+
+  render();
+})();
+</script>
+
+</body>
+</html>
