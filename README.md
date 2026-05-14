@@ -2,8 +2,8 @@
 
 A personal digest page on top of the upstream
 [CANSLIM scanner](https://zhoutongchar.github.io/canslim-scanner/). Strips the
-reports down to **full-match** tickers only, shows the **top 10**, and surfaces
-**day-over-day rank deltas** so movement is visible at a glance.
+reports down to **full-match** tickers only and surfaces **day-over-day rank
+deltas** so movement is visible at a glance.
 
 **🔗 Live dashboard:** https://shuaitang5.github.io/canslim-dashboard/dashboard.html
 (auto-refreshes daily at 23:00 UTC via GitHub Actions; mobile-friendly)
@@ -20,13 +20,13 @@ Two side-by-side panels:
 
 | Panel | What it is | What the delta column means |
 |---|---|---|
-| **Left — primary date** | The picked day's top 10 full CANSLIM matches, ranked by composite score. | **Δ vs prior**: `NEW` / `=` / `↑N` / `↓N` — movement vs the previous available report. |
-| **Right — prior date** | The previous available report's top 10 (for reference). | **Status today**: `held #X` / `↑ to #X` / `↓ to #X` / `DROPPED` — what happened to each ticker today. |
+| **Left — primary date** | All full CANSLIM matches for the picked day, ranked by composite score. | **Δ vs prior**: `NEW` / `=` / `↑N` / `↓N` — movement vs the previous available report. |
+| **Right — prior date** | All full matches for the previous available report (for reference). | **Status today**: `held #X` / `↑ to #X` / `↓ to #X` / `DROPPED` — what happened to each ticker today. |
 
 A few details worth knowing:
 
-- Rank deltas use the **full full-match list** rank, not top-10 rank. So a
-  ticker moving #12→#7 correctly shows `↑5` instead of `NEW`.
+- Rank deltas use the **full full-match list** rank — a ticker moving
+  #12→#7 shows `↑5`.
 - Each ticker row shows `SYMBOL · Company Name · Industry` plus a 1-2 sentence
   business description from Yahoo Finance.
 - Clicking the ticker opens the upstream scanner report jumped to that
@@ -156,7 +156,5 @@ python3 -m playwright install chromium
 - **Only full matches.** "Near match" / buyable / watchlist / basing buckets
   are intentionally dropped — full CANSLIM-gate matches only. Changing this
   is a few lines in `build_dashboard.py` (widen the `MATCHES_SECTION_RE`).
-- **Top-10 cap.** Hard-coded as `TOP_N = 10` in the inline JS. Lift it there
-  if you ever want a longer list.
 - **Timezone.** Dates come straight from the upstream run directory names —
   no timezone parsing, no conversions.

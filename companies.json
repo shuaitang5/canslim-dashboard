@@ -110,5 +110,19 @@
     "industry": "Biotechnology",
     "sector": "Healthcare",
     "blurb": "Zevra Therapeutics, Inc., a commercial-stage company, focuses on addressing unmet needs for the treatment of rare diseases in the United States. The company develops its products through Ligand Activated Technology platform."
+  },
+  "ATRO": {
+    "ticker": "ATRO",
+    "name": "Astronics Corporation",
+    "industry": "Aerospace & Defense",
+    "sector": "Industrials",
+    "blurb": "Astronics Corporation, through its subsidiaries, designs and manufactures products for the aerospace, defense, and electronics industries in the United States, rest of North America, Asia, Europe, South America, and internationally."
+  },
+  "ELMD": {
+    "ticker": "ELMD",
+    "name": "Electromed, Inc.",
+    "industry": "Medical Devices",
+    "sector": "Healthcare",
+    "blurb": "Electromed, Inc. develops, manufactures, markets, and sells airway clearance therapy and related products that apply high frequency chest wall oscillation (HFCWO) therapy in pulmonary care for patients in the United States and internationally."
   }
 }

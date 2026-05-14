@@ -25,3 +25,30 @@ Add a one-command refresh wrapper + README for future self.
 - `refresh.sh` — runs `enrich_companies.py` then `build_dashboard.py`. Passes `--refresh` through to force re-fetching every company blurb. `cd`s to its own dir so it works from anywhere. Tested end-to-end.
 - `README.md` — describes what the dashboard shows, how the pipeline works (discover → parse → enrich → render), how to refresh (`./refresh.sh`), variants, file roles, dependencies, and known limitations (static snapshot, yfinance rate limits, full matches only).
 Files: refresh.sh, README.md
+
+## 2026-05-14 09:30 PDT
+Schedule fix — dashboard wasn't picking up 5/14 upstream report.
+- Root cause: 23:00 UTC cron had two issues: (a) yesterday's first scheduled tick was missed because the workflow file landed at 23:54 UTC (after cron fired); (b) 23:00 UTC is the wrong window — upstream publishes overnight UTC (samples: 5/12 00:00, 5/13 00:38, 5/14 03:33), so 23:00 UTC would be ~20 hours late every day.
+- Fired manual `gh workflow run` to update dashboard immediately with 5/14 data — succeeded, auto-commit `auto-refresh 2026-05-14 16:33Z` landed.
+- Changed cron to twice-daily: 06:00 UTC (primary, ~2-3hrs after upstream's typical publish window) + 14:00 UTC (backup if upstream is delayed or first run failed).
+Files: .github/workflows/refresh.yml, log.md
+
+## 2026-05-13 ~17:00 PDT
+Auto-refresh + README polish.
+- Wrote `.github/workflows/refresh.yml` — daily cron `0 23 * * *` UTC + `workflow_dispatch`. Sets up Python 3.11, installs yfinance, runs `./refresh.sh`, commits with bot identity if `git status --porcelain` is non-empty, pushes. `concurrency: refresh-dashboard` prevents overlap. Pages auto-rebuilds on push.
+- First manual run via `gh workflow run` succeeded in 19s (no-op since I'd just refreshed locally — proves the no-change path works).
+- Fixed README broken `_verify_closeup.png` link: amended `.gitignore` to keep `_verify_closeup.png` out of ignore (`!_verify_closeup.png`) and committed the file.
+- Added prominent live-dashboard URL near the top of README, kept the local `dashboard.html` instructions for offline use.
+- Set repo homepage + description via `gh repo edit` so the GH sidebar advertises the live URL.
+Files: .github/workflows/refresh.yml, .gitignore, _verify_closeup.png, README.md, log.md
+
+## 2026-05-13 ~13:00 PDT
+Publish dashboard to GitHub Pages so it can be viewed on phone / shared.
+- Installed `gh` (Homebrew); user authed as `shuaitang5`.
+- `git init` in canslim/ folder, scoped identity to `louistang0909@gmail.com` / Louis Tang (global Amazon identity untouched).
+- Added `.gitignore` (verify pngs, __pycache__, .DS_Store).
+- Initial commit + `gh repo create canslim-dashboard --public --source=. --push`.
+- Enabled Pages via `gh api -X POST .../pages` on main/root; build succeeded.
+- Live URL: https://shuaitang5.github.io/canslim-dashboard/dashboard.html
+- Flagged but not yet fixed: `dashboard.html` template missing `<meta name="viewport">` — phone renders zoomed out until patched.
+Files: .gitignore, log.md
