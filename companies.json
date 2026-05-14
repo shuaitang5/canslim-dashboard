@@ -124,5 +124,19 @@
     "industry": "Medical Devices",
     "sector": "Healthcare",
     "blurb": "Electromed, Inc. develops, manufactures, markets, and sells airway clearance therapy and related products that apply high frequency chest wall oscillation (HFCWO) therapy in pulmonary care for patients in the United States and internationally."
+  },
+  "VIAV": {
+    "ticker": "VIAV",
+    "name": "Viavi Solutions Inc.",
+    "industry": "Communication Equipment",
+    "sector": "Technology",
+    "blurb": "Viavi Solutions Inc. provides network test, monitoring, and assurance solutions for telecommunications, cloud, enterprises, first responders, military, aerospace, and critical infrastructures in the Americas, the Asia-Pacific, Europe, the Middle East, and Africa."
+  },
+  "VIK": {
+    "ticker": "VIK",
+    "name": "Viking Holdings Ltd",
+    "industry": "Travel Services",
+    "sector": "Consumer Cyclical",
+    "blurb": "Viking Holdings Ltd focused on providing passenger cruises in North America, the United Kingdom, and internationally. It operates through the River and Ocean segments."
   }
 }

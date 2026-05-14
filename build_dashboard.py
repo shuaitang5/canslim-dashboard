@@ -190,20 +190,17 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
                     text-overflow: clip; }
     td.blurb-cell .blurb { font-size: 10.5px; line-height: 1.45;
                            white-space: normal; overflow: visible; text-overflow: clip; }
-    td.rank, th:first-child { width: 18px; padding-right: 0; padding-left: 4px; }
+    td.rank, th:first-child { width: 16px; padding-right: 0; padding-left: 3px; }
     td.ticker { min-width: 0; }
-    /* Ticker column gets all remaining width — score and delta are tightened. */
+    /* Tight column allocation: rank(16) + ticker(82) + num(28) + ad(22) + delta(38) = 186 */
     td.ticker .co { display: none !important; }
     td.ticker .industry { display: block; margin-left: 0; margin-top: 2px;
                           font-size: 9.5px; white-space: normal; }
     /* Hide the desktop bullet prefix on mobile (saved as ::before via JS data). */
     td.ticker .industry .bullet { display: none; }
-    th.num, td.num { width: 30px; font-size: 9.5px; padding-left: 1px; padding-right: 1px; }
-    /* AD column collapsed to 0px instead of display:none — keeps it in the table
-       layout so colspan=5 on the blurb-row still references 5 real columns
-       (otherwise ticker column halves on expand). */
-    th.ad-col, td.ad { width: 0; padding: 0; border: 0; font-size: 0; overflow: hidden; }
-    th.delta, td.delta { width: 42px; padding-left: 1px; padding-right: 2px; font-size: 9.5px; }
+    th.num, td.num { width: 28px; font-size: 9.5px; padding-left: 1px; padding-right: 1px; }
+    th.ad-col, td.ad { width: 22px; font-size: 9.5px; padding-left: 1px; padding-right: 1px; }
+    th.delta, td.delta { width: 38px; padding-left: 1px; padding-right: 2px; font-size: 9.5px; }
     /* Shrink table headers so they don't overflow at 186px panel width. */
     th { font-size: 9px; padding: 3px 2px; letter-spacing: 0; }
     .badge { padding: 1px 3px; font-size: 9.5px; }

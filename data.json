@@ -8,77 +8,77 @@
   "reports": {
     "2026-05-14": {
       "date": "2026-05-14",
-      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-14_033341/",
+      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-14_222006/",
       "regime": "UPTREND",
       "full_matches_total": 14,
       "full_matches": [
         {
           "rank": 1,
           "ticker": "STRL",
-          "score": 0.97,
+          "score": 0.99,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
           "rank": 2,
-          "ticker": "ELMD",
-          "score": 0.96,
+          "ticker": "ENS",
+          "score": 0.97,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
           "rank": 3,
-          "ticker": "ENS",
-          "score": 0.96,
+          "ticker": "VIAV",
+          "score": 0.97,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
           "rank": 4,
+          "ticker": "ELMD",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
           "ticker": "APLS",
           "score": 0.95,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "ticker": "ATRO",
-          "score": 0.93,
+          "score": 0.94,
           "gates": "CANSLIM",
           "ad": "C"
         },
         {
-          "rank": 6,
-          "ticker": "CLS",
-          "score": 0.92,
-          "gates": "CANSLIM",
-          "ad": "B"
-        },
-        {
           "rank": 7,
-          "ticker": "TGTX",
-          "score": 0.91,
+          "ticker": "VIK",
+          "score": 0.92,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
           "rank": 8,
-          "ticker": "XOMA",
-          "score": 0.9,
+          "ticker": "CBL",
+          "score": 0.92,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
           "rank": 9,
-          "ticker": "CBL",
-          "score": 0.9,
+          "ticker": "XOMA",
+          "score": 0.91,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
           "rank": 10,
           "ticker": "ALAB",
-          "score": 0.89,
+          "score": 0.9,
           "gates": "CANSLIM",
           "ad": "A"
         },
@@ -92,14 +92,14 @@
         {
           "rank": 12,
           "ticker": "ZVRA",
-          "score": 0.86,
+          "score": 0.87,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
           "rank": 13,
           "ticker": "OUT",
-          "score": 0.78,
+          "score": 0.8,
           "gates": "CANSLIM",
           "ad": "B"
         },
@@ -108,7 +108,7 @@
           "ticker": "PARR",
           "score": 0.75,
           "gates": "CANSLIM",
-          "ad": "B"
+          "ad": "C"
         }
       ]
     },
@@ -508,6 +508,20 @@
       "industry": "Medical Devices",
       "sector": "Healthcare",
       "blurb": "Electromed, Inc. develops, manufactures, markets, and sells airway clearance therapy and related products that apply high frequency chest wall oscillation (HFCWO) therapy in pulmonary care for patients in the United States and internationally."
+    },
+    "VIAV": {
+      "ticker": "VIAV",
+      "name": "Viavi Solutions Inc.",
+      "industry": "Communication Equipment",
+      "sector": "Technology",
+      "blurb": "Viavi Solutions Inc. provides network test, monitoring, and assurance solutions for telecommunications, cloud, enterprises, first responders, military, aerospace, and critical infrastructures in the Americas, the Asia-Pacific, Europe, the Middle East, and Africa."
+    },
+    "VIK": {
+      "ticker": "VIK",
+      "name": "Viking Holdings Ltd",
+      "industry": "Travel Services",
+      "sector": "Consumer Cyclical",
+      "blurb": "Viking Holdings Ltd focused on providing passenger cruises in North America, the United Kingdom, and internationally. It operates through the River and Ocean segments."
     }
   }
 }
