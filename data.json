@@ -1,10 +1,117 @@
 {
   "dates": [
+    "2026-05-14",
     "2026-05-13",
     "2026-05-12",
     "2026-05-10"
   ],
   "reports": {
+    "2026-05-14": {
+      "date": "2026-05-14",
+      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-14_033341/",
+      "regime": "UPTREND",
+      "full_matches_total": 14,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "STRL",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "ELMD",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "ENS",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "APLS",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "ATRO",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 6,
+          "ticker": "CLS",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 7,
+          "ticker": "TGTX",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 8,
+          "ticker": "XOMA",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 9,
+          "ticker": "CBL",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 10,
+          "ticker": "ALAB",
+          "score": 0.89,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 11,
+          "ticker": "INOD",
+          "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 12,
+          "ticker": "ZVRA",
+          "score": 0.86,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 13,
+          "ticker": "OUT",
+          "score": 0.78,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 14,
+          "ticker": "PARR",
+          "score": 0.75,
+          "gates": "CANSLIM",
+          "ad": "B"
+        }
+      ]
+    },
     "2026-05-13": {
       "date": "2026-05-13",
       "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-13_003852/",
