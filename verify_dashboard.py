@@ -80,22 +80,37 @@ def main() -> int:
         print(f"[check] first link   : {href}")
         assert f"#c-{left_tickers[0]}" in href, "ticker link missing anchor"
 
-        # Company name + blurb must render for the top 3 rows.
+        # Company name renders by default; blurb hidden until row is clicked.
         companies = data.get("companies") or {}
         for i in range(min(3, len(left_rows))):
             tk = left_tickers[i]
             co = companies.get(tk) or {}
             row = left_rows[i]
             name_el  = row.query_selector("td.ticker .co")
-            blurb_el = row.query_selector("td.ticker .blurb")
             name  = name_el.inner_text().strip()  if name_el  else ""
-            blurb = blurb_el.inner_text().strip() if blurb_el else ""
-            print(f"[check] row {i+1} {tk}: name={name!r}  blurb[0:80]={blurb[:80]!r}")
+            print(f"[check] row {i+1} {tk}: name={name!r}")
             assert co.get("name"), f"no cached company name for {tk}"
             assert name == co["name"], f"{tk} rendered name != cache"
+
+            # Ensure no row is already expanded (could be from prior iteration).
+            page.evaluate("document.querySelectorAll('tbody tr.expanded').forEach(r => r.classList.remove('expanded'))")
+            # Click on the rank cell (not the ticker link) to expand.
+            row.query_selector("td.rank").click()
+            page.wait_for_timeout(50)
+            assert "expanded" in (row.get_attribute("class") or ""), \
+                f"row {tk} did not expand on click"
+            blurb_el = row.query_selector("td.ticker .blurb")
+            blurb = blurb_el.inner_text().strip() if blurb_el else ""
             if co.get("blurb"):
                 assert blurb.startswith(co["blurb"][:40]), \
-                    f"{tk} blurb mismatch"
+                    f"{tk} blurb mismatch when expanded"
+
+            # Single-expansion rule: clicking another row should collapse this one.
+            if i + 1 < len(left_rows):
+                left_rows[i + 1].query_selector("td.rank").click()
+                page.wait_for_timeout(50)
+                assert "expanded" not in (row.get_attribute("class") or ""), \
+                    f"row {tk} should have collapsed when row {i+2} expanded"
 
         # Switch date dropdown to prior date and re-check left table.
         page.select_option("#dateSelect", prior)

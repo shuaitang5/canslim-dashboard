@@ -26,6 +26,18 @@ Add a one-command refresh wrapper + README for future self.
 - `README.md` — describes what the dashboard shows, how the pipeline works (discover → parse → enrich → render), how to refresh (`./refresh.sh`), variants, file roles, dependencies, and known limitations (static snapshot, yfinance rate limits, full matches only).
 Files: refresh.sh, README.md
 
+## 2026-05-14 ~10:00 PDT
+Show full match list (drop top-10 cap) + mobile side-by-side + AD legend.
+- `build_dashboard.py`: removed `TOP_N=10` constant + `.slice(0, TOP_N)` calls; both panels now render the entire `full_matches` list. Headers updated to "{date} — N full matches".
+- `verify_dashboard.py`: replaced `top10_*[:10]` with full `expected_*` lists; assertions now require row count exactly equals upstream full-match count.
+- Mobile (`@media (max-width: 760px)`): forced `grid-template-columns: 1fr 1fr` so panels stay side-by-side at iPhone widths (was collapsing at 1100px). Compressed: hide `.co`/`.industry`/`.blurb`, hide AD column, shrink padding/fonts, `table-layout: fixed`, narrow column widths. Tested at 390px viewport: `body.scrollWidth=390` (no horizontal scroll), 14+11 row lists both visible.
+- Status badges: emit dual `.badge-long` ("↓ to #14") + `.badge-short` ("↓#14") spans; mobile CSS swaps which one shows.
+- Pitfall hit and fixed: original `@media` block was placed before the desktop rules in the stylesheet, so same-specificity desktop rules won the cascade and mobile rules silently no-op'd. Moved media block to end of `<style>` and added `!important` on the show/hide toggles. Confirmed via Playwright `getComputedStyle` checks.
+- AD column documentation: added `title=` tooltip on the desktop `<th>` (Accumulation/Distribution grade A–E from up-day vs down-day volume over ~13 weeks). Added a "what's AD?" toggle in the header that expands a one-line legend covering AD / Score / Δ — works on mobile where tooltips don't.
+- Added `<meta name="viewport" content="width=device-width, initial-scale=1">` so iOS Safari renders at device width instead of zoomed-out desktop scale.
+- `_verify_closeup.png` will go stale (pre-mobile-redesign); not regenerated this round.
+Files: build_dashboard.py, verify_dashboard.py, dashboard.html, data.json, companies.json, README.md, log.md
+
 ## 2026-05-14 09:30 PDT
 Schedule fix — dashboard wasn't picking up 5/14 upstream report.
 - Root cause: 23:00 UTC cron had two issues: (a) yesterday's first scheduled tick was missed because the workflow file landed at 23:54 UTC (after cron fired); (b) 23:00 UTC is the wrong window — upstream publishes overnight UTC (samples: 5/12 00:00, 5/13 00:38, 5/14 03:33), so 23:00 UTC would be ~20 hours late every day.

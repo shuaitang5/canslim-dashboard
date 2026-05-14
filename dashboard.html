@@ -47,8 +47,11 @@
   td.ticker .sym a:hover { text-decoration: underline; }
   td.ticker .co { color: var(--text); margin-left: 6px; font-size: 12px; }
   td.ticker .industry { color: var(--muted); font-size: 11px; margin-left: 6px; }
-  td.ticker .blurb { display: block; color: var(--muted); font-size: 11.5px;
-                     line-height: 1.45; margin-top: 2px; max-width: 520px; }
+  td.ticker .blurb { display: none; color: var(--muted); font-size: 11.5px;
+                     line-height: 1.45; margin-top: 4px; max-width: 520px; }
+  tbody tr { cursor: pointer; }
+  tbody tr.expanded .blurb { display: block; }
+  tbody tr.expanded td { background: var(--bg-alt); }
   td.num { font-family: var(--mono); text-align: right; vertical-align: top; }
   td.ad { font-family: var(--mono); text-align: center; width: 34px; vertical-align: top; }
   td.delta { text-align: right; width: 110px; vertical-align: top; }
@@ -70,10 +73,18 @@
     body { font-size: 11px; }
     .panel { min-width: 0; overflow: hidden; }
     table { table-layout: fixed; width: 100%; }
-    th, td { padding: 3px 3px; font-size: 10.5px; white-space: nowrap; }
+    th, td { padding: 3px 3px; font-size: 10.5px; white-space: nowrap;
+             overflow: hidden; text-overflow: ellipsis; }
+    /* Industry + blurb (when expanded) wrap freely; everything else stays nowrap. */
+    td.ticker .industry, td.ticker .blurb {
+      white-space: normal; overflow: visible; text-overflow: clip;
+    }
+    td.ticker .blurb { font-size: 10px; max-width: 100%; }
     td.rank, th:first-child { width: 22px; padding-right: 0; }
     td.ticker { min-width: 0; }
-    td.ticker .co, td.ticker .industry, td.ticker .blurb { display: none !important; }
+    td.ticker .co { display: none !important; }
+    td.ticker .industry { display: block; margin-left: 0; margin-top: 2px;
+                          font-size: 9.5px; white-space: normal; }
     th.num, td.num { width: 34px; font-size: 9.5px; }
     th.ad-col, td.ad { display: none; }
     th.delta, td.delta { width: 50px; padding-left: 2px; font-size: 9.5px; }
@@ -268,6 +279,19 @@
   }
 
   render();
+
+  // Row click expands the blurb; clicking the ticker link follows the link.
+  // Only one row can be expanded at a time across BOTH tables.
+  function onRowClick(e) {
+    if (e.target.closest("a")) return;  // let ticker link navigate
+    const tr = e.target.closest("tr");
+    if (!tr || tr.querySelector(".empty")) return;
+    const wasExpanded = tr.classList.contains("expanded");
+    document.querySelectorAll("tbody tr.expanded").forEach(r => r.classList.remove("expanded"));
+    if (!wasExpanded) tr.classList.add("expanded");
+  }
+  document.querySelector("#leftTable tbody").addEventListener("click", onRowClick);
+  document.querySelector("#rightTable tbody").addEventListener("click", onRowClick);
 })();
 </script>
 
