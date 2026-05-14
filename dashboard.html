@@ -96,7 +96,10 @@
     /* Hide the desktop bullet prefix on mobile (saved as ::before via JS data). */
     td.ticker .industry .bullet { display: none; }
     th.num, td.num { width: 30px; font-size: 9.5px; padding-left: 1px; padding-right: 1px; }
-    th.ad-col, td.ad { display: none; }
+    /* AD column collapsed to 0px instead of display:none — keeps it in the table
+       layout so colspan=5 on the blurb-row still references 5 real columns
+       (otherwise ticker column halves on expand). */
+    th.ad-col, td.ad { width: 0; padding: 0; border: 0; font-size: 0; overflow: hidden; }
     th.delta, td.delta { width: 42px; padding-left: 1px; padding-right: 2px; font-size: 9.5px; }
     /* Shrink table headers so they don't overflow at 186px panel width. */
     th { font-size: 9px; padding: 3px 2px; letter-spacing: 0; }
