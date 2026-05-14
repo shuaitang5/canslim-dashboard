@@ -47,11 +47,16 @@
   td.ticker .sym a:hover { text-decoration: underline; }
   td.ticker .co { color: var(--text); margin-left: 6px; font-size: 12px; }
   td.ticker .industry { color: var(--muted); font-size: 11px; margin-left: 6px; }
-  td.ticker .blurb { display: none; color: var(--muted); font-size: 11.5px;
-                     line-height: 1.45; margin-top: 4px; max-width: 520px; }
-  tbody tr { cursor: pointer; }
-  tbody tr.expanded .blurb { display: block; }
-  tbody tr.expanded td { background: var(--bg-alt); }
+  /* Blurb lives in its own full-width row (colspan=5), hidden until main row
+     is .expanded — gives the description the full panel width to wrap into. */
+  tbody tr.main-row { cursor: pointer; }
+  tbody tr.blurb-row { display: none; }
+  tbody tr.main-row.expanded + tr.blurb-row { display: table-row; }
+  tbody tr.main-row.expanded td { background: var(--bg-alt); }
+  td.blurb-cell { padding: 6px 12px 10px; background: var(--bg-alt);
+                  border-bottom: 1px solid var(--border); }
+  td.blurb-cell .blurb { color: var(--muted); font-size: 11.5px;
+                         line-height: 1.5; max-width: none; }
   td.num { font-family: var(--mono); text-align: right; vertical-align: top; }
   td.ad { font-family: var(--mono); text-align: center; width: 34px; vertical-align: top; }
   td.delta { text-align: right; width: 110px; vertical-align: top; }
@@ -75,19 +80,24 @@
     table { table-layout: fixed; width: 100%; }
     th, td { padding: 3px 3px; font-size: 10.5px; white-space: nowrap;
              overflow: hidden; text-overflow: ellipsis; }
-    /* Industry + blurb (when expanded) wrap freely; everything else stays nowrap. */
-    td.ticker .industry, td.ticker .blurb {
-      white-space: normal; overflow: visible; text-overflow: clip;
-    }
-    td.ticker .blurb { font-size: 10px; max-width: 100%; }
-    td.rank, th:first-child { width: 22px; padding-right: 0; }
+    /* Ticker cell holds symbol + industry — needs to wrap, not clip. */
+    td.ticker { white-space: normal; overflow: visible; text-overflow: clip; }
+    td.ticker .industry { white-space: normal; overflow: visible; text-overflow: clip; }
+    td.blurb-cell { padding: 4px 6px 8px; white-space: normal; overflow: visible;
+                    text-overflow: clip; }
+    td.blurb-cell .blurb { font-size: 10.5px; line-height: 1.45;
+                           white-space: normal; overflow: visible; text-overflow: clip; }
+    td.rank, th:first-child { width: 18px; padding-right: 0; padding-left: 4px; }
     td.ticker { min-width: 0; }
+    /* Ticker column gets all remaining width — score and delta are tightened. */
     td.ticker .co { display: none !important; }
     td.ticker .industry { display: block; margin-left: 0; margin-top: 2px;
                           font-size: 9.5px; white-space: normal; }
-    th.num, td.num { width: 34px; font-size: 9.5px; }
+    /* Hide the desktop bullet prefix on mobile (saved as ::before via JS data). */
+    td.ticker .industry .bullet { display: none; }
+    th.num, td.num { width: 30px; font-size: 9.5px; padding-left: 1px; padding-right: 1px; }
     th.ad-col, td.ad { display: none; }
-    th.delta, td.delta { width: 50px; padding-left: 2px; font-size: 9.5px; }
+    th.delta, td.delta { width: 42px; padding-left: 1px; padding-right: 2px; font-size: 9.5px; }
     /* Shrink table headers so they don't overflow at 186px panel width. */
     th { font-size: 9px; padding: 3px 2px; letter-spacing: 0; }
     .badge { padding: 1px 3px; font-size: 9.5px; }
@@ -204,19 +214,19 @@
     }
     items.forEach(it => {
       const tr = document.createElement("tr");
+      tr.className = "main-row";
       const d = deltaFn(it);
       if (options.droppedCheck && options.droppedCheck(it)) {
         tr.classList.add("dropped");
       }
       const co = companies[it.ticker] || {};
-      const nameHtml   = co.name     ? '<span class="co">' + escapeHtml(co.name) + '</span>' : '';
-      const indHtml    = co.industry ? '<span class="industry">· ' + escapeHtml(co.industry) + '</span>' : '';
-      const blurbHtml  = co.blurb    ? '<span class="blurb">' + escapeHtml(co.blurb) + '</span>' : '';
+      const nameHtml = co.name     ? '<span class="co">' + escapeHtml(co.name) + '</span>' : '';
+      const indHtml  = co.industry ? '<span class="industry"><span class="bullet">· </span>' + escapeHtml(co.industry) + '</span>' : '';
       tr.innerHTML =
         '<td class="rank">' + it.rank + '</td>' +
         '<td class="ticker">' +
           '<span class="sym"><a href="' + options.sourceUrl + '#c-' + it.ticker + '" target="_blank" rel="noopener">' + it.ticker + '</a></span>' +
-          nameHtml + indHtml + blurbHtml +
+          nameHtml + indHtml +
         '</td>' +
         '<td class="num">' + (it.score != null ? it.score.toFixed(2) : '—') + '</td>' +
         '<td class="ad">' + (it.ad || '—') + '</td>' +
@@ -225,6 +235,16 @@
           '<span class="badge-short">' + (d.short || d.text) + '</span>' +
         '</span></td>';
       tbody.appendChild(tr);
+
+      // Sibling row holds the blurb spanning all columns; CSS shows it when
+      // main row has `.expanded`. Always rendered (even if blurb empty) so the
+      // sibling-selector arithmetic stays predictable.
+      const blurbTr = document.createElement("tr");
+      blurbTr.className = "blurb-row";
+      const blurbHtml = co.blurb ? escapeHtml(co.blurb) : '';
+      blurbTr.innerHTML =
+        '<td colspan="5" class="blurb-cell"><div class="blurb">' + blurbHtml + '</div></td>';
+      tbody.appendChild(blurbTr);
     });
   }
 
@@ -281,13 +301,13 @@
   render();
 
   // Row click expands the blurb; clicking the ticker link follows the link.
-  // Only one row can be expanded at a time across BOTH tables.
+  // Only one main-row can be expanded at a time across BOTH tables.
   function onRowClick(e) {
     if (e.target.closest("a")) return;  // let ticker link navigate
-    const tr = e.target.closest("tr");
+    const tr = e.target.closest("tr.main-row");
     if (!tr || tr.querySelector(".empty")) return;
     const wasExpanded = tr.classList.contains("expanded");
-    document.querySelectorAll("tbody tr.expanded").forEach(r => r.classList.remove("expanded"));
+    document.querySelectorAll("tbody tr.main-row.expanded").forEach(r => r.classList.remove("expanded"));
     if (!wasExpanded) tr.classList.add("expanded");
   }
   document.querySelector("#leftTable tbody").addEventListener("click", onRowClick);

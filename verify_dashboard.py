@@ -45,8 +45,8 @@ def main() -> int:
         print(f"[check] regime text: {regime!r}")
         assert regime, "regime badge empty"
 
-        left_rows = page.query_selector_all("#leftTable tbody tr")
-        right_rows = page.query_selector_all("#rightTable tbody tr")
+        left_rows = page.query_selector_all("#leftTable tbody tr.main-row")
+        right_rows = page.query_selector_all("#rightTable tbody tr.main-row")
         print(f"[check] left rows={len(left_rows)}  right rows={len(right_rows)}")
         assert len(left_rows) == len(expected_today), \
             f"left rows={len(left_rows)} expected={len(expected_today)}"
@@ -93,17 +93,19 @@ def main() -> int:
             assert name == co["name"], f"{tk} rendered name != cache"
 
             # Ensure no row is already expanded (could be from prior iteration).
-            page.evaluate("document.querySelectorAll('tbody tr.expanded').forEach(r => r.classList.remove('expanded'))")
+            page.evaluate("document.querySelectorAll('tbody tr.main-row.expanded').forEach(r => r.classList.remove('expanded'))")
             # Click on the rank cell (not the ticker link) to expand.
             row.query_selector("td.rank").click()
             page.wait_for_timeout(50)
             assert "expanded" in (row.get_attribute("class") or ""), \
                 f"row {tk} did not expand on click"
-            blurb_el = row.query_selector("td.ticker .blurb")
-            blurb = blurb_el.inner_text().strip() if blurb_el else ""
+            # Blurb lives in the next sibling tr.blurb-row (full-width).
+            blurb = row.evaluate(
+                "el => { const b = el.nextElementSibling && el.nextElementSibling.querySelector('.blurb'); return b ? b.innerText.trim() : ''; }"
+            )
             if co.get("blurb"):
                 assert blurb.startswith(co["blurb"][:40]), \
-                    f"{tk} blurb mismatch when expanded"
+                    f"{tk} blurb mismatch when expanded (got {blurb[:60]!r})"
 
             # Single-expansion rule: clicking another row should collapse this one.
             if i + 1 < len(left_rows):
@@ -115,7 +117,7 @@ def main() -> int:
         # Switch date dropdown to prior date and re-check left table.
         page.select_option("#dateSelect", prior)
         page.wait_for_timeout(200)
-        left_rows2 = page.query_selector_all("#leftTable tbody tr")
+        left_rows2 = page.query_selector_all("#leftTable tbody tr.main-row")
         left_tickers2 = [r.query_selector("td.ticker .sym").inner_text().strip()
                          for r in left_rows2]
         print(f"[check] after switch left tickers: {left_tickers2}")
