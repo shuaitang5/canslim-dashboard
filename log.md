@@ -1,5 +1,20 @@
 # canslim — action log
 
+## 2026-05-15 23:55 PDT
+Switch refresh cron to hourly + explain same-date run handling.
+- Edited `.github/workflows/refresh.yml`: replaced `0 6/14 UTC` (twice-daily) with `0 * * * *` (hourly). NOT yet committed/pushed — pending user confirmation.
+- Same-date run logic: `discover_runs()` in `build_dashboard.py:31-43` keeps the latest stamp per date (lexicographic sort of 6-digit zero-padded timestamps + dict overwrite). For 5/14's three intraday runs (033341 / 222006 / 225336), only 225336 is rendered. Earlier intraday runs are silently dropped.
+Files: .github/workflows/refresh.yml, log.md
+
+## 2026-05-15 23:45 PDT
+Diagnose why dashboard is missing 5/15 upstream report.
+- Upstream `runs/2026-05-15_224319` published 22:43 UTC on 5/15 (= 15:43 PDT). Latest local `data.json` only has 5/14/5/13/5/12/5/10.
+- Today's two scheduled refreshes both fired *before* upstream publish: 5/15 08:47 UTC (06:00 cron, late) saw only 5/14; 5/15 15:53 UTC (14:00 cron, late) — upstream still hadn't published yet (came 6h 50m later). No diff → no commit.
+- Confirmed via GH Actions API + `curl -I https://shuaitang5.github.io/canslim-dashboard/data.json` → `last-modified: Fri, 15 May 2026 08:48:02 GMT`.
+- Root cause = schedule mistake, not a bug. The 5/14 schedule fix assumed upstream publishes early-UTC, but 5/15 upstream landed at 22:43 UTC — no evening-UTC tick to catch it.
+- Did NOT yet fix or trigger manually — pending user decision (manual `workflow_dispatch` vs add evening tick e.g. 23:00/00:00 UTC vs 3-tick schedule 02/14/23).
+Files: ../canslim/log.md
+
 ## 2026-05-13 10:55 PDT
 Bootstrap the CANSLIM dashboard: parse full-match tickers from the github.io reports and render a side-by-side top-10 page with day-over-day rank deltas.
 - Reverse-engineered the `canslim` zsh function → index lives at `https://zhoutongchar.github.io/canslim-scanner/runs/YYYY-MM-DD_HHMMSS/`. Only 3 runs currently indexed (2026-05-13, 2026-05-12, 2026-05-10).
@@ -25,6 +40,40 @@ Add a one-command refresh wrapper + README for future self.
 - `refresh.sh` — runs `enrich_companies.py` then `build_dashboard.py`. Passes `--refresh` through to force re-fetching every company blurb. `cd`s to its own dir so it works from anywhere. Tested end-to-end.
 - `README.md` — describes what the dashboard shows, how the pipeline works (discover → parse → enrich → render), how to refresh (`./refresh.sh`), variants, file roles, dependencies, and known limitations (static snapshot, yfinance rate limits, full matches only).
 Files: refresh.sh, README.md
+
+## 2026-05-14 ~12:00 PDT
+Show AD column on mobile.
+- Reallocated 22px from ticker(96→82) + score(30→28) + delta(42→38) + rank(18→16) to make room for AD(22). Total still 186px.
+- Removed previous "AD width:0; padding:0" rule — column is now 22px and visible. Layout stability still preserved (table-layout:fixed sees 5 real columns; colspan=5 blurb-row unchanged).
+- Side effect: enrich_companies.py picked up 2 new tickers from upstream's mid-day refresh (VIAV / VIK) — companies.json + data.json regenerated.
+Files: build_dashboard.py, companies.json, data.json, dashboard.html, log.md
+
+## 2026-05-14 ~11:30 PDT
+Layout-jump fix — ticker column halved on row expansion.
+- Reproduced: at 390px viewport, cell widths went from 18/96/30/0/42 (rank/ticker/score/ad/delta) to 18/48/30/0/42 the moment a row was clicked. All rows in the table re-laid out at the new widths, so the user saw the entire left column "shrink" on expand.
+- Root cause: `td.ad { display: none }` removed the AD column from the table layout, but the new `<tr class="blurb-row"><td colspan="5">` still references 5 columns. With `table-layout: fixed`, the browser couldn't reconcile a 4-visible-column layout with a 5-column-spanning cell, and re-distributed the unsized ticker column width to "make room" — landed on exactly half.
+- Fix: replace `display: none` on the AD column with `width: 0; padding: 0; border: 0; font-size: 0; overflow: hidden;` so the column stays in the table layout but renders as a 0px-wide invisible cell. Now colspan=5 references 5 real columns (one of which is 0-width) and the layout doesn't reflow on expand.
+- Verified: cell widths identical before/after expand at 390px (18/96/30/0/42 in both states). Desktop verifier still passes.
+Files: build_dashboard.py, dashboard.html, log.md
+
+## 2026-05-14 ~11:00 PDT
+Blurb wrap fix — full panel width, not stuck in ticker column.
+- Problem: when expanded, blurb was a `<span>` inside `td.ticker` (~80–96px wide on mobile), so each line wrapped at ~10 chars and a 1-sentence company description took 18 visual lines. User flagged this as too cramped.
+- Fix: emit blurb as its own `<tr class="blurb-row">` sibling with `<td colspan="5">` cell. CSS hides it by default; `tr.main-row.expanded + tr.blurb-row { display: table-row }` reveals it adjacent to the expanded main row, spanning all 5 columns (~186px on mobile, full panel width on desktop).
+- Mobile column rebalance: tightened rank (22→18), score (34→30), delta (50→42) to give ticker column ~96px (vs 80px) — industries now wrap to 2 lines instead of 4.
+- Dropped the leading "· " bullet on industry on mobile via a wrapped `<span class="bullet">` that's hidden in the mobile media query — saved a leading line break in narrow cells.
+- Click handler scoped to `.main-row` only (since `.blurb-row` is now also a `<tr>` under tbody and we don't want to flip its expansion state).
+- Verifier: scope `query_selector_all` to `tr.main-row` so 14 rows ≠ 28 (was counting blurb rows). Read blurb via `el.nextElementSibling.querySelector('.blurb')` instead of inside the row.
+Files: build_dashboard.py, verify_dashboard.py, dashboard.html, log.md
+
+## 2026-05-14 ~10:30 PDT
+Collapsible blurb + industry always visible on mobile.
+- Blurb is now hidden by default everywhere (desktop + mobile). Clicking anywhere on a row except the ticker link expands the blurb; clicking another row collapses the previous and expands the new (single-expansion rule).
+- Click handler: event delegation on each `tbody`, `e.target.closest("a")` short-circuits so the ticker link still navigates. `tbody.innerHTML` reset on date-switch wipes state cleanly; listeners survive (attached to `tbody`, not rows).
+- Mobile: `.industry` now renders as its own line (block) below the ticker — was previously hidden along with `.co`/`.blurb`. `.co` (company name) still hidden on mobile (saves vertical space; row click reveals everything in the blurb anyway).
+- Mobile expansion fix: original `.panel { overflow: hidden }` clipped the expanded blurb; added rule to let `.industry`/`.blurb` wrap freely (`white-space: normal; overflow: visible`) while other cells stay nowrap+ellipsis.
+- Verifier updated: ensures blurb hidden by default → click row's `td.rank` (not `.ticker` link) → blurb visible → click next row → first row collapses. All assertions pass.
+Files: build_dashboard.py, verify_dashboard.py, dashboard.html, log.md
 
 ## 2026-05-14 ~10:00 PDT
 Show full match list (drop top-10 cap) + mobile side-by-side + AD legend.
