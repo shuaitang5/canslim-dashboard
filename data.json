@@ -1,11 +1,125 @@
 {
   "dates": [
+    "2026-05-15",
     "2026-05-14",
     "2026-05-13",
     "2026-05-12",
     "2026-05-10"
   ],
   "reports": {
+    "2026-05-15": {
+      "date": "2026-05-15",
+      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-15_224319/",
+      "regime": "UPTREND",
+      "full_matches_total": 15,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "ENS",
+          "score": 0.98,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "STRL",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "ELMD",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "FTNT",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "MTZ",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "VIAV",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "INOD",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 8,
+          "ticker": "AYA",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 9,
+          "ticker": "CBL",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 10,
+          "ticker": "ATRO",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 11,
+          "ticker": "XOMA",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 12,
+          "ticker": "RILY",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 13,
+          "ticker": "STX",
+          "score": 0.8,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 14,
+          "ticker": "OUT",
+          "score": 0.78,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 15,
+          "ticker": "PARR",
+          "score": 0.73,
+          "gates": "CAnSLIM",
+          "ad": "C"
+        }
+      ]
+    },
     "2026-05-14": {
       "date": "2026-05-14",
       "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-14_225336/",
