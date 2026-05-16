@@ -138,5 +138,40 @@
     "industry": "Travel Services",
     "sector": "Consumer Cyclical",
     "blurb": "Viking Holdings Ltd focused on providing passenger cruises in North America, the United Kingdom, and internationally. It operates through the River and Ocean segments."
+  },
+  "AYA": {
+    "ticker": "AYA",
+    "name": "Aya Gold & Silver Inc.",
+    "industry": "Silver",
+    "sector": "Basic Materials",
+    "blurb": "Aya Gold & Silver Inc., together with its subsidiaries, engages in the exploration, evaluation, and development of precious metals projects in Morocco. The company primarily explores for gold and silver deposits."
+  },
+  "FTNT": {
+    "ticker": "FTNT",
+    "name": "Fortinet, Inc.",
+    "industry": "Software - Infrastructure",
+    "sector": "Technology",
+    "blurb": "Fortinet, Inc. provides cybersecurity and convergence of networking and security solutions worldwide."
+  },
+  "MTZ": {
+    "ticker": "MTZ",
+    "name": "MasTec, Inc.",
+    "industry": "Engineering & Construction",
+    "sector": "Industrials",
+    "blurb": "MasTec, Inc., an infrastructure engineering and construction company, provides engineering, building, installation, maintenance, and upgrade services for communications, energy, utility, and other infrastructure primarily in the United States and Canada."
+  },
+  "RILY": {
+    "ticker": "RILY",
+    "name": "BRC Group Holdings, Inc.",
+    "industry": "Financial Conglomerates",
+    "sector": "Financial Services",
+    "blurb": "BRC Group Holdings, Inc., through its subsidiaries, provides financial services in North America, Australia, Europe, the Middle East, Africa, Asia, and Latin America. The Capital Markets segment offers investment banking and institutional brokerage services; direct lending services to middle market companies; and eq\u2026"
+  },
+  "STX": {
+    "ticker": "STX",
+    "name": "Seagate Technology Holdings plc",
+    "industry": "Computer Hardware",
+    "sector": "Technology",
+    "blurb": "Seagate Technology Holdings plc engages in the provision of data storage technology and infrastructure solutions in Singapore, the United States, the Netherlands, and internationally."
   }
 }
