@@ -1,10 +1,23 @@
 # canslim — action log
 
+## 2026-05-16 00:05 PDT
+Fix: new tickers missing industry/blurb on 5/15 dashboard.
+- Root cause in `refresh.sh`: enrich ran BEFORE build → enrich read stale `data.json` (no 5/15 tickers yet) → fetched 0 tickers → build then added 5 new tickers (AYA/FTNT/MTZ/RILY/STX) to data.json but no second enrich pass. Latent bug since CI setup; only surfaced when new tickers appeared in CI rather than via local manual run.
+- CI log proof (run 25955463400): `[discover] 20 unique tickers`, `[todo] fetching 0 ticker(s)`.
+- Fix: reordered refresh.sh to `build → enrich → build`. First build refreshes data.json; enrich fills new tickers in companies.json; second build re-merges companies.json into dashboard.html. Added comment explaining the non-obvious order.
+- Re-applied exec bit on refresh.sh (Google Drive sync strips it again).
+- Pushed `c986394`, triggered `gh workflow run refresh-dashboard` → run 25955562744 succeeded → bot commit fetched all 5 new tickers (AYA: Aya Gold & Silver / FTNT: Fortinet / MTZ: MasTec / RILY: BRC Group Holdings / STX: Seagate Technology). Pulled bot commit locally; all 5 now have name+industry+blurb.
+Files: refresh.sh, companies.json, data.json, dashboard.html, log.md
+
 ## 2026-05-15 23:55 PDT
 Switch refresh cron to hourly + explain same-date run handling.
-- Edited `.github/workflows/refresh.yml`: replaced `0 6/14 UTC` (twice-daily) with `0 * * * *` (hourly). NOT yet committed/pushed — pending user confirmation.
+- Edited `.github/workflows/refresh.yml`: replaced `0 6/14 UTC` (twice-daily) with `0 * * * *` (hourly).
 - Same-date run logic: `discover_runs()` in `build_dashboard.py:31-43` keeps the latest stamp per date (lexicographic sort of 6-digit zero-padded timestamps + dict overwrite). For 5/14's three intraday runs (033341 / 222006 / 225336), only 225336 is rendered. Earlier intraday runs are silently dropped.
-Files: .github/workflows/refresh.yml, log.md
+- Side issue: Google Drive sync stripped exec bit on `refresh.sh`; restored with `chmod +x` before committing (CI runs `./refresh.sh`).
+- Installed `gh` 2.88.1 via brew. User authed (account `shuaitang5`).
+- `git pull --rebase` (remote had bot commit `auto-refresh 2026-05-15 08:47Z` not yet local), then pushed `b2690d0` (hourly cron).
+- Fired `gh workflow run refresh-dashboard` → run 25955463400 succeeded in ~20s → bot commit `0ba9524` lands 5/15 data. Verified locally: `data.json` dates now `[5/15, 5/14, 5/13, 5/12, 5/10]`, 5/15 has 15 full matches.
+Files: .github/workflows/refresh.yml, refresh.sh, log.md
 
 ## 2026-05-15 23:45 PDT
 Diagnose why dashboard is missing 5/15 upstream report.
