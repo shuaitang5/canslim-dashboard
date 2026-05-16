@@ -14,6 +14,13 @@ cd "$(dirname "$0")"
 
 PYTHON="${PYTHON:-python3}"
 
+# Build first so data.json reflects any new upstream report (and its new tickers)
+# *before* enrich runs — otherwise new tickers appear in data.json but never get
+# enriched until the *next* refresh cycle.
+echo "==> build_dashboard.py (pre-enrich, refresh data.json)"
+"$PYTHON" build_dashboard.py
+
+echo
 echo "==> enrich_companies.py"
 if [[ "${1:-}" == "--refresh" ]]; then
   "$PYTHON" enrich_companies.py --refresh
@@ -22,7 +29,7 @@ else
 fi
 
 echo
-echo "==> build_dashboard.py"
+echo "==> build_dashboard.py (post-enrich, merge fresh companies.json into dashboard.html)"
 "$PYTHON" build_dashboard.py
 
 echo
