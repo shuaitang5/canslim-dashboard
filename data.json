@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-05-19",
     "2026-05-15",
     "2026-05-14",
     "2026-05-13",
@@ -7,6 +8,112 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-05-19": {
+      "date": "2026-05-19",
+      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-19_223556/",
+      "regime": "UPTREND",
+      "full_matches_total": 14,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "FTNT",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "ALAB",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "RILY",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "CMBT",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "ENS",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "ATRO",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 7,
+          "ticker": "MCY",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 8,
+          "ticker": "STRL",
+          "score": 0.91,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 9,
+          "ticker": "VIAV",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 10,
+          "ticker": "VIK",
+          "score": 0.89,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 11,
+          "ticker": "INOD",
+          "score": 0.87,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 12,
+          "ticker": "OUT",
+          "score": 0.79,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 13,
+          "ticker": "PARR",
+          "score": 0.76,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 14,
+          "ticker": "STX",
+          "score": 0.76,
+          "gates": "CANSLIM",
+          "ad": "A"
+        }
+      ]
+    },
     "2026-05-15": {
       "date": "2026-05-15",
       "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-15_224319/",
@@ -671,6 +778,20 @@
       "industry": "Computer Hardware",
       "sector": "Technology",
       "blurb": "Seagate Technology Holdings plc engages in the provision of data storage technology and infrastructure solutions in Singapore, the United States, the Netherlands, and internationally."
+    },
+    "CMBT": {
+      "ticker": "CMBT",
+      "name": "Cmb.Tech NV",
+      "industry": "Oil & Gas Midstream",
+      "sector": "Energy",
+      "blurb": "Cmb.Tech NV engages in marine transportation business in Belgium. It operates through three divisions: Marine, H2 Infra, and H2 Industry."
+    },
+    "MCY": {
+      "ticker": "MCY",
+      "name": "Mercury General Corporation",
+      "industry": "Insurance - Property & Casualty",
+      "sector": "Financial Services",
+      "blurb": "Mercury General Corporation, together with its subsidiaries, engages in writing personal automobile insurance in the United States. It also writes homeowners, commercial automobile, commercial property, mechanical protection, and umbrella insurance products."
     }
   }
 }

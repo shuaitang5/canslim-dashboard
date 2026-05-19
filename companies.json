@@ -173,5 +173,19 @@
     "industry": "Computer Hardware",
     "sector": "Technology",
     "blurb": "Seagate Technology Holdings plc engages in the provision of data storage technology and infrastructure solutions in Singapore, the United States, the Netherlands, and internationally."
+  },
+  "CMBT": {
+    "ticker": "CMBT",
+    "name": "Cmb.Tech NV",
+    "industry": "Oil & Gas Midstream",
+    "sector": "Energy",
+    "blurb": "Cmb.Tech NV engages in marine transportation business in Belgium. It operates through three divisions: Marine, H2 Infra, and H2 Industry."
+  },
+  "MCY": {
+    "ticker": "MCY",
+    "name": "Mercury General Corporation",
+    "industry": "Insurance - Property & Casualty",
+    "sector": "Financial Services",
+    "blurb": "Mercury General Corporation, together with its subsidiaries, engages in writing personal automobile insurance in the United States. It also writes homeowners, commercial automobile, commercial property, mechanical protection, and umbrella insurance products."
   }
 }
