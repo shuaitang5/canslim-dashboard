@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-05-21",
     "2026-05-19",
     "2026-05-15",
     "2026-05-14",
@@ -8,6 +9,119 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-05-21": {
+      "date": "2026-05-21",
+      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-21_000903/",
+      "regime": "UPTREND",
+      "full_matches_total": 15,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "FTNT",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "ATRO",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 3,
+          "ticker": "CMBT",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "RILY",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "MAKO",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "ENS",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "VIK",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 8,
+          "ticker": "INOD",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 9,
+          "ticker": "STRL",
+          "score": 0.91,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 10,
+          "ticker": "MCY",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 11,
+          "ticker": "VIAV",
+          "score": 0.89,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 12,
+          "ticker": "AYA",
+          "score": 0.87,
+          "gates": "CAnSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 13,
+          "ticker": "OUT",
+          "score": 0.82,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 14,
+          "ticker": "STX",
+          "score": 0.77,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 15,
+          "ticker": "PARR",
+          "score": 0.75,
+          "gates": "CANSLIM",
+          "ad": "C"
+        }
+      ]
+    },
     "2026-05-19": {
       "date": "2026-05-19",
       "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-19_223556/",
@@ -792,6 +906,13 @@
       "industry": "Insurance - Property & Casualty",
       "sector": "Financial Services",
       "blurb": "Mercury General Corporation, together with its subsidiaries, engages in writing personal automobile insurance in the United States. It also writes homeowners, commercial automobile, commercial property, mechanical protection, and umbrella insurance products."
+    },
+    "MAKO": {
+      "ticker": "MAKO",
+      "name": "Mako Mining Corp.",
+      "industry": "Gold",
+      "sector": "Basic Materials",
+      "blurb": "Mako Mining Corp. engages in mineral exploration and exploitation activities in Nicaragua, the United States, and Guyana."
     }
   }
 }

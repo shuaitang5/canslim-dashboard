@@ -187,5 +187,12 @@
     "industry": "Insurance - Property & Casualty",
     "sector": "Financial Services",
     "blurb": "Mercury General Corporation, together with its subsidiaries, engages in writing personal automobile insurance in the United States. It also writes homeowners, commercial automobile, commercial property, mechanical protection, and umbrella insurance products."
+  },
+  "MAKO": {
+    "ticker": "MAKO",
+    "name": "Mako Mining Corp.",
+    "industry": "Gold",
+    "sector": "Basic Materials",
+    "blurb": "Mako Mining Corp. engages in mineral exploration and exploitation activities in Nicaragua, the United States, and Guyana."
   }
 }
