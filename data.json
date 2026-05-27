@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-05-27",
     "2026-05-23",
     "2026-05-21",
     "2026-05-19",
@@ -10,6 +11,224 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-05-27": {
+      "date": "2026-05-27",
+      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-27_061445/",
+      "regime": "UPTREND",
+      "full_matches_total": 30,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "VICR",
+          "score": 0.99,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "TTMI",
+          "score": 0.98,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "ELMD",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "FTNT",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "ALAB",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "MRVL",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "CRDO",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 8,
+          "ticker": "RILY",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 9,
+          "ticker": "HBM",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 10,
+          "ticker": "ATRO",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 11,
+          "ticker": "MAKO",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 12,
+          "ticker": "WFRD",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 13,
+          "ticker": "STRL",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 14,
+          "ticker": "INOD",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 15,
+          "ticker": "FSLR",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 16,
+          "ticker": "XOMA",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 17,
+          "ticker": "AGX",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 18,
+          "ticker": "YOU",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 19,
+          "ticker": "HSHP",
+          "score": 0.89,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 20,
+          "ticker": "ALTO",
+          "score": 0.89,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 21,
+          "ticker": "AYA",
+          "score": 0.89,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 22,
+          "ticker": "KRYS",
+          "score": 0.87,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 23,
+          "ticker": "NEXA",
+          "score": 0.87,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 24,
+          "ticker": "VRT",
+          "score": 0.87,
+          "gates": "CANSLIM",
+          "ad": "D"
+        },
+        {
+          "rank": 25,
+          "ticker": "ADEA",
+          "score": 0.86,
+          "gates": "CAnSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 26,
+          "ticker": "KLIC",
+          "score": 0.82,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 27,
+          "ticker": "WDC",
+          "score": 0.81,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 28,
+          "ticker": "STX",
+          "score": 0.79,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 29,
+          "ticker": "NBIS",
+          "score": 0.79,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 30,
+          "ticker": "PARR",
+          "score": 0.73,
+          "gates": "CAnSLIM",
+          "ad": "C"
+        }
+      ]
+    },
     "2026-05-23": {
       "date": "2026-05-23",
       "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-23_010249/",
@@ -1020,6 +1239,125 @@
       "industry": "Gold",
       "sector": "Basic Materials",
       "blurb": "Mako Mining Corp. engages in mineral exploration and exploitation activities in Nicaragua, the United States, and Guyana."
+    },
+    "ADEA": {
+      "ticker": "ADEA",
+      "name": "Adeia Inc.",
+      "industry": "Software - Application",
+      "sector": "Technology",
+      "blurb": "Adeia Inc., together with its subsidiaries, operates as a media and semiconductor intellectual property licensing platform company in the United States, Asia, Canada, Europe, the Middle East, and internationally."
+    },
+    "AGX": {
+      "ticker": "AGX",
+      "name": "Argan, Inc.",
+      "industry": "Engineering & Construction",
+      "sector": "Industrials",
+      "blurb": "Argan, Inc., through its subsidiaries, provides engineering, procurement, construction, commissioning, maintenance, project development, and technical consulting services to the power generation market in the United States, Republic of Ireland, and the United Kingdom."
+    },
+    "ALTO": {
+      "ticker": "ALTO",
+      "name": "Alto Ingredients, Inc.",
+      "industry": "Specialty Chemicals",
+      "sector": "Basic Materials",
+      "blurb": "Alto Ingredients, Inc. produces, distributes, and markets specialty alcohols, renewable fuel, and essential ingredients in the United States."
+    },
+    "FSLR": {
+      "ticker": "FSLR",
+      "name": "First Solar, Inc.",
+      "industry": "Solar",
+      "sector": "Technology",
+      "blurb": "First Solar, Inc., a solar technology company, provides photovoltaic (PV) solar energy solutions in the United States, France, India, Chile, and internationally. The company manufactures and sells PV solar modules with thin film semiconductor technology that provides conventional crystalline silicon PV solar modules."
+    },
+    "HBM": {
+      "ticker": "HBM",
+      "name": "Hudbay Minerals Inc.",
+      "industry": "Copper",
+      "sector": "Basic Materials",
+      "blurb": "Hudbay Minerals Inc., a diversified mining company, focuses on the exploration, development, operation, and optimization of properties in North and South America. It primarily explores for copper concentrates containing copper, gold, zinc, molybdenum concentrates, and silver."
+    },
+    "HSHP": {
+      "ticker": "HSHP",
+      "name": "Himalaya Shipping Ltd.",
+      "industry": "Marine Shipping",
+      "sector": "Industrials",
+      "blurb": "Himalaya Shipping Ltd. provides dry bulk shipping services worldwide."
+    },
+    "KLIC": {
+      "ticker": "KLIC",
+      "name": "Kulicke and Soffa Industries, Inc.",
+      "industry": "Semiconductor Equipment & Materials",
+      "sector": "Technology",
+      "blurb": "Kulicke and Soffa Industries, Inc. designs, manufactures, and sells capital equipment and consumables in China, the United States, Taiwan, Malaysia, Japan, the Philippines, Korea, Hong Kong, and internationally."
+    },
+    "KRYS": {
+      "ticker": "KRYS",
+      "name": "Krystal Biotech, Inc.",
+      "industry": "Biotechnology",
+      "sector": "Healthcare",
+      "blurb": "Krystal Biotech, Inc., a commercial-stage biotechnology company, discovers, develops, manufactures, and commercializes genetic medicines to treat diseases with high unmet medical needs in the United States."
+    },
+    "MRVL": {
+      "ticker": "MRVL",
+      "name": "Marvell Technology, Inc.",
+      "industry": "Semiconductors",
+      "sector": "Technology",
+      "blurb": "Marvell Technology, Inc., together with its subsidiaries, provides data infrastructure semiconductor solutions and spanning the data center core to network edge in the United States, Argentina, China, India, Israel, Japan, Singapore, South Korea, Taiwan, Vietnam, and internationally."
+    },
+    "NBIS": {
+      "ticker": "NBIS",
+      "name": "Nebius Group N.V.",
+      "industry": "Internet Content & Information",
+      "sector": "Communication Services",
+      "blurb": "Nebius Group N.V., a technology company, engages in building full-stack infrastructure to service the global AI industry in the United States, the United Kingdom, and internationally."
+    },
+    "NEXA": {
+      "ticker": "NEXA",
+      "name": "Nexa Resources S.A.",
+      "industry": "Other Industrial Metals & Mining",
+      "sector": "Basic Materials",
+      "blurb": "Nexa Resources S.A., together with its subsidiaries, engages in the zinc mining and smelting business worldwide. The company operates in two segments, Mining and Smelting."
+    },
+    "TTMI": {
+      "ticker": "TTMI",
+      "name": "TTM Technologies, Inc.",
+      "industry": "Electronic Components",
+      "sector": "Technology",
+      "blurb": "TTM Technologies, Inc. manufactures and sells mission systems, radio frequency (RF) components, RF microwave/microelectronic assemblies, and printed circuit boards (PCBs) and substrates in the United States, Taiwan, and internationally."
+    },
+    "VICR": {
+      "ticker": "VICR",
+      "name": "Vicor Corporation",
+      "industry": "Electronic Components",
+      "sector": "Technology",
+      "blurb": "Vicor Corporation, together with its subsidiaries, designs, develops, manufactures, and markets modular power components and power systems for converting electrical power for use in electrically powered devices in the United States, Europe, the Asia Pacific, and internationally."
+    },
+    "VRT": {
+      "ticker": "VRT",
+      "name": "Vertiv Holdings Co",
+      "industry": "Electrical Equipment & Parts",
+      "sector": "Industrials",
+      "blurb": "Vertiv Holdings Co designs, manufactures, and services critical digital infrastructure technologies and life cycle services for data centers, communication networks, and commercial and industrial environments in the Americas, the Asia Pacific, Europe, the Middle East, and Africa."
+    },
+    "WDC": {
+      "ticker": "WDC",
+      "name": "Western Digital Corporation",
+      "industry": "Computer Hardware",
+      "sector": "Technology",
+      "blurb": "Western Digital Corporation develops, manufactures, and sells data storage devices and solutions based on hard disk drive (HDD) technology in the United States, Asia, Europe, the Middle East, and Africa."
+    },
+    "WFRD": {
+      "ticker": "WFRD",
+      "name": "Weatherford International plc",
+      "industry": "Oil & Gas Equipment & Services",
+      "sector": "Energy",
+      "blurb": "Weatherford International plc, an energy services company, provides equipment and services for the drilling, evaluation, completion, production, and intervention of oil, geothermal, and natural gas wells worldwide."
+    },
+    "YOU": {
+      "ticker": "YOU",
+      "name": "Clear Secure, Inc.",
+      "industry": "Software - Application",
+      "sector": "Technology",
+      "blurb": "Clear Secure, Inc. operates a secure identity platform under the CLEAR brand name primarily in the United States."
     }
   }
 }

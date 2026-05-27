@@ -194,5 +194,124 @@
     "industry": "Gold",
     "sector": "Basic Materials",
     "blurb": "Mako Mining Corp. engages in mineral exploration and exploitation activities in Nicaragua, the United States, and Guyana."
+  },
+  "ADEA": {
+    "ticker": "ADEA",
+    "name": "Adeia Inc.",
+    "industry": "Software - Application",
+    "sector": "Technology",
+    "blurb": "Adeia Inc., together with its subsidiaries, operates as a media and semiconductor intellectual property licensing platform company in the United States, Asia, Canada, Europe, the Middle East, and internationally."
+  },
+  "AGX": {
+    "ticker": "AGX",
+    "name": "Argan, Inc.",
+    "industry": "Engineering & Construction",
+    "sector": "Industrials",
+    "blurb": "Argan, Inc., through its subsidiaries, provides engineering, procurement, construction, commissioning, maintenance, project development, and technical consulting services to the power generation market in the United States, Republic of Ireland, and the United Kingdom."
+  },
+  "ALTO": {
+    "ticker": "ALTO",
+    "name": "Alto Ingredients, Inc.",
+    "industry": "Specialty Chemicals",
+    "sector": "Basic Materials",
+    "blurb": "Alto Ingredients, Inc. produces, distributes, and markets specialty alcohols, renewable fuel, and essential ingredients in the United States."
+  },
+  "FSLR": {
+    "ticker": "FSLR",
+    "name": "First Solar, Inc.",
+    "industry": "Solar",
+    "sector": "Technology",
+    "blurb": "First Solar, Inc., a solar technology company, provides photovoltaic (PV) solar energy solutions in the United States, France, India, Chile, and internationally. The company manufactures and sells PV solar modules with thin film semiconductor technology that provides conventional crystalline silicon PV solar modules."
+  },
+  "HBM": {
+    "ticker": "HBM",
+    "name": "Hudbay Minerals Inc.",
+    "industry": "Copper",
+    "sector": "Basic Materials",
+    "blurb": "Hudbay Minerals Inc., a diversified mining company, focuses on the exploration, development, operation, and optimization of properties in North and South America. It primarily explores for copper concentrates containing copper, gold, zinc, molybdenum concentrates, and silver."
+  },
+  "HSHP": {
+    "ticker": "HSHP",
+    "name": "Himalaya Shipping Ltd.",
+    "industry": "Marine Shipping",
+    "sector": "Industrials",
+    "blurb": "Himalaya Shipping Ltd. provides dry bulk shipping services worldwide."
+  },
+  "KLIC": {
+    "ticker": "KLIC",
+    "name": "Kulicke and Soffa Industries, Inc.",
+    "industry": "Semiconductor Equipment & Materials",
+    "sector": "Technology",
+    "blurb": "Kulicke and Soffa Industries, Inc. designs, manufactures, and sells capital equipment and consumables in China, the United States, Taiwan, Malaysia, Japan, the Philippines, Korea, Hong Kong, and internationally."
+  },
+  "KRYS": {
+    "ticker": "KRYS",
+    "name": "Krystal Biotech, Inc.",
+    "industry": "Biotechnology",
+    "sector": "Healthcare",
+    "blurb": "Krystal Biotech, Inc., a commercial-stage biotechnology company, discovers, develops, manufactures, and commercializes genetic medicines to treat diseases with high unmet medical needs in the United States."
+  },
+  "MRVL": {
+    "ticker": "MRVL",
+    "name": "Marvell Technology, Inc.",
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "blurb": "Marvell Technology, Inc., together with its subsidiaries, provides data infrastructure semiconductor solutions and spanning the data center core to network edge in the United States, Argentina, China, India, Israel, Japan, Singapore, South Korea, Taiwan, Vietnam, and internationally."
+  },
+  "NBIS": {
+    "ticker": "NBIS",
+    "name": "Nebius Group N.V.",
+    "industry": "Internet Content & Information",
+    "sector": "Communication Services",
+    "blurb": "Nebius Group N.V., a technology company, engages in building full-stack infrastructure to service the global AI industry in the United States, the United Kingdom, and internationally."
+  },
+  "NEXA": {
+    "ticker": "NEXA",
+    "name": "Nexa Resources S.A.",
+    "industry": "Other Industrial Metals & Mining",
+    "sector": "Basic Materials",
+    "blurb": "Nexa Resources S.A., together with its subsidiaries, engages in the zinc mining and smelting business worldwide. The company operates in two segments, Mining and Smelting."
+  },
+  "TTMI": {
+    "ticker": "TTMI",
+    "name": "TTM Technologies, Inc.",
+    "industry": "Electronic Components",
+    "sector": "Technology",
+    "blurb": "TTM Technologies, Inc. manufactures and sells mission systems, radio frequency (RF) components, RF microwave/microelectronic assemblies, and printed circuit boards (PCBs) and substrates in the United States, Taiwan, and internationally."
+  },
+  "VICR": {
+    "ticker": "VICR",
+    "name": "Vicor Corporation",
+    "industry": "Electronic Components",
+    "sector": "Technology",
+    "blurb": "Vicor Corporation, together with its subsidiaries, designs, develops, manufactures, and markets modular power components and power systems for converting electrical power for use in electrically powered devices in the United States, Europe, the Asia Pacific, and internationally."
+  },
+  "VRT": {
+    "ticker": "VRT",
+    "name": "Vertiv Holdings Co",
+    "industry": "Electrical Equipment & Parts",
+    "sector": "Industrials",
+    "blurb": "Vertiv Holdings Co designs, manufactures, and services critical digital infrastructure technologies and life cycle services for data centers, communication networks, and commercial and industrial environments in the Americas, the Asia Pacific, Europe, the Middle East, and Africa."
+  },
+  "WDC": {
+    "ticker": "WDC",
+    "name": "Western Digital Corporation",
+    "industry": "Computer Hardware",
+    "sector": "Technology",
+    "blurb": "Western Digital Corporation develops, manufactures, and sells data storage devices and solutions based on hard disk drive (HDD) technology in the United States, Asia, Europe, the Middle East, and Africa."
+  },
+  "WFRD": {
+    "ticker": "WFRD",
+    "name": "Weatherford International plc",
+    "industry": "Oil & Gas Equipment & Services",
+    "sector": "Energy",
+    "blurb": "Weatherford International plc, an energy services company, provides equipment and services for the drilling, evaluation, completion, production, and intervention of oil, geothermal, and natural gas wells worldwide."
+  },
+  "YOU": {
+    "ticker": "YOU",
+    "name": "Clear Secure, Inc.",
+    "industry": "Software - Application",
+    "sector": "Technology",
+    "blurb": "Clear Secure, Inc. operates a secure identity platform under the CLEAR brand name primarily in the United States."
   }
 }
