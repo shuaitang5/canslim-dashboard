@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-05-28",
     "2026-05-27",
     "2026-05-23",
     "2026-05-21",
@@ -11,6 +12,147 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-05-28": {
+      "date": "2026-05-28",
+      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-28_200507/",
+      "regime": "UPTREND",
+      "full_matches_total": 19,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "VICR",
+          "score": 0.99,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "TTMI",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "ALAB",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "STRL",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "MRVL",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "CRDO",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "RILY",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 8,
+          "ticker": "FSLR",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 9,
+          "ticker": "INOD",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 10,
+          "ticker": "PPIH",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 11,
+          "ticker": "XOMA",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 12,
+          "ticker": "AGX",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 13,
+          "ticker": "NEXA",
+          "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 14,
+          "ticker": "AMSC",
+          "score": 0.87,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 15,
+          "ticker": "VRT",
+          "score": 0.86,
+          "gates": "CAnSLIM",
+          "ad": "D"
+        },
+        {
+          "rank": 16,
+          "ticker": "ALTO",
+          "score": 0.86,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 17,
+          "ticker": "NBIS",
+          "score": 0.83,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 18,
+          "ticker": "STX",
+          "score": 0.79,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 19,
+          "ticker": "PARR",
+          "score": 0.73,
+          "gates": "CAnSLIM",
+          "ad": "C"
+        }
+      ]
+    },
     "2026-05-27": {
       "date": "2026-05-27",
       "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-27_232939/",
@@ -1379,6 +1521,13 @@
       "industry": "Gambling",
       "sector": "Consumer Cyclical",
       "blurb": "Rush Street Interactive, Inc. operates as an online casino and sports betting company in the United States, Canada, and Latin America."
+    },
+    "AMSC": {
+      "ticker": "AMSC",
+      "name": "American Superconductor Corporation",
+      "industry": "Specialty Industrial Machinery",
+      "sector": "Industrials",
+      "blurb": "American Superconductor Corporation, together with its subsidiaries, provides megawatt-scale power resiliency solutions worldwide. It operates through Grid and Wind segments."
     }
   }
 }

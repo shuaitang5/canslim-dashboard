@@ -334,5 +334,12 @@
     "industry": "Gambling",
     "sector": "Consumer Cyclical",
     "blurb": "Rush Street Interactive, Inc. operates as an online casino and sports betting company in the United States, Canada, and Latin America."
+  },
+  "AMSC": {
+    "ticker": "AMSC",
+    "name": "American Superconductor Corporation",
+    "industry": "Specialty Industrial Machinery",
+    "sector": "Industrials",
+    "blurb": "American Superconductor Corporation, together with its subsidiaries, provides megawatt-scale power resiliency solutions worldwide. It operates through Grid and Wind segments."
   }
 }
