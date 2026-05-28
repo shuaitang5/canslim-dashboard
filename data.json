@@ -13,7 +13,7 @@
   "reports": {
     "2026-05-27": {
       "date": "2026-05-27",
-      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-27_061445/",
+      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-27_232939/",
       "regime": "UPTREND",
       "full_matches_total": 30,
       "full_matches": [
@@ -40,7 +40,7 @@
         },
         {
           "rank": 4,
-          "ticker": "FTNT",
+          "ticker": "DY",
           "score": 0.97,
           "gates": "CANSLIM",
           "ad": "A"
@@ -54,15 +54,15 @@
         },
         {
           "rank": 6,
-          "ticker": "MRVL",
+          "ticker": "CRDO",
           "score": 0.96,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
           "rank": 7,
-          "ticker": "CRDO",
-          "score": 0.96,
+          "ticker": "MRVL",
+          "score": 0.95,
           "gates": "CANSLIM",
           "ad": "A"
         },
@@ -75,10 +75,10 @@
         },
         {
           "rank": 9,
-          "ticker": "HBM",
+          "ticker": "FTNT",
           "score": 0.94,
           "gates": "CANSLIM",
-          "ad": "B"
+          "ad": "A"
         },
         {
           "rank": 10,
@@ -89,17 +89,17 @@
         },
         {
           "rank": 11,
-          "ticker": "MAKO",
+          "ticker": "CBL",
           "score": 0.93,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
           "rank": 12,
-          "ticker": "WFRD",
+          "ticker": "PPIH",
           "score": 0.93,
           "gates": "CANSLIM",
-          "ad": "A"
+          "ad": "C"
         },
         {
           "rank": 13,
@@ -110,15 +110,15 @@
         },
         {
           "rank": 14,
-          "ticker": "INOD",
+          "ticker": "FSLR",
           "score": 0.91,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
           "rank": 15,
-          "ticker": "FSLR",
-          "score": 0.9,
+          "ticker": "MAKO",
+          "score": 0.91,
           "gates": "CANSLIM",
           "ad": "A"
         },
@@ -138,42 +138,42 @@
         },
         {
           "rank": 18,
-          "ticker": "YOU",
-          "score": 0.9,
-          "gates": "CANSLIM",
-          "ad": "B"
-        },
-        {
-          "rank": 19,
           "ticker": "HSHP",
           "score": 0.89,
           "gates": "CANSLIM",
           "ad": "B"
         },
         {
+          "rank": 19,
+          "ticker": "KRYS",
+          "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
           "rank": 20,
           "ticker": "ALTO",
-          "score": 0.89,
+          "score": 0.88,
           "gates": "CANSLIM",
-          "ad": "C"
+          "ad": "B"
         },
         {
           "rank": 21,
-          "ticker": "AYA",
-          "score": 0.89,
+          "ticker": "NEXA",
+          "score": 0.87,
           "gates": "CANSLIM",
-          "ad": "C"
+          "ad": "A"
         },
         {
           "rank": 22,
-          "ticker": "KRYS",
+          "ticker": "INOD",
           "score": 0.87,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
           "rank": 23,
-          "ticker": "NEXA",
+          "ticker": "RSI",
           "score": 0.87,
           "gates": "CANSLIM",
           "ad": "A"
@@ -181,35 +181,35 @@
         {
           "rank": 24,
           "ticker": "VRT",
-          "score": 0.87,
-          "gates": "CANSLIM",
+          "score": 0.86,
+          "gates": "CAnSLIM",
           "ad": "D"
         },
         {
           "rank": 25,
-          "ticker": "ADEA",
-          "score": 0.86,
-          "gates": "CAnSLIM",
+          "ticker": "YOU",
+          "score": 0.85,
+          "gates": "CANSLIM",
           "ad": "C"
         },
         {
           "rank": 26,
-          "ticker": "KLIC",
-          "score": 0.82,
-          "gates": "CANSLIM",
-          "ad": "A"
+          "ticker": "ADEA",
+          "score": 0.85,
+          "gates": "CAnSLIM",
+          "ad": "C"
         },
         {
           "rank": 27,
-          "ticker": "WDC",
-          "score": 0.81,
+          "ticker": "KLIC",
+          "score": 0.8,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
           "rank": 28,
           "ticker": "STX",
-          "score": 0.79,
+          "score": 0.8,
           "gates": "CANSLIM",
           "ad": "A"
         },
@@ -1358,6 +1358,27 @@
       "industry": "Software - Application",
       "sector": "Technology",
       "blurb": "Clear Secure, Inc. operates a secure identity platform under the CLEAR brand name primarily in the United States."
+    },
+    "DY": {
+      "ticker": "DY",
+      "name": "Dycom Industries, Inc.",
+      "industry": "Engineering & Construction",
+      "sector": "Industrials",
+      "blurb": "Dycom Industries, Inc. provides specialty contracting services to the digital infrastructure, telecommunications infrastructure, and utility industries in the United States."
+    },
+    "PPIH": {
+      "ticker": "PPIH",
+      "name": "Perma-Pipe International Holdings, Inc.",
+      "industry": "Building Products & Equipment",
+      "sector": "Industrials",
+      "blurb": "Perma-Pipe International Holdings, Inc., together with its subsidiaries, designs, engineers, manufactures, and sells specialty piping and leak detection systems in the United States, Canada, the United Arab Emirates, Saudi Arabia, and internationally."
+    },
+    "RSI": {
+      "ticker": "RSI",
+      "name": "Rush Street Interactive, Inc.",
+      "industry": "Gambling",
+      "sector": "Consumer Cyclical",
+      "blurb": "Rush Street Interactive, Inc. operates as an online casino and sports betting company in the United States, Canada, and Latin America."
     }
   }
 }

@@ -313,5 +313,26 @@
     "industry": "Software - Application",
     "sector": "Technology",
     "blurb": "Clear Secure, Inc. operates a secure identity platform under the CLEAR brand name primarily in the United States."
+  },
+  "DY": {
+    "ticker": "DY",
+    "name": "Dycom Industries, Inc.",
+    "industry": "Engineering & Construction",
+    "sector": "Industrials",
+    "blurb": "Dycom Industries, Inc. provides specialty contracting services to the digital infrastructure, telecommunications infrastructure, and utility industries in the United States."
+  },
+  "PPIH": {
+    "ticker": "PPIH",
+    "name": "Perma-Pipe International Holdings, Inc.",
+    "industry": "Building Products & Equipment",
+    "sector": "Industrials",
+    "blurb": "Perma-Pipe International Holdings, Inc., together with its subsidiaries, designs, engineers, manufactures, and sells specialty piping and leak detection systems in the United States, Canada, the United Arab Emirates, Saudi Arabia, and internationally."
+  },
+  "RSI": {
+    "ticker": "RSI",
+    "name": "Rush Street Interactive, Inc.",
+    "industry": "Gambling",
+    "sector": "Consumer Cyclical",
+    "blurb": "Rush Street Interactive, Inc. operates as an online casino and sports betting company in the United States, Canada, and Latin America."
   }
 }
