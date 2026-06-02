@@ -148,6 +148,8 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
   td.ticker .sym { font-family: var(--mono); font-weight: 700; }
   td.ticker .sym a { color: var(--accent); text-decoration: none; }
   td.ticker .sym a:hover { text-decoration: underline; }
+  td.num a { color: var(--accent); text-decoration: none; }
+  td.num a:hover { text-decoration: underline; }
   td.ticker .co { color: var(--text); margin-left: 6px; font-size: 12px; }
   td.ticker .industry { color: var(--muted); font-size: 11px; margin-left: 6px; }
   /* Blurb lives in its own full-width row (colspan=5), hidden until main row
@@ -328,10 +330,10 @@ HTML_TEMPLATE = r"""<!DOCTYPE html>
       tr.innerHTML =
         '<td class="rank">' + it.rank + '</td>' +
         '<td class="ticker">' +
-          '<span class="sym"><a href="' + options.sourceUrl + '#c-' + it.ticker + '" target="_blank" rel="noopener">' + it.ticker + '</a></span>' +
+          '<span class="sym"><a href="https://ticker-quickview.onrender.com/#' + it.ticker + '" target="_blank" rel="noopener">' + it.ticker + '</a></span>' +
           nameHtml + indHtml +
         '</td>' +
-        '<td class="num">' + (it.score != null ? it.score.toFixed(2) : '—') + '</td>' +
+        '<td class="num"><a href="' + options.sourceUrl + '#c-' + it.ticker + '" target="_blank" rel="noopener">' + (it.score != null ? it.score.toFixed(2) : '—') + '</a></td>' +
         '<td class="ad">' + (it.ad || '—') + '</td>' +
         '<td class="delta"><span class="badge ' + d.cls + '">' +
           '<span class="badge-long">' + d.text + '</span>' +

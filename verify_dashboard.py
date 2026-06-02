@@ -74,11 +74,19 @@ def main() -> int:
         right_badge_texts = [b.inner_text().strip() for b in right_badges]
         print(f"[check] right badges : {right_badge_texts}")
 
-        # Confirm the ticker anchor href points at #c-TICKER on the source run.
-        first_link = page.query_selector("#leftTable tbody tr td.ticker a")
-        href = first_link.get_attribute("href")
-        print(f"[check] first link   : {href}")
-        assert f"#c-{left_tickers[0]}" in href, "ticker link missing anchor"
+        # Confirm the ticker anchor opens the quickview site for that ticker.
+        ticker_link = page.query_selector("#leftTable tbody tr td.ticker a")
+        ticker_href = ticker_link.get_attribute("href")
+        print(f"[check] ticker link  : {ticker_href}")
+        assert ticker_href == f"https://ticker-quickview.onrender.com/#{left_tickers[0]}", \
+            f"ticker link should point at quickview, got {ticker_href}"
+
+        # Confirm the score number is now the source-report link (#c-TICKER).
+        score_link = page.query_selector("#leftTable tbody tr td.num a")
+        score_href = score_link.get_attribute("href")
+        print(f"[check] score link   : {score_href}")
+        assert f"#c-{left_tickers[0]}" in score_href, \
+            f"score link missing source-report anchor, got {score_href}"
 
         # Company name renders by default; blurb hidden until row is clicked.
         companies = data.get("companies") or {}

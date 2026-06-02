@@ -1,5 +1,28 @@
 # canslim — action log
 
+## 2026-06-02 ~11:10 PDT
+Add per-ticker quickview link; move source-report link from ticker → score.
+- `build_dashboard.py` HTML_TEMPLATE: ticker `<a>` now → `https://ticker-quickview.onrender.com/#<TICKER>` (new tab); score number wrapped in `<a>` → upstream source report `…#c-<TICKER>` (the dest the ticker used to carry). Added `td.num a` accent styling. Row-click handler already ignores `<a>` clicks, so blurb expansion unaffected.
+- `verify_dashboard.py`: flipped link assertions — ticker→quickview, score→`#c-TICKER`.
+- Regenerated dashboard.html; playwright verify passes (18/19 rows, both hrefs confirmed, screenshot ok).
+- NOT yet pushed — change only goes live on Pages once build_dashboard.py is committed+pushed (CI regenerates dashboard.html from it).
+Files: build_dashboard.py, dashboard.html, verify_dashboard.py
+
+## 2026-06-02 ~10:30 PDT
+"report didn't update for latest" — diagnose + fix stale dashboard.
+- Diagnosed: NOT an upstream/CI failure. Upstream (zhoutongchar.github.io) healthy through 06-02; hourly Action runs succeed and commit fine. Real cause: local Google-Drive clone never pulled — pinned at 82c90d3 (05-16) while origin/main was 6 commits ahead (→05-28). Same Drive-vs-git drift family as the 05-16/05-18 incident.
+- Fixed: stashed local rebuild, `git merge --ff-only origin/main` (→816268f, 05-28). 06-02 upstream run (15:22Z) was published after the last CI run (14:13Z), so dispatched `gh workflow run refresh.yml` → CI committed 9b4512b (06-02, 18 matches, UPTREND), then ff-pulled.
+- Verified dashboard.html embeds 06-02 / 18 matches / 49 company entries. Restored the 05-18 incident note from stash (data/dashboard parts dropped as superseded by CI).
+Files: data.json, dashboard.html, log.md
+
+## 2026-05-18 ~14:00 PDT
+Recover stuck git state — user reported all files untracked, no git log.
+- Diagnosed: `.git/refs/heads/main.lock` present but `main` missing; `.git/index.lock` stale; `.git/index` deleted. Commit object `82c90d3` ("log: refresh.sh ordering fix...") fully intact in objects/. Reflog had all 17 commits.
+- Root cause: Google Drive sync raced with `git commit` finalization on May 16, leaving the May 16 commit half-applied.
+- Recovered: `mv main.lock main`, `rm index.lock`, `git reset` (mixed) to rebuild index from HEAD. Working tree clean, branch up to date with origin/main.
+- Saved memory entry recommending moving repo off Drive long-term.
+Files: ../../.claude_bedrock/projects/.../memory/project_repo_on_google_drive.md, ../../.claude_bedrock/projects/.../memory/MEMORY.md
+
 ## 2026-05-16 00:05 PDT
 Fix: new tickers missing industry/blurb on 5/15 dashboard.
 - Root cause in `refresh.sh`: enrich ran BEFORE build → enrich read stale `data.json` (no 5/15 tickers yet) → fetched 0 tickers → build then added 5 new tickers (AYA/FTNT/MTZ/RILY/STX) to data.json but no second enrich pass. Latent bug since CI setup; only surfaced when new tickers appeared in CI rather than via local manual run.
