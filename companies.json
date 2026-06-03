@@ -341,5 +341,19 @@
     "industry": "Specialty Industrial Machinery",
     "sector": "Industrials",
     "blurb": "American Superconductor Corporation, together with its subsidiaries, provides megawatt-scale power resiliency solutions worldwide. It operates through Grid and Wind segments."
+  },
+  "FLXS": {
+    "ticker": "FLXS",
+    "name": "Flexsteel Industries, Inc.",
+    "industry": "Furnishings, Fixtures & Appliances",
+    "sector": "Consumer Cyclical",
+    "blurb": "Flexsteel Industries, Inc., together with its subsidiaries, manufactures, distributes, imports, and markets residential furniture products in the United States. The company offers furniture, such as sofas, loveseats, chairs, reclining rocking chairs, swivel rockers, sofa beds, convertible bedding units, occasional t\u2026"
+  },
+  "FTI": {
+    "ticker": "FTI",
+    "name": "TechnipFMC plc",
+    "industry": "Oil & Gas Equipment & Services",
+    "sector": "Energy",
+    "blurb": "TechnipFMC plc engages in the oil and natural gas projects, technologies, systems, and services businesses in Europe, Central Asia, North America, Latin America, the Asia Pacific, Africa, the Middle East, and internationally."
   }
 }

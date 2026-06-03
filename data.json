@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-06-03",
     "2026-06-02",
     "2026-05-28",
     "2026-05-27",
@@ -13,6 +14,175 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-06-03": {
+      "date": "2026-06-03",
+      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-06-03_044045/",
+      "regime": "UPTREND",
+      "full_matches_total": 23,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "HBM",
+          "score": 0.98,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "FTNT",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "ALAB",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "CRDO",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "AYA",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "INOD",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "FLXS",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 8,
+          "ticker": "FSLR",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 9,
+          "ticker": "ALTO",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 10,
+          "ticker": "ELMD",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 11,
+          "ticker": "TTMI",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 12,
+          "ticker": "CBL",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 13,
+          "ticker": "DY",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 14,
+          "ticker": "NEXA",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 15,
+          "ticker": "RILY",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 16,
+          "ticker": "AGX",
+          "score": 0.89,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 17,
+          "ticker": "HSHP",
+          "score": 0.87,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 18,
+          "ticker": "FTI",
+          "score": 0.87,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 19,
+          "ticker": "ADEA",
+          "score": 0.86,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 20,
+          "ticker": "KRYS",
+          "score": 0.86,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 21,
+          "ticker": "NBIS",
+          "score": 0.82,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 22,
+          "ticker": "KLIC",
+          "score": 0.82,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 23,
+          "ticker": "PARR",
+          "score": 0.72,
+          "gates": "CAnSLIM",
+          "ad": "D"
+        }
+      ]
+    },
     "2026-06-02": {
       "date": "2026-06-02",
       "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-06-02_152258/",
@@ -1663,6 +1833,20 @@
       "industry": "Specialty Industrial Machinery",
       "sector": "Industrials",
       "blurb": "American Superconductor Corporation, together with its subsidiaries, provides megawatt-scale power resiliency solutions worldwide. It operates through Grid and Wind segments."
+    },
+    "FLXS": {
+      "ticker": "FLXS",
+      "name": "Flexsteel Industries, Inc.",
+      "industry": "Furnishings, Fixtures & Appliances",
+      "sector": "Consumer Cyclical",
+      "blurb": "Flexsteel Industries, Inc., together with its subsidiaries, manufactures, distributes, imports, and markets residential furniture products in the United States. The company offers furniture, such as sofas, loveseats, chairs, reclining rocking chairs, swivel rockers, sofa beds, convertible bedding units, occasional t\u2026"
+    },
+    "FTI": {
+      "ticker": "FTI",
+      "name": "TechnipFMC plc",
+      "industry": "Oil & Gas Equipment & Services",
+      "sector": "Energy",
+      "blurb": "TechnipFMC plc engages in the oil and natural gas projects, technologies, systems, and services businesses in Europe, Central Asia, North America, Latin America, the Asia Pacific, Africa, the Middle East, and internationally."
     }
   }
 }
