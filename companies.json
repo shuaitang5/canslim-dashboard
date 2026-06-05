@@ -355,5 +355,12 @@
     "industry": "Oil & Gas Equipment & Services",
     "sector": "Energy",
     "blurb": "TechnipFMC plc engages in the oil and natural gas projects, technologies, systems, and services businesses in Europe, Central Asia, North America, Latin America, the Asia Pacific, Africa, the Middle East, and internationally."
+  },
+  "TDC": {
+    "ticker": "TDC",
+    "name": "Teradata Corporation",
+    "industry": "Software - Infrastructure",
+    "sector": "Technology",
+    "blurb": "Teradata Corporation, together with its subsidiaries, provides an AI and knowledge platforms in the United States and internationally. It operates in two segments, Product Sales and Consulting Services."
   }
 }

@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-06-05",
     "2026-06-04",
     "2026-06-03",
     "2026-06-02",
@@ -15,11 +16,96 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-06-05": {
+      "date": "2026-06-05",
+      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-06-05_001232/",
+      "regime": "UPTREND",
+      "full_matches_total": 11,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "STRL",
+          "score": 0.99,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "FTNT",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "INOD",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "VIAV",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "CLS",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 6,
+          "ticker": "CBL",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "AGX",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 8,
+          "ticker": "ALTO",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 9,
+          "ticker": "TDC",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 10,
+          "ticker": "FTI",
+          "score": 0.87,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 11,
+          "ticker": "PARR",
+          "score": 0.73,
+          "gates": "CAnSLIM",
+          "ad": "D"
+        }
+      ]
+    },
     "2026-06-04": {
       "date": "2026-06-04",
       "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-06-04_045443/",
       "regime": "UPTREND",
-      "full_matches_total": 18,
+      "full_matches_total": 12,
       "full_matches": [
         {
           "rank": 1,
@@ -37,111 +123,69 @@
         },
         {
           "rank": 3,
-          "ticker": "TTMI",
+          "ticker": "VIAV",
           "score": 0.96,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
           "rank": 4,
-          "ticker": "HBM",
-          "score": 0.95,
-          "gates": "CANSLIM",
-          "ad": "A"
-        },
-        {
-          "rank": 5,
-          "ticker": "FSLR",
-          "score": 0.95,
-          "gates": "CANSLIM",
-          "ad": "A"
-        },
-        {
-          "rank": 6,
           "ticker": "INOD",
           "score": 0.92,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
-          "rank": 7,
-          "ticker": "NEXA",
+          "rank": 5,
+          "ticker": "CBL",
           "score": 0.92,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
-          "rank": 8,
-          "ticker": "ADEA",
-          "score": 0.92,
-          "gates": "CANSLIM",
-          "ad": "B"
-        },
-        {
-          "rank": 9,
-          "ticker": "ELMD",
-          "score": 0.92,
-          "gates": "CANSLIM",
-          "ad": "A"
-        },
-        {
-          "rank": 10,
-          "ticker": "DY",
-          "score": 0.91,
-          "gates": "CANSLIM",
-          "ad": "A"
-        },
-        {
-          "rank": 11,
+          "rank": 6,
           "ticker": "AGX",
           "score": 0.91,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
-          "rank": 12,
+          "rank": 7,
           "ticker": "ALTO",
           "score": 0.91,
           "gates": "CANSLIM",
           "ad": "B"
         },
         {
-          "rank": 13,
-          "ticker": "CRDO",
+          "rank": 8,
+          "ticker": "AYA",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 9,
+          "ticker": "VIK",
           "score": 0.9,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
-          "rank": 14,
-          "ticker": "XOMA",
-          "score": 0.9,
+          "rank": 10,
+          "ticker": "FTI",
+          "score": 0.86,
           "gates": "CANSLIM",
-          "ad": "A"
+          "ad": "C"
         },
         {
-          "rank": 15,
-          "ticker": "KRYS",
-          "score": 0.87,
-          "gates": "CANSLIM",
-          "ad": "A"
-        },
-        {
-          "rank": 16,
+          "rank": 11,
           "ticker": "YOU",
           "score": 0.84,
           "gates": "CANSLIM",
           "ad": "C"
         },
         {
-          "rank": 17,
-          "ticker": "KLIC",
-          "score": 0.82,
-          "gates": "CANSLIM",
-          "ad": "A"
-        },
-        {
-          "rank": 18,
+          "rank": 12,
           "ticker": "PARR",
           "score": 0.73,
           "gates": "CAnSLIM",
@@ -1982,6 +2026,13 @@
       "industry": "Oil & Gas Equipment & Services",
       "sector": "Energy",
       "blurb": "TechnipFMC plc engages in the oil and natural gas projects, technologies, systems, and services businesses in Europe, Central Asia, North America, Latin America, the Asia Pacific, Africa, the Middle East, and internationally."
+    },
+    "TDC": {
+      "ticker": "TDC",
+      "name": "Teradata Corporation",
+      "industry": "Software - Infrastructure",
+      "sector": "Technology",
+      "blurb": "Teradata Corporation, together with its subsidiaries, provides an AI and knowledge platforms in the United States and internationally. It operates in two segments, Product Sales and Consulting Services."
     }
   }
 }
