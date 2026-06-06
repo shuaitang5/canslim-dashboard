@@ -362,5 +362,12 @@
     "industry": "Software - Infrastructure",
     "sector": "Technology",
     "blurb": "Teradata Corporation, together with its subsidiaries, provides an AI and knowledge platforms in the United States and internationally. It operates in two segments, Product Sales and Consulting Services."
+  },
+  "ATEN": {
+    "ticker": "ATEN",
+    "name": "A10 Networks, Inc.",
+    "industry": "Software - Infrastructure",
+    "sector": "Technology",
+    "blurb": "A10 Networks, Inc. provides secure application and network infrastructure solutions in the United States, the rest of Americas, Japan, rest of the Asia Pacific, Europe, the Middle East, and Africa."
   }
 }

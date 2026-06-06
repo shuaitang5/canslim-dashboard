@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-06-06",
     "2026-06-05",
     "2026-06-04",
     "2026-06-03",
@@ -16,6 +17,105 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-06-06": {
+      "date": "2026-06-06",
+      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-06-06_061922/",
+      "regime": "UPTREND",
+      "full_matches_total": 13,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "FTNT",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "ATEN",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "STRL",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "CBL",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "AGX",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "ALTO",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 7,
+          "ticker": "CLS",
+          "score": 0.9,
+          "gates": "CAnSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 8,
+          "ticker": "VIAV",
+          "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 9,
+          "ticker": "INOD",
+          "score": 0.88,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 10,
+          "ticker": "FTI",
+          "score": 0.86,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 11,
+          "ticker": "YOU",
+          "score": 0.83,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 12,
+          "ticker": "STX",
+          "score": 0.74,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 13,
+          "ticker": "PARR",
+          "score": 0.73,
+          "gates": "CAnSLIM",
+          "ad": "D"
+        }
+      ]
+    },
     "2026-06-05": {
       "date": "2026-06-05",
       "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-06-05_001232/",
@@ -2033,6 +2133,13 @@
       "industry": "Software - Infrastructure",
       "sector": "Technology",
       "blurb": "Teradata Corporation, together with its subsidiaries, provides an AI and knowledge platforms in the United States and internationally. It operates in two segments, Product Sales and Consulting Services."
+    },
+    "ATEN": {
+      "ticker": "ATEN",
+      "name": "A10 Networks, Inc.",
+      "industry": "Software - Infrastructure",
+      "sector": "Technology",
+      "blurb": "A10 Networks, Inc. provides secure application and network infrastructure solutions in the United States, the rest of Americas, Japan, rest of the Asia Pacific, Europe, the Middle East, and Africa."
     }
   }
 }
