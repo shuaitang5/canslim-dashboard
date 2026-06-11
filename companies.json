@@ -369,5 +369,12 @@
     "industry": "Software - Infrastructure",
     "sector": "Technology",
     "blurb": "A10 Networks, Inc. provides secure application and network infrastructure solutions in the United States, the rest of Americas, Japan, rest of the Asia Pacific, Europe, the Middle East, and Africa."
+  },
+  "SIF": {
+    "ticker": "SIF",
+    "name": "SIFCO Industries, Inc.",
+    "industry": "Aerospace & Defense",
+    "sector": "Industrials",
+    "blurb": "SIFCO Industries, Inc., together with its subsidiaries, produces and sells forgings and machined components primarily for the aerospace and energy, and defense and commercial space markets in the United States and internationally."
   }
 }

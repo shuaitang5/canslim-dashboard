@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-06-11",
     "2026-06-06",
     "2026-06-05",
     "2026-06-04",
@@ -17,6 +18,140 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-06-11": {
+      "date": "2026-06-11",
+      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-06-11_165916/",
+      "regime": "UPTREND",
+      "full_matches_total": 18,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "CRDO",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "ATEN",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "FTNT",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "ALTO",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 5,
+          "ticker": "ZVRA",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "ALAB",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "STRL",
+          "score": 0.91,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 8,
+          "ticker": "CLS",
+          "score": 0.9,
+          "gates": "CAnSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 9,
+          "ticker": "AGX",
+          "score": 0.9,
+          "gates": "CAnSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 10,
+          "ticker": "SIF",
+          "score": 0.89,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 11,
+          "ticker": "TDC",
+          "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 12,
+          "ticker": "FTI",
+          "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 13,
+          "ticker": "INOD",
+          "score": 0.88,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 14,
+          "ticker": "VIAV",
+          "score": 0.88,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 15,
+          "ticker": "RILY",
+          "score": 0.87,
+          "gates": "CAnSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 16,
+          "ticker": "YOU",
+          "score": 0.81,
+          "gates": "CAnSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 17,
+          "ticker": "PARR",
+          "score": 0.73,
+          "gates": "CAnSLIM",
+          "ad": "D"
+        },
+        {
+          "rank": 18,
+          "ticker": "STX",
+          "score": 0.72,
+          "gates": "CANSLIM",
+          "ad": "A"
+        }
+      ]
+    },
     "2026-06-06": {
       "date": "2026-06-06",
       "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-06-06_061922/",
@@ -2140,6 +2275,13 @@
       "industry": "Software - Infrastructure",
       "sector": "Technology",
       "blurb": "A10 Networks, Inc. provides secure application and network infrastructure solutions in the United States, the rest of Americas, Japan, rest of the Asia Pacific, Europe, the Middle East, and Africa."
+    },
+    "SIF": {
+      "ticker": "SIF",
+      "name": "SIFCO Industries, Inc.",
+      "industry": "Aerospace & Defense",
+      "sector": "Industrials",
+      "blurb": "SIFCO Industries, Inc., together with its subsidiaries, produces and sells forgings and machined components primarily for the aerospace and energy, and defense and commercial space markets in the United States and internationally."
     }
   }
 }
