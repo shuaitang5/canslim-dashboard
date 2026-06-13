@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-06-13",
     "2026-06-12",
     "2026-06-11",
     "2026-06-06",
@@ -19,6 +20,112 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-06-13": {
+      "date": "2026-06-13",
+      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-06-13_045934/",
+      "regime": "UPTREND",
+      "full_matches_total": 14,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "ALAB",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "FTNT",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "ATEN",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "ATRO",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "VIAV",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "TGTX",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "CRDO",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 8,
+          "ticker": "ALTO",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 9,
+          "ticker": "STRL",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 10,
+          "ticker": "AGX",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 11,
+          "ticker": "SIF",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 12,
+          "ticker": "NUTX",
+          "score": 0.85,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 13,
+          "ticker": "STX",
+          "score": 0.79,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 14,
+          "ticker": "PARR",
+          "score": 0.72,
+          "gates": "CAnSLIM",
+          "ad": "D"
+        }
+      ]
+    },
     "2026-06-12": {
       "date": "2026-06-12",
       "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-06-12_020555/",
