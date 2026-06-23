@@ -383,5 +383,19 @@
     "industry": "Biotechnology",
     "sector": "Healthcare",
     "blurb": "Zevra Therapeutics, Inc., a commercial-stage company, focuses on addressing unmet needs for the treatment of rare diseases in the United States. The company develops its products through Ligand Activated Technology platform."
+  },
+  "UAL": {
+    "ticker": "UAL",
+    "name": "United Airlines Holdings, Inc.",
+    "industry": "Airlines",
+    "sector": "Industrials",
+    "blurb": "United Airlines Holdings, Inc., through its subsidiaries, provides air transportation services in the United States, Canada, Atlantic, the Pacific, and Latin America. It transports people and cargo through its mainline and regional fleets."
+  },
+  "VIRT": {
+    "ticker": "VIRT",
+    "name": "Virtu Financial, Inc.",
+    "industry": "Capital Markets",
+    "sector": "Financial Services",
+    "blurb": "Virtu Financial, Inc. operates as a financial services company in the United States, Ireland, and internationally."
   }
 }
