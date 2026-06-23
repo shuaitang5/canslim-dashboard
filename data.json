@@ -1,11 +1,11 @@
 {
   "dates": [
+    "2026-06-22",
     "2026-06-13",
     "2026-06-12",
     "2026-06-11",
     "2026-06-06",
     "2026-06-05",
-    "2026-06-04",
     "2026-06-03",
     "2026-06-02",
     "2026-05-28",
@@ -20,9 +20,101 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-06-22": {
+      "date": "2026-06-22",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-06-22_231350/",
+      "regime": "UPTREND",
+      "full_matches_total": 12,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "ATI",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "ATEN",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "VIAV",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 4,
+          "ticker": "CRDO",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "FTNT",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "ATRO",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "TGTX",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 8,
+          "ticker": "AYA",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 9,
+          "ticker": "STRL",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 10,
+          "ticker": "GEV",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 11,
+          "ticker": "CLS",
+          "score": 0.86,
+          "gates": "CAnSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 12,
+          "ticker": "NUTX",
+          "score": 0.85,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        }
+      ]
+    },
     "2026-06-13": {
       "date": "2026-06-13",
-      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-06-13_045934/",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-06-13_045934/",
       "regime": "UPTREND",
       "full_matches_total": 14,
       "full_matches": [
@@ -128,7 +220,7 @@
     },
     "2026-06-12": {
       "date": "2026-06-12",
-      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-06-12_020555/",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-06-12_020555/",
       "regime": "UPTREND",
       "full_matches_total": 17,
       "full_matches": [
@@ -255,7 +347,7 @@
     },
     "2026-06-11": {
       "date": "2026-06-11",
-      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-06-11_165916/",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-06-11_165916/",
       "regime": "UPTREND",
       "full_matches_total": 18,
       "full_matches": [
@@ -389,7 +481,7 @@
     },
     "2026-06-06": {
       "date": "2026-06-06",
-      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-06-06_061922/",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-06-06_061922/",
       "regime": "UPTREND",
       "full_matches_total": 13,
       "full_matches": [
@@ -488,7 +580,7 @@
     },
     "2026-06-05": {
       "date": "2026-06-05",
-      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-06-05_001232/",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-06-05_001232/",
       "regime": "UPTREND",
       "full_matches_total": 11,
       "full_matches": [
@@ -571,101 +663,9 @@
         }
       ]
     },
-    "2026-06-04": {
-      "date": "2026-06-04",
-      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-06-04_045443/",
-      "regime": "UPTREND",
-      "full_matches_total": 12,
-      "full_matches": [
-        {
-          "rank": 1,
-          "ticker": "STRL",
-          "score": 0.99,
-          "gates": "CANSLIM",
-          "ad": "A"
-        },
-        {
-          "rank": 2,
-          "ticker": "FTNT",
-          "score": 0.96,
-          "gates": "CANSLIM",
-          "ad": "A"
-        },
-        {
-          "rank": 3,
-          "ticker": "VIAV",
-          "score": 0.96,
-          "gates": "CANSLIM",
-          "ad": "A"
-        },
-        {
-          "rank": 4,
-          "ticker": "INOD",
-          "score": 0.92,
-          "gates": "CANSLIM",
-          "ad": "A"
-        },
-        {
-          "rank": 5,
-          "ticker": "CBL",
-          "score": 0.92,
-          "gates": "CANSLIM",
-          "ad": "A"
-        },
-        {
-          "rank": 6,
-          "ticker": "AGX",
-          "score": 0.91,
-          "gates": "CANSLIM",
-          "ad": "A"
-        },
-        {
-          "rank": 7,
-          "ticker": "ALTO",
-          "score": 0.91,
-          "gates": "CANSLIM",
-          "ad": "B"
-        },
-        {
-          "rank": 8,
-          "ticker": "AYA",
-          "score": 0.91,
-          "gates": "CANSLIM",
-          "ad": "B"
-        },
-        {
-          "rank": 9,
-          "ticker": "VIK",
-          "score": 0.9,
-          "gates": "CANSLIM",
-          "ad": "A"
-        },
-        {
-          "rank": 10,
-          "ticker": "FTI",
-          "score": 0.86,
-          "gates": "CANSLIM",
-          "ad": "C"
-        },
-        {
-          "rank": 11,
-          "ticker": "YOU",
-          "score": 0.84,
-          "gates": "CANSLIM",
-          "ad": "C"
-        },
-        {
-          "rank": 12,
-          "ticker": "PARR",
-          "score": 0.73,
-          "gates": "CAnSLIM",
-          "ad": "C"
-        }
-      ]
-    },
     "2026-06-03": {
       "date": "2026-06-03",
-      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-06-03_044045/",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-06-03_044045/",
       "regime": "UPTREND",
       "full_matches_total": 23,
       "full_matches": [
@@ -834,7 +834,7 @@
     },
     "2026-06-02": {
       "date": "2026-06-02",
-      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-06-02_152258/",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-06-02_152258/",
       "regime": "UPTREND",
       "full_matches_total": 18,
       "full_matches": [
@@ -968,7 +968,7 @@
     },
     "2026-05-28": {
       "date": "2026-05-28",
-      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-28_200507/",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-05-28_200507/",
       "regime": "UPTREND",
       "full_matches_total": 19,
       "full_matches": [
@@ -1109,7 +1109,7 @@
     },
     "2026-05-27": {
       "date": "2026-05-27",
-      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-27_232939/",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-05-27_232939/",
       "regime": "UPTREND",
       "full_matches_total": 30,
       "full_matches": [
@@ -1327,7 +1327,7 @@
     },
     "2026-05-23": {
       "date": "2026-05-23",
-      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-23_010249/",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-05-23_010249/",
       "regime": "UPTREND",
       "full_matches_total": 14,
       "full_matches": [
@@ -1433,7 +1433,7 @@
     },
     "2026-05-21": {
       "date": "2026-05-21",
-      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-21_000903/",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-05-21_000903/",
       "regime": "UPTREND",
       "full_matches_total": 15,
       "full_matches": [
@@ -1546,7 +1546,7 @@
     },
     "2026-05-19": {
       "date": "2026-05-19",
-      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-19_223556/",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-05-19_223556/",
       "regime": "UPTREND",
       "full_matches_total": 14,
       "full_matches": [
@@ -1652,7 +1652,7 @@
     },
     "2026-05-15": {
       "date": "2026-05-15",
-      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-15_224319/",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-05-15_224319/",
       "regime": "UPTREND",
       "full_matches_total": 15,
       "full_matches": [
@@ -1765,7 +1765,7 @@
     },
     "2026-05-14": {
       "date": "2026-05-14",
-      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-14_225336/",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-05-14_225336/",
       "regime": "UPTREND",
       "full_matches_total": 14,
       "full_matches": [
@@ -1871,7 +1871,7 @@
     },
     "2026-05-13": {
       "date": "2026-05-13",
-      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-13_003852/",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-05-13_003852/",
       "regime": "UPTREND",
       "full_matches_total": 11,
       "full_matches": [
@@ -1956,7 +1956,7 @@
     },
     "2026-05-12": {
       "date": "2026-05-12",
-      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-12_000058/",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-05-12_000058/",
       "regime": "UPTREND",
       "full_matches_total": 12,
       "full_matches": [
@@ -2048,7 +2048,7 @@
     },
     "2026-05-10": {
       "date": "2026-05-10",
-      "source_url": "https://zhoutongchar.github.io/canslim-scanner/runs/2026-05-10_160738/",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-05-10_160738/",
       "regime": "UPTREND",
       "full_matches_total": 12,
       "full_matches": [

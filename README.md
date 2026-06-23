@@ -1,7 +1,7 @@
 # CANSLIM dashboard
 
-A personal digest page on top of the upstream
-[CANSLIM scanner](https://zhoutongchar.github.io/canslim-scanner/). Strips the
+A personal digest page on top of my
+[CANSLIM scanner](https://shuaitang5.github.io/canslim-scanner/). Strips the
 reports down to **full-match** tickers only and surfaces **day-over-day rank
 deltas** so movement is visible at a glance.
 
@@ -69,8 +69,8 @@ Pipeline is three scripts, each deliberately small:
 └──────────────────────────────┘
 ```
 
-- **Data source:** the upstream scanner publishes one static HTML run per day
-  at `https://zhoutongchar.github.io/canslim-scanner/runs/<date>_<stamp>/`.
+- **Data source:** my scanner publishes one static HTML run per day
+  at `https://shuaitang5.github.io/canslim-scanner/runs/<date>_<stamp>/`.
   The `canslim` zsh function prints today/yesterday URLs — same source this
   dashboard scrapes automatically.
 - **Parsing:** each report embeds full-match candidates as

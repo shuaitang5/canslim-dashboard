@@ -19,7 +19,7 @@ import sys
 import urllib.request
 from pathlib import Path
 
-BASE_URL = "https://zhoutongchar.github.io/canslim-scanner/"
+BASE_URL = "https://shuaitang5.github.io/canslim-scanner/"
 HERE = Path(__file__).resolve().parent
 
 
