@@ -397,5 +397,12 @@
     "industry": "Capital Markets",
     "sector": "Financial Services",
     "blurb": "Virtu Financial, Inc. operates as a financial services company in the United States, Ireland, and internationally."
+  },
+  "WLFC": {
+    "ticker": "WLFC",
+    "name": "Willis Lease Finance Corporation",
+    "industry": "Rental & Leasing Services",
+    "sector": "Industrials",
+    "blurb": "Willis Lease Finance Corporation, together with its subsidiaries, operates as a lessor and servicer of commercial aircraft and aircraft engines worldwide. It operates in two segments, Leasing and Related Operations, and Spare Parts Sales."
   }
 }

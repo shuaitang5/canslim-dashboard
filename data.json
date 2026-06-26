@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-06-25",
     "2026-06-24",
     "2026-06-23",
     "2026-06-22",
@@ -22,6 +23,119 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-06-25": {
+      "date": "2026-06-25",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-06-25_230948/",
+      "regime": "UPTREND",
+      "full_matches_total": 15,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "FTNT",
+          "score": 0.98,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "ATEN",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "UAL",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "ATI",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "ATRO",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "VIAV",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 7,
+          "ticker": "CBL",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 8,
+          "ticker": "VIRT",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 9,
+          "ticker": "TGTX",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 10,
+          "ticker": "WLFC",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "D"
+        },
+        {
+          "rank": 11,
+          "ticker": "GEV",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 12,
+          "ticker": "CRDO",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 13,
+          "ticker": "STRL",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 14,
+          "ticker": "CLS",
+          "score": 0.86,
+          "gates": "CAnSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 15,
+          "ticker": "NUTX",
+          "score": 0.86,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        }
+      ]
+    },
     "2026-06-24": {
       "date": "2026-06-24",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-06-24_225958/",
@@ -2759,6 +2873,13 @@
       "industry": "Capital Markets",
       "sector": "Financial Services",
       "blurb": "Virtu Financial, Inc. operates as a financial services company in the United States, Ireland, and internationally."
+    },
+    "WLFC": {
+      "ticker": "WLFC",
+      "name": "Willis Lease Finance Corporation",
+      "industry": "Rental & Leasing Services",
+      "sector": "Industrials",
+      "blurb": "Willis Lease Finance Corporation, together with its subsidiaries, operates as a lessor and servicer of commercial aircraft and aircraft engines worldwide. It operates in two segments, Leasing and Related Operations, and Spare Parts Sales."
     }
   }
 }
