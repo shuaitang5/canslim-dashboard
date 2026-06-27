@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-06-26",
     "2026-06-25",
     "2026-06-24",
     "2026-06-23",
@@ -23,6 +24,126 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-06-26": {
+      "date": "2026-06-26",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-06-26_225949/",
+      "regime": "UPTREND",
+      "full_matches_total": 16,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "FTNT",
+          "score": 0.98,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "ATEN",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "UAL",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "ATI",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "ATRO",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "TGTX",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "CBL",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 8,
+          "ticker": "AYA",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 9,
+          "ticker": "LLY",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 10,
+          "ticker": "VIAV",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 11,
+          "ticker": "STRL",
+          "score": 0.91,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 12,
+          "ticker": "ALAB",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 13,
+          "ticker": "GEV",
+          "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 14,
+          "ticker": "CRDO",
+          "score": 0.88,
+          "gates": "CAnSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 15,
+          "ticker": "NUTX",
+          "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 16,
+          "ticker": "GRDN",
+          "score": 0.85,
+          "gates": "CANSLIM",
+          "ad": "B"
+        }
+      ]
+    },
     "2026-06-25": {
       "date": "2026-06-25",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-06-25_230948/",
@@ -2880,6 +3001,20 @@
       "industry": "Rental & Leasing Services",
       "sector": "Industrials",
       "blurb": "Willis Lease Finance Corporation, together with its subsidiaries, operates as a lessor and servicer of commercial aircraft and aircraft engines worldwide. It operates in two segments, Leasing and Related Operations, and Spare Parts Sales."
+    },
+    "GRDN": {
+      "ticker": "GRDN",
+      "name": "Guardian Pharmacy Services, Inc.",
+      "industry": "Medical Care Facilities",
+      "sector": "Healthcare",
+      "blurb": "Guardian Pharmacy Services, Inc., a pharmacy service company, provides a suite of technology-enabled services to help residents of long-term health care facilities (LTCFs) in the United States."
+    },
+    "LLY": {
+      "ticker": "LLY",
+      "name": "Eli Lilly and Company",
+      "industry": "Drug Manufacturers - General",
+      "sector": "Healthcare",
+      "blurb": "Eli Lilly and Company discovers, develops, manufactures, and markets human pharmaceutical products in the United States, Europe, China, Japan, and internationally. The company offers cardiometabolic health products, including Basaglar, Humalog, Humalog Mix 75/25, Humalog U-100, Humalog U-200, Humalog Mix 50/50, insu\u2026"
     }
   }
 }

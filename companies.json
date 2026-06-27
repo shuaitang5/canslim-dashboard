@@ -404,5 +404,19 @@
     "industry": "Rental & Leasing Services",
     "sector": "Industrials",
     "blurb": "Willis Lease Finance Corporation, together with its subsidiaries, operates as a lessor and servicer of commercial aircraft and aircraft engines worldwide. It operates in two segments, Leasing and Related Operations, and Spare Parts Sales."
+  },
+  "GRDN": {
+    "ticker": "GRDN",
+    "name": "Guardian Pharmacy Services, Inc.",
+    "industry": "Medical Care Facilities",
+    "sector": "Healthcare",
+    "blurb": "Guardian Pharmacy Services, Inc., a pharmacy service company, provides a suite of technology-enabled services to help residents of long-term health care facilities (LTCFs) in the United States."
+  },
+  "LLY": {
+    "ticker": "LLY",
+    "name": "Eli Lilly and Company",
+    "industry": "Drug Manufacturers - General",
+    "sector": "Healthcare",
+    "blurb": "Eli Lilly and Company discovers, develops, manufactures, and markets human pharmaceutical products in the United States, Europe, China, Japan, and internationally. The company offers cardiometabolic health products, including Basaglar, Humalog, Humalog Mix 75/25, Humalog U-100, Humalog U-200, Humalog Mix 50/50, insu\u2026"
   }
 }
