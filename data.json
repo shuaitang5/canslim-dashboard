@@ -1,6 +1,6 @@
 {
   "dates": [
-    "2026-06-26",
+    "2026-06-27",
     "2026-06-25",
     "2026-06-24",
     "2026-06-23",
@@ -24,9 +24,9 @@
     "2026-05-10"
   ],
   "reports": {
-    "2026-06-26": {
-      "date": "2026-06-26",
-      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-06-26_225949/",
+    "2026-06-27": {
+      "date": "2026-06-27",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-06-27_225646/",
       "regime": "UPTREND",
       "full_matches_total": 16,
       "full_matches": [
@@ -39,52 +39,52 @@
         },
         {
           "rank": 2,
-          "ticker": "ATEN",
+          "ticker": "AGX",
           "score": 0.97,
           "gates": "CANSLIM",
-          "ad": "A"
+          "ad": "B"
         },
         {
           "rank": 3,
-          "ticker": "UAL",
+          "ticker": "ATI",
           "score": 0.97,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
           "rank": 4,
-          "ticker": "ATI",
-          "score": 0.96,
+          "ticker": "ATEN",
+          "score": 0.97,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
           "rank": 5,
+          "ticker": "UAL",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
           "ticker": "ATRO",
           "score": 0.95,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "ticker": "TGTX",
           "score": 0.94,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
-          "rank": 7,
-          "ticker": "CBL",
-          "score": 0.94,
-          "gates": "CANSLIM",
-          "ad": "A"
-        },
-        {
           "rank": 8,
-          "ticker": "AYA",
+          "ticker": "CBL",
           "score": 0.93,
           "gates": "CANSLIM",
-          "ad": "B"
+          "ad": "A"
         },
         {
           "rank": 9,
@@ -98,7 +98,7 @@
           "ticker": "VIAV",
           "score": 0.91,
           "gates": "CANSLIM",
-          "ad": "B"
+          "ad": "C"
         },
         {
           "rank": 11,
@@ -137,10 +137,10 @@
         },
         {
           "rank": 16,
-          "ticker": "GRDN",
-          "score": 0.85,
+          "ticker": "OUT",
+          "score": 0.82,
           "gates": "CANSLIM",
-          "ad": "B"
+          "ad": "A"
         }
       ]
     },
