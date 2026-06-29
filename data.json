@@ -1,6 +1,6 @@
 {
   "dates": [
-    "2026-06-27",
+    "2026-06-28",
     "2026-06-25",
     "2026-06-24",
     "2026-06-23",
@@ -24,11 +24,11 @@
     "2026-05-10"
   ],
   "reports": {
-    "2026-06-27": {
-      "date": "2026-06-27",
-      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-06-27_225646/",
+    "2026-06-28": {
+      "date": "2026-06-28",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-06-28_225621/",
       "regime": "UPTREND",
-      "full_matches_total": 16,
+      "full_matches_total": 18,
       "full_matches": [
         {
           "rank": 1,
@@ -82,61 +82,75 @@
         {
           "rank": 8,
           "ticker": "CBL",
-          "score": 0.93,
+          "score": 0.94,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
           "rank": 9,
+          "ticker": "AYA",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 10,
           "ticker": "LLY",
           "score": 0.92,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
-          "rank": 10,
+          "rank": 11,
           "ticker": "VIAV",
           "score": 0.91,
           "gates": "CANSLIM",
           "ad": "C"
         },
         {
-          "rank": 11,
+          "rank": 12,
           "ticker": "STRL",
           "score": 0.91,
           "gates": "CAnSLIM",
           "ad": "A"
         },
         {
-          "rank": 12,
+          "rank": 13,
           "ticker": "ALAB",
           "score": 0.9,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
-          "rank": 13,
+          "rank": 14,
           "ticker": "GEV",
           "score": 0.88,
           "gates": "CANSLIM",
           "ad": "C"
         },
         {
-          "rank": 14,
+          "rank": 15,
           "ticker": "CRDO",
           "score": 0.88,
           "gates": "CAnSLIM",
           "ad": "C"
         },
         {
-          "rank": 15,
+          "rank": 16,
           "ticker": "NUTX",
           "score": 0.88,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
-          "rank": 16,
+          "rank": 17,
+          "ticker": "GRDN",
+          "score": 0.86,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 18,
           "ticker": "OUT",
           "score": 0.82,
           "gates": "CANSLIM",
