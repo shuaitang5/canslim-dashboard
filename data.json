@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-07-02",
     "2026-07-01",
     "2026-06-30",
     "2026-06-29",
@@ -27,6 +28,140 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-07-02": {
+      "date": "2026-07-02",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-07-02_225814/",
+      "regime": "UPTREND",
+      "full_matches_total": 18,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "NUTX",
+          "score": 0.99,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "FTNT",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "UAL",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "ATEN",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "VIRT",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "WLFC",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 7,
+          "ticker": "ATI",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 8,
+          "ticker": "CBL",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 9,
+          "ticker": "MCY",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 10,
+          "ticker": "AGX",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 11,
+          "ticker": "AYA",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 12,
+          "ticker": "TDC",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 13,
+          "ticker": "TGTX",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 14,
+          "ticker": "ALAB",
+          "score": 0.88,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 15,
+          "ticker": "CRDO",
+          "score": 0.88,
+          "gates": "CAnSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 16,
+          "ticker": "ATRO",
+          "score": 0.86,
+          "gates": "CAnSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 17,
+          "ticker": "GRDN",
+          "score": 0.85,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 18,
+          "ticker": "OUT",
+          "score": 0.8,
+          "gates": "CANSLIM",
+          "ad": "A"
+        }
+      ]
+    },
     "2026-07-01": {
       "date": "2026-07-01",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-07-01_230435/",
