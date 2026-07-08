@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-07-07",
     "2026-07-06",
     "2026-07-05",
     "2026-07-01",
@@ -29,6 +30,112 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-07-07": {
+      "date": "2026-07-07",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-07-07_225302/",
+      "regime": "UPTREND",
+      "full_matches_total": 14,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "NUTX",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "HALO",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "ATEN",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "TGTX",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "TDC",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "FTNT",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "LLY",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 8,
+          "ticker": "CBL",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 9,
+          "ticker": "MCY",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 10,
+          "ticker": "UAL",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 11,
+          "ticker": "ALAB",
+          "score": 0.88,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 12,
+          "ticker": "CRDO",
+          "score": 0.88,
+          "gates": "CAnSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 13,
+          "ticker": "ATRO",
+          "score": 0.86,
+          "gates": "CAnSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 14,
+          "ticker": "OUT",
+          "score": 0.81,
+          "gates": "CANSLIM",
+          "ad": "A"
+        }
+      ]
+    },
     "2026-07-06": {
       "date": "2026-07-06",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-07-06_225946/",
@@ -3683,6 +3790,13 @@
       "industry": "Drug Manufacturers - General",
       "sector": "Healthcare",
       "blurb": "Eli Lilly and Company discovers, develops, manufactures, and markets human pharmaceutical products in the United States, Europe, China, Japan, and internationally. The company offers cardiometabolic health products, including Basaglar, Humalog, Humalog Mix 75/25, Humalog U-100, Humalog U-200, Humalog Mix 50/50, insu\u2026"
+    },
+    "HALO": {
+      "ticker": "HALO",
+      "name": "Halozyme Therapeutics, Inc.",
+      "industry": "Biotechnology",
+      "sector": "Healthcare",
+      "blurb": "Halozyme Therapeutics, Inc., a biopharmaceutical company, researches, develops, and commercializes of proprietary enzymes and devices in the United States, Switzerland, Belgium, Japan, and internationally."
     }
   }
 }
