@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-07-09",
     "2026-07-08",
     "2026-07-07",
     "2026-07-06",
@@ -31,6 +32,112 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-07-09": {
+      "date": "2026-07-09",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-07-09_230400/",
+      "regime": "UPTREND",
+      "full_matches_total": 14,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "ATEN",
+          "score": 0.98,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "FTNT",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "NUTX",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "TGTX",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "TDC",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "LLY",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "CBL",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 8,
+          "ticker": "UAL",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 9,
+          "ticker": "CRDO",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 10,
+          "ticker": "ATRO",
+          "score": 0.86,
+          "gates": "CAnSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 11,
+          "ticker": "ALAB",
+          "score": 0.86,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 12,
+          "ticker": "CLS",
+          "score": 0.85,
+          "gates": "CAnSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 13,
+          "ticker": "GRDN",
+          "score": 0.82,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 14,
+          "ticker": "OUT",
+          "score": 0.82,
+          "gates": "CANSLIM",
+          "ad": "A"
+        }
+      ]
+    },
     "2026-07-08": {
       "date": "2026-07-08",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-07-08_225714/",
