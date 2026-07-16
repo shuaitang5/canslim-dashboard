@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-07-15",
     "2026-07-14",
     "2026-07-13",
     "2026-07-12",
@@ -35,6 +36,49 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-07-15": {
+      "date": "2026-07-15",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-07-15_225128/",
+      "regime": "UPTREND",
+      "full_matches_total": 5,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "FTNT",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "NUTX",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "LLY",
+          "score": 0.89,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "UAL",
+          "score": 0.86,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "STX",
+          "score": 0.71,
+          "gates": "CAnSLIM",
+          "ad": "C"
+        }
+      ]
+    },
     "2026-07-14": {
       "date": "2026-07-14",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-07-14_224920/",
