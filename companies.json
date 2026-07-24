@@ -425,5 +425,12 @@
     "industry": "Biotechnology",
     "sector": "Healthcare",
     "blurb": "Halozyme Therapeutics, Inc., a biopharmaceutical company, researches, develops, and commercializes of proprietary enzymes and devices in the United States, Switzerland, Belgium, Japan, and internationally."
+  },
+  "MEDP": {
+    "ticker": "MEDP",
+    "name": "Medpace Holdings, Inc.",
+    "industry": "Diagnostics & Research",
+    "sector": "Healthcare",
+    "blurb": "Medpace Holdings, Inc. provides clinical research-based drug and medical device development services in North America, Europe, Asia, South America, Africa, and Australia."
   }
 }

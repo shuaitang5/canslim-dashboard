@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-07-24",
     "2026-07-23",
     "2026-07-22",
     "2026-07-21",
@@ -42,6 +43,49 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-07-24": {
+      "date": "2026-07-24",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-07-24_225448/",
+      "regime": "UPTREND",
+      "full_matches_total": 5,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "MEDP",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "HALO",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "LLY",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "FTNT",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "STX",
+          "score": 0.71,
+          "gates": "CAnSLIM",
+          "ad": "C"
+        }
+      ]
+    },
     "2026-07-23": {
       "date": "2026-07-23",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-07-23_224835/",
@@ -4500,6 +4544,13 @@
       "industry": "Biotechnology",
       "sector": "Healthcare",
       "blurb": "Halozyme Therapeutics, Inc., a biopharmaceutical company, researches, develops, and commercializes of proprietary enzymes and devices in the United States, Switzerland, Belgium, Japan, and internationally."
+    },
+    "MEDP": {
+      "ticker": "MEDP",
+      "name": "Medpace Holdings, Inc.",
+      "industry": "Diagnostics & Research",
+      "sector": "Healthcare",
+      "blurb": "Medpace Holdings, Inc. provides clinical research-based drug and medical device development services in North America, Europe, Asia, South America, Africa, and Australia."
     }
   }
 }
