@@ -1,6 +1,6 @@
 {
   "dates": [
-    "2026-07-24",
+    "2026-07-25",
     "2026-07-23",
     "2026-07-22",
     "2026-07-21",
@@ -43,11 +43,11 @@
     "2026-05-10"
   ],
   "reports": {
-    "2026-07-24": {
-      "date": "2026-07-24",
-      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-07-24_225448/",
+    "2026-07-25": {
+      "date": "2026-07-25",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-07-25_224502/",
       "regime": "UPTREND",
-      "full_matches_total": 5,
+      "full_matches_total": 6,
       "full_matches": [
         {
           "rank": 1,
@@ -79,6 +79,13 @@
         },
         {
           "rank": 5,
+          "ticker": "PARR",
+          "score": 0.84,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 6,
           "ticker": "STX",
           "score": 0.71,
           "gates": "CAnSLIM",
