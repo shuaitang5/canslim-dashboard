@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-07-30",
     "2026-07-29",
     "2026-07-28",
     "2026-07-27",
@@ -46,6 +47,77 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-07-30": {
+      "date": "2026-07-30",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-07-30_225740/",
+      "regime": "UPTREND",
+      "full_matches_total": 9,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "MEDP",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "HALO",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "FTNT",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "LAUR",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 5,
+          "ticker": "LLY",
+          "score": 0.89,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "PARR",
+          "score": 0.86,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "NUTX",
+          "score": 0.86,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 8,
+          "ticker": "COCO",
+          "score": 0.84,
+          "gates": "CAnSLIM",
+          "ad": "E"
+        },
+        {
+          "rank": 9,
+          "ticker": "STX",
+          "score": 0.75,
+          "gates": "CAnSLIM",
+          "ad": "C"
+        }
+      ]
+    },
     "2026-07-29": {
       "date": "2026-07-29",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-07-29_225309/",
@@ -4704,6 +4776,20 @@
       "industry": "Diagnostics & Research",
       "sector": "Healthcare",
       "blurb": "Medpace Holdings, Inc. provides clinical research-based drug and medical device development services in North America, Europe, Asia, South America, Africa, and Australia."
+    },
+    "COCO": {
+      "ticker": "COCO",
+      "name": "The Vita Coco Company, Inc.",
+      "industry": "Beverages - Non-Alcoholic",
+      "sector": "Consumer Defensive",
+      "blurb": "The Vita Coco Company, Inc. develops, manufactures, markets, and distributes coconut water products under the Vita Coco brand name in the United States, Canada, Europe, the Middle East, Africa, and the Asia Pacific."
+    },
+    "LAUR": {
+      "ticker": "LAUR",
+      "name": "Laureate Education, Inc.",
+      "industry": "Education & Training Services",
+      "sector": "Consumer Defensive",
+      "blurb": "Laureate Education, Inc., together with its subsidiaries, offers higher education programs and services to students through a portfolio of higher education institutions in Mexico, Peru, and the United States."
     }
   }
 }
