@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-08-04",
     "2026-08-03",
     "2026-08-02",
     "2026-07-30",
@@ -49,6 +50,70 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-08-04": {
+      "date": "2026-08-04",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-08-04_225358/",
+      "regime": "UPTREND",
+      "full_matches_total": 8,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "FTNT",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "MEDP",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "LAUR",
+          "score": 0.89,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 4,
+          "ticker": "NUTX",
+          "score": 0.87,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "PARR",
+          "score": 0.84,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "COCO",
+          "score": 0.84,
+          "gates": "CAnSLIM",
+          "ad": "E"
+        },
+        {
+          "rank": 7,
+          "ticker": "CRDO",
+          "score": 0.83,
+          "gates": "CAnSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 8,
+          "ticker": "STX",
+          "score": 0.73,
+          "gates": "CAnSLIM",
+          "ad": "C"
+        }
+      ]
+    },
     "2026-08-03": {
       "date": "2026-08-03",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-08-03_225410/",
