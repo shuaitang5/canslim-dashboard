@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-08-05",
     "2026-08-04",
     "2026-08-03",
     "2026-08-02",
@@ -50,6 +51,70 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-08-05": {
+      "date": "2026-08-05",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-08-05_225031/",
+      "regime": "UPTREND",
+      "full_matches_total": 8,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "EXPE",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "FTNT",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "MEDP",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "LAUR",
+          "score": 0.89,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 5,
+          "ticker": "NUTX",
+          "score": 0.85,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "COCO",
+          "score": 0.85,
+          "gates": "CAnSLIM",
+          "ad": "E"
+        },
+        {
+          "rank": 7,
+          "ticker": "PARR",
+          "score": 0.77,
+          "gates": "CAnSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 8,
+          "ticker": "STX",
+          "score": 0.71,
+          "gates": "CAnSLIM",
+          "ad": "C"
+        }
+      ]
+    },
     "2026-08-04": {
       "date": "2026-08-04",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-08-04_225358/",
@@ -4950,6 +5015,13 @@
       "industry": "Education & Training Services",
       "sector": "Consumer Defensive",
       "blurb": "Laureate Education, Inc., together with its subsidiaries, offers higher education programs and services to students through a portfolio of higher education institutions in Mexico, Peru, and the United States."
+    },
+    "EXPE": {
+      "ticker": "EXPE",
+      "name": "Expedia Group, Inc.",
+      "industry": "Travel Services",
+      "sector": "Consumer Cyclical",
+      "blurb": "Expedia Group, Inc. operates as an online travel company in the United States and internationally."
     }
   }
 }

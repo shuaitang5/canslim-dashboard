@@ -446,5 +446,12 @@
     "industry": "Education & Training Services",
     "sector": "Consumer Defensive",
     "blurb": "Laureate Education, Inc., together with its subsidiaries, offers higher education programs and services to students through a portfolio of higher education institutions in Mexico, Peru, and the United States."
+  },
+  "EXPE": {
+    "ticker": "EXPE",
+    "name": "Expedia Group, Inc.",
+    "industry": "Travel Services",
+    "sector": "Consumer Cyclical",
+    "blurb": "Expedia Group, Inc. operates as an online travel company in the United States and internationally."
   }
 }
