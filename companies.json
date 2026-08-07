@@ -453,5 +453,12 @@
     "industry": "Travel Services",
     "sector": "Consumer Cyclical",
     "blurb": "Expedia Group, Inc. operates as an online travel company in the United States and internationally."
+  },
+  "FTK": {
+    "ticker": "FTK",
+    "name": "Flotek Industries, Inc.",
+    "industry": "Oil & Gas Equipment & Services",
+    "sector": "Energy",
+    "blurb": "Flotek Industries, Inc. operates as a chemical and data analytics company in the United States, the United Arab Emirates, and internationally."
   }
 }
