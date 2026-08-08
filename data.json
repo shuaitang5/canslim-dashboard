@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-08-08",
     "2026-08-07",
     "2026-08-05",
     "2026-08-04",
@@ -52,11 +53,61 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-08-08": {
+      "date": "2026-08-08",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-08-08_221949/",
+      "regime": "UPTREND",
+      "full_matches_total": 6,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "GCT",
+          "score": 0.99,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "HALO",
+          "score": 0.98,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "FTK",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "FTNT",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "NUTX",
+          "score": 0.86,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "PARR",
+          "score": 0.77,
+          "gates": "CAnSLIM",
+          "ad": "C"
+        }
+      ]
+    },
     "2026-08-07": {
       "date": "2026-08-07",
-      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-08-07_222646/",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-08-07_012824/",
       "regime": "UPTREND",
-      "full_matches_total": 7,
+      "full_matches_total": 9,
       "full_matches": [
         {
           "rank": 1,
@@ -68,40 +119,54 @@
         {
           "rank": 2,
           "ticker": "GCT",
-          "score": 0.99,
-          "gates": "CANSLIM",
-          "ad": "A"
-        },
-        {
-          "rank": 3,
-          "ticker": "HALO",
           "score": 0.98,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "ticker": "FTK",
-          "score": 0.95,
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "MEDP",
+          "score": 0.93,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
           "rank": 5,
           "ticker": "FTNT",
-          "score": 0.92,
+          "score": 0.91,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
           "rank": 6,
           "ticker": "NUTX",
-          "score": 0.86,
+          "score": 0.85,
           "gates": "CAnSLIM",
           "ad": "A"
         },
         {
           "rank": 7,
+          "ticker": "STX",
+          "score": 0.85,
+          "gates": "CAnSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 8,
+          "ticker": "COCO",
+          "score": 0.84,
+          "gates": "CAnSLIM",
+          "ad": "E"
+        },
+        {
+          "rank": 9,
           "ticker": "PARR",
           "score": 0.77,
           "gates": "CAnSLIM",
