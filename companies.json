@@ -460,5 +460,12 @@
     "industry": "Oil & Gas Equipment & Services",
     "sector": "Energy",
     "blurb": "Flotek Industries, Inc. operates as a chemical and data analytics company in the United States, the United Arab Emirates, and internationally."
+  },
+  "ESTC": {
+    "ticker": "ESTC",
+    "name": "Elastic N.V.",
+    "industry": "Software - Application",
+    "sector": "Technology",
+    "blurb": "Elastic N.V., a search artificial intelligence (AI) company, provides software platforms to run in hybrid, public or private clouds, and multi-cloud environments in the United States and internationally."
   }
 }
