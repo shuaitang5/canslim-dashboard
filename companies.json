@@ -467,5 +467,26 @@
     "industry": "Software - Application",
     "sector": "Technology",
     "blurb": "Elastic N.V., a search artificial intelligence (AI) company, provides software platforms to run in hybrid, public or private clouds, and multi-cloud environments in the United States and internationally."
+  },
+  "AVAH": {
+    "ticker": "AVAH",
+    "name": "Aveanna Healthcare Holdings Inc.",
+    "industry": "Medical Care Facilities",
+    "sector": "Healthcare",
+    "blurb": "Aveanna Healthcare Holdings Inc., a diversified home care platform company, provides pediatric and adult healthcare services in the United States. Its patient-centered care delivery platform allows patients to remain in their homes and minimizes the overutilization of high-cost care settings, such as hospitals or sk\u2026"
+  },
+  "AZTA": {
+    "ticker": "AZTA",
+    "name": "Azenta, Inc.",
+    "industry": "Medical Instruments & Supplies",
+    "sector": "Healthcare",
+    "blurb": "Azenta, Inc. provides biological and chemical compound sample exploration and management solutions for the life sciences industry in the United States, China, the United Kingdom, rest of Europe, the Asia Pacific, and internationally."
+  },
+  "GFF": {
+    "ticker": "GFF",
+    "name": "Griffon Corporation",
+    "industry": "Building Products & Equipment",
+    "sector": "Industrials",
+    "blurb": "Griffon Corporation, through its subsidiaries, provides home and building, and consumer and professional products in the United States, Europe, Canada, Australia, and internationally."
   }
 }
