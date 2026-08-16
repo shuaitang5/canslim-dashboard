@@ -1,6 +1,6 @@
 {
   "dates": [
-    "2026-08-15",
+    "2026-08-16",
     "2026-08-13",
     "2026-08-12",
     "2026-08-11",
@@ -58,11 +58,11 @@
     "2026-05-10"
   ],
   "reports": {
-    "2026-08-15": {
-      "date": "2026-08-15",
-      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-08-15_221258/",
+    "2026-08-16": {
+      "date": "2026-08-16",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-08-16_221224/",
       "regime": "UPTREND",
-      "full_matches_total": 9,
+      "full_matches_total": 8,
       "full_matches": [
         {
           "rank": 1,
@@ -87,41 +87,34 @@
         },
         {
           "rank": 4,
-          "ticker": "AYA",
-          "score": 0.94,
-          "gates": "CANSLIM",
-          "ad": "A"
-        },
-        {
-          "rank": 5,
           "ticker": "FTK",
           "score": 0.92,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "ticker": "FTNT",
           "score": 0.91,
           "gates": "CANSLIM",
           "ad": "B"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "ticker": "GFF",
           "score": 0.9,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "ticker": "ESTC",
           "score": 0.9,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "ticker": "AZTA",
           "score": 0.87,
           "gates": "CAnSLIM",
