@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-08-19",
     "2026-08-18",
     "2026-08-17",
     "2026-08-16",
@@ -60,6 +61,77 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-08-19": {
+      "date": "2026-08-19",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-08-19_221544/",
+      "regime": "UPTREND",
+      "full_matches_total": 9,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "AYA",
+          "score": 0.99,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "HALO",
+          "score": 0.98,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "NUTX",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "AVAH",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "ESTC",
+          "score": 0.89,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "FTNT",
+          "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 7,
+          "ticker": "ATRO",
+          "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 8,
+          "ticker": "COCO",
+          "score": 0.85,
+          "gates": "CAnSLIM",
+          "ad": "E"
+        },
+        {
+          "rank": 9,
+          "ticker": "AZTA",
+          "score": 0.84,
+          "gates": "CANSLIM",
+          "ad": "A"
+        }
+      ]
+    },
     "2026-08-18": {
       "date": "2026-08-18",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-08-18_221359/",
