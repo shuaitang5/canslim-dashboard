@@ -488,5 +488,12 @@
     "industry": "Building Products & Equipment",
     "sector": "Industrials",
     "blurb": "Griffon Corporation, through its subsidiaries, provides home and building, and consumer and professional products in the United States, Europe, Canada, Australia, and internationally."
+  },
+  "QNST": {
+    "ticker": "QNST",
+    "name": "QuinStreet, Inc.",
+    "industry": "Advertising Agencies",
+    "sector": "Communication Services",
+    "blurb": "QuinStreet, Inc., an online performance marketing company, provides customer acquisition services for its clients in the United States and internationally. The company provides online marketing services, such as qualified clicks, leads, calls, applications, and customers through its websites or third-party publisher\u2026"
   }
 }
