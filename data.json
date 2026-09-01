@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-09-01",
     "2026-08-31",
     "2026-08-28",
     "2026-08-27",
@@ -68,6 +69,63 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-09-01": {
+      "date": "2026-09-01",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-09-01_005533/",
+      "regime": "UPTREND",
+      "full_matches_total": 7,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "AYA",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "TEAM",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "AVAH",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "CMBT",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "ESTC",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "ATI",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 7,
+          "ticker": "QNST",
+          "score": 0.84,
+          "gates": "CANSLIM",
+          "ad": "A"
+        }
+      ]
+    },
     "2026-08-31": {
       "date": "2026-08-31",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-08-31_000356/",
@@ -5966,6 +6024,13 @@
       "industry": "Advertising Agencies",
       "sector": "Communication Services",
       "blurb": "QuinStreet, Inc., an online performance marketing company, provides customer acquisition services for its clients in the United States and internationally. The company provides online marketing services, such as qualified clicks, leads, calls, applications, and customers through its websites or third-party publisher\u2026"
+    },
+    "TEAM": {
+      "ticker": "TEAM",
+      "name": "Atlassian Corporation",
+      "industry": "Software - Application",
+      "sector": "Technology",
+      "blurb": "Atlassian Corporation provides a collaboration software that enables organizations to connect all teams through a system of work that unlocks productivity at scale worldwide. The company's product portfolio includes Jira, Confluence, Loom, Jira Service Management, Rovo, Bitbucket, Compass, Jira Product Discovery, Fo\u2026"
     }
   }
 }
