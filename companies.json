@@ -502,5 +502,12 @@
     "industry": "Software - Application",
     "sector": "Technology",
     "blurb": "Atlassian Corporation provides a collaboration software that enables organizations to connect all teams through a system of work that unlocks productivity at scale worldwide. The company's product portfolio includes Jira, Confluence, Loom, Jira Service Management, Rovo, Bitbucket, Compass, Jira Product Discovery, Fo\u2026"
+  },
+  "OKTA": {
+    "ticker": "OKTA",
+    "name": "Okta, Inc.",
+    "industry": "Software - Infrastructure",
+    "sector": "Technology",
+    "blurb": "Okta, Inc. operates as an identity partner in the United States and internationally."
   }
 }
