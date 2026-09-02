@@ -509,5 +509,12 @@
     "industry": "Software - Infrastructure",
     "sector": "Technology",
     "blurb": "Okta, Inc. operates as an identity partner in the United States and internationally."
+  },
+  "DK": {
+    "ticker": "DK",
+    "name": "Delek US Holdings, Inc.",
+    "industry": "Oil & Gas Refining & Marketing",
+    "sector": "Energy",
+    "blurb": "Delek US Holdings, Inc. engages in the integrated downstream energy business in the United States."
   }
 }

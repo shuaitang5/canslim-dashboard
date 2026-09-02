@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-09-02",
     "2026-09-01",
     "2026-08-31",
     "2026-08-28",
@@ -69,6 +70,63 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-09-02": {
+      "date": "2026-09-02",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-09-02_234256/",
+      "regime": "UPTREND",
+      "full_matches_total": 7,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "AYA",
+          "score": 0.99,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "DK",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "CMBT",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 4,
+          "ticker": "AVAH",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "TEAM",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "ATI",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 7,
+          "ticker": "QNST",
+          "score": 0.84,
+          "gates": "CANSLIM",
+          "ad": "A"
+        }
+      ]
+    },
     "2026-09-01": {
       "date": "2026-09-01",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-09-01_234154/",
@@ -6045,6 +6103,13 @@
       "industry": "Software - Infrastructure",
       "sector": "Technology",
       "blurb": "Okta, Inc. operates as an identity partner in the United States and internationally."
+    },
+    "DK": {
+      "ticker": "DK",
+      "name": "Delek US Holdings, Inc.",
+      "industry": "Oil & Gas Refining & Marketing",
+      "sector": "Energy",
+      "blurb": "Delek US Holdings, Inc. engages in the integrated downstream energy business in the United States."
     }
   }
 }
