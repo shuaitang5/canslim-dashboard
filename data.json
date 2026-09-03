@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-09-03",
     "2026-09-02",
     "2026-09-01",
     "2026-08-31",
@@ -70,6 +71,70 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-09-03": {
+      "date": "2026-09-03",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-09-03_234313/",
+      "regime": "UPTREND",
+      "full_matches_total": 8,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "AYA",
+          "score": 0.99,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "TEAM",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "AVAH",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "SSRM",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "CMBT",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "ESTC",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "ATI",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 8,
+          "ticker": "QNST",
+          "score": 0.82,
+          "gates": "CANSLIM",
+          "ad": "A"
+        }
+      ]
+    },
     "2026-09-02": {
       "date": "2026-09-02",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-09-02_234256/",
@@ -6110,6 +6175,13 @@
       "industry": "Oil & Gas Refining & Marketing",
       "sector": "Energy",
       "blurb": "Delek US Holdings, Inc. engages in the integrated downstream energy business in the United States."
+    },
+    "SSRM": {
+      "ticker": "SSRM",
+      "name": "SSR Mining Inc.",
+      "industry": "Gold",
+      "sector": "Basic Materials",
+      "blurb": "SSR Mining Inc., together with its subsidiaries, engages in the acquisition, exploration, and development of precious metal resource properties in the United States, T\u00fcrkiye, Canada, and Argentina."
     }
   }
 }

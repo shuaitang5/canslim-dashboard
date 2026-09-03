@@ -516,5 +516,12 @@
     "industry": "Oil & Gas Refining & Marketing",
     "sector": "Energy",
     "blurb": "Delek US Holdings, Inc. engages in the integrated downstream energy business in the United States."
+  },
+  "SSRM": {
+    "ticker": "SSRM",
+    "name": "SSR Mining Inc.",
+    "industry": "Gold",
+    "sector": "Basic Materials",
+    "blurb": "SSR Mining Inc., together with its subsidiaries, engages in the acquisition, exploration, and development of precious metal resource properties in the United States, T\u00fcrkiye, Canada, and Argentina."
   }
 }
