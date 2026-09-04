@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-09-04",
     "2026-09-03",
     "2026-09-02",
     "2026-09-01",
@@ -71,6 +72,77 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-09-04": {
+      "date": "2026-09-04",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-09-04_233531/",
+      "regime": "UPTREND",
+      "full_matches_total": 9,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "AYA",
+          "score": 0.98,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "AVAH",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "CMBT",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "OKTA",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "TEAM",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "DK",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "ATI",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 8,
+          "ticker": "ESTC",
+          "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 9,
+          "ticker": "QNST",
+          "score": 0.82,
+          "gates": "CANSLIM",
+          "ad": "A"
+        }
+      ]
+    },
     "2026-09-03": {
       "date": "2026-09-03",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-09-03_234313/",
