@@ -1,6 +1,6 @@
 {
   "dates": [
-    "2026-09-05",
+    "2026-09-06",
     "2026-09-03",
     "2026-09-02",
     "2026-09-01",
@@ -72,9 +72,9 @@
     "2026-05-10"
   ],
   "reports": {
-    "2026-09-05": {
-      "date": "2026-09-05",
-      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-09-05_232901/",
+    "2026-09-06": {
+      "date": "2026-09-06",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-09-06_232237/",
       "regime": "UPTREND",
       "full_matches_total": 9,
       "full_matches": [
