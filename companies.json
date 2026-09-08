@@ -523,5 +523,12 @@
     "industry": "Gold",
     "sector": "Basic Materials",
     "blurb": "SSR Mining Inc., together with its subsidiaries, engages in the acquisition, exploration, and development of precious metal resource properties in the United States, T\u00fcrkiye, Canada, and Argentina."
+  },
+  "WT": {
+    "ticker": "WT",
+    "name": "WisdomTree, Inc.",
+    "industry": "Asset Management",
+    "sector": "Financial Services",
+    "blurb": "WisdomTree, Inc., through its subsidiaries, operates as an exchange-traded funds (ETFs) sponsor and asset manager. It offers ETFs in equities, currency, fixed income, and alternatives asset classes."
   }
 }

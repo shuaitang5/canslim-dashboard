@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-09-08",
     "2026-09-07",
     "2026-09-03",
     "2026-09-02",
@@ -72,6 +73,70 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-09-08": {
+      "date": "2026-09-08",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-09-08_234644/",
+      "regime": "UPTREND",
+      "full_matches_total": 8,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "AYA",
+          "score": 0.98,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "WT",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "AVAH",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "CMBT",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "ATI",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 6,
+          "ticker": "TEAM",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "ESTC",
+          "score": 0.85,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 8,
+          "ticker": "QNST",
+          "score": 0.81,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        }
+      ]
+    },
     "2026-09-07": {
       "date": "2026-09-07",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-09-07_235255/",
@@ -6254,6 +6319,13 @@
       "industry": "Gold",
       "sector": "Basic Materials",
       "blurb": "SSR Mining Inc., together with its subsidiaries, engages in the acquisition, exploration, and development of precious metal resource properties in the United States, T\u00fcrkiye, Canada, and Argentina."
+    },
+    "WT": {
+      "ticker": "WT",
+      "name": "WisdomTree, Inc.",
+      "industry": "Asset Management",
+      "sector": "Financial Services",
+      "blurb": "WisdomTree, Inc., through its subsidiaries, operates as an exchange-traded funds (ETFs) sponsor and asset manager. It offers ETFs in equities, currency, fixed income, and alternatives asset classes."
     }
   }
 }
