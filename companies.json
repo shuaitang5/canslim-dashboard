@@ -530,5 +530,12 @@
     "industry": "Asset Management",
     "sector": "Financial Services",
     "blurb": "WisdomTree, Inc., through its subsidiaries, operates as an exchange-traded funds (ETFs) sponsor and asset manager. It offers ETFs in equities, currency, fixed income, and alternatives asset classes."
+  },
+  "SNDK": {
+    "ticker": "SNDK",
+    "name": "Sandisk Corporation",
+    "industry": "Computer Hardware",
+    "sector": "Technology",
+    "blurb": "Sandisk Corporation develops, manufactures, and sells data storage devices and solutions using NAND flash technology in the Americas, Europe, the Middle East, Africa, Asia, and internationally."
   }
 }
