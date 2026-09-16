@@ -78,49 +78,56 @@
   "reports": {
     "2026-09-15": {
       "date": "2026-09-15",
-      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-09-15_000630/",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-09-15_235126/",
       "regime": "UPTREND",
-      "full_matches_total": 6,
+      "full_matches_total": 7,
       "full_matches": [
         {
           "rank": 1,
-          "ticker": "AYA",
-          "score": 0.95,
+          "ticker": "NUTX",
+          "score": 0.99,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
           "rank": 2,
-          "ticker": "AVAH",
-          "score": 0.95,
-          "gates": "CANSLIM",
-          "ad": "A"
-        },
-        {
-          "rank": 3,
           "ticker": "CMBT",
           "score": 0.95,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
-          "rank": 4,
-          "ticker": "ATI",
-          "score": 0.9,
+          "rank": 3,
+          "ticker": "AVAH",
+          "score": 0.94,
           "gates": "CANSLIM",
-          "ad": "C"
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "AYA",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
         },
         {
           "rank": 5,
           "ticker": "TEAM",
-          "score": 0.88,
+          "score": 0.91,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
           "rank": 6,
+          "ticker": "GRDN",
+          "score": 0.86,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
           "ticker": "QNST",
-          "score": 0.81,
+          "score": 0.8,
           "gates": "CAnSLIM",
           "ad": "A"
         }
