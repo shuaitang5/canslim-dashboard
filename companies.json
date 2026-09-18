@@ -537,5 +537,12 @@
     "industry": "Computer Hardware",
     "sector": "Technology",
     "blurb": "Sandisk Corporation develops, manufactures, and sells data storage devices and solutions using NAND flash technology in the Americas, Europe, the Middle East, Africa, Asia, and internationally."
+  },
+  "FIVN": {
+    "ticker": "FIVN",
+    "name": "Five9, Inc.",
+    "industry": "Software - Infrastructure",
+    "sector": "Technology",
+    "blurb": "Five9, Inc., together with its subsidiaries, provides intelligent cloud software for contact centers in the United States and internationally. It offers CX platform that delivers a suite of applications, which enables the breadth of customer service, sales, and marketing functions."
   }
 }

@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-09-17",
     "2026-09-16",
     "2026-09-15",
     "2026-09-10",
@@ -77,6 +78,77 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-09-17": {
+      "date": "2026-09-17",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-09-17_234923/",
+      "regime": "UPTREND",
+      "full_matches_total": 9,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "AYA",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "DK",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "CMBT",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "AVAH",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "TEAM",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "FIVN",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "WT",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 8,
+          "ticker": "ESTC",
+          "score": 0.83,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 9,
+          "ticker": "GRDN",
+          "score": 0.82,
+          "gates": "CANSLIM",
+          "ad": "A"
+        }
+      ]
+    },
     "2026-09-16": {
       "date": "2026-09-16",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-09-16_235933/",
@@ -6579,6 +6651,13 @@
       "industry": "Computer Hardware",
       "sector": "Technology",
       "blurb": "Sandisk Corporation develops, manufactures, and sells data storage devices and solutions using NAND flash technology in the Americas, Europe, the Middle East, Africa, Asia, and internationally."
+    },
+    "FIVN": {
+      "ticker": "FIVN",
+      "name": "Five9, Inc.",
+      "industry": "Software - Infrastructure",
+      "sector": "Technology",
+      "blurb": "Five9, Inc., together with its subsidiaries, provides intelligent cloud software for contact centers in the United States and internationally. It offers CX platform that delivers a suite of applications, which enables the breadth of customer service, sales, and marketing functions."
     }
   }
 }
