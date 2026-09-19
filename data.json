@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-09-18",
     "2026-09-17",
     "2026-09-16",
     "2026-09-15",
@@ -78,6 +79,91 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-09-18": {
+      "date": "2026-09-18",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-09-18_234640/",
+      "regime": "UPTREND",
+      "full_matches_total": 11,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "NUTX",
+          "score": 0.99,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "AYA",
+          "score": 0.98,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 3,
+          "ticker": "HALO",
+          "score": 0.98,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "DK",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 5,
+          "ticker": "CMBT",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "AVAH",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "TEAM",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 8,
+          "ticker": "WT",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 9,
+          "ticker": "SNDK",
+          "score": 0.85,
+          "gates": "CAnSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 10,
+          "ticker": "GRDN",
+          "score": 0.82,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 11,
+          "ticker": "ESTC",
+          "score": 0.82,
+          "gates": "CANSLIM",
+          "ad": "A"
+        }
+      ]
+    },
     "2026-09-17": {
       "date": "2026-09-17",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-09-17_234923/",
