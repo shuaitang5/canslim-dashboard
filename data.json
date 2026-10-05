@@ -1,6 +1,6 @@
 {
   "dates": [
-    "2026-10-04",
+    "2026-10-05",
     "2026-10-03",
     "2026-10-02",
     "2026-10-01",
@@ -88,11 +88,11 @@
     "2026-05-10"
   ],
   "reports": {
-    "2026-10-04": {
-      "date": "2026-10-04",
-      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-10-04_001550/",
+    "2026-10-05": {
+      "date": "2026-10-05",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-10-05_002039/",
       "regime": "UPTREND",
-      "full_matches_total": 6,
+      "full_matches_total": 7,
       "full_matches": [
         {
           "rank": 1,
@@ -135,6 +135,13 @@
           "score": 0.83,
           "gates": "CANSLIM",
           "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "GRDN",
+          "score": 0.77,
+          "gates": "CANSLIM",
+          "ad": "B"
         }
       ]
     },
