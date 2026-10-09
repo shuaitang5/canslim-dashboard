@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-10-09",
     "2026-10-08",
     "2026-10-06",
     "2026-10-05",
@@ -90,6 +91,77 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-10-09": {
+      "date": "2026-10-09",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-10-09_013537/",
+      "regime": "UPTREND",
+      "full_matches_total": 9,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "TEAM",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "FRSH",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 3,
+          "ticker": "ESTC",
+          "score": 0.89,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "DK",
+          "score": 0.89,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 5,
+          "ticker": "AYA",
+          "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 6,
+          "ticker": "FIVN",
+          "score": 0.87,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "CBL",
+          "score": 0.84,
+          "gates": "CAnSLIM",
+          "ad": "E"
+        },
+        {
+          "rank": 8,
+          "ticker": "AVAH",
+          "score": 0.83,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 9,
+          "ticker": "GRDN",
+          "score": 0.77,
+          "gates": "CANSLIM",
+          "ad": "B"
+        }
+      ]
+    },
     "2026-10-08": {
       "date": "2026-10-08",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-10-08_012754/",
@@ -7438,6 +7510,13 @@
       "industry": "Software - Infrastructure",
       "sector": "Technology",
       "blurb": "Five9, Inc., together with its subsidiaries, provides intelligent cloud software for contact centers in the United States and internationally. It offers CX platform that delivers a suite of applications, which enables the breadth of customer service, sales, and marketing functions."
+    },
+    "FRSH": {
+      "ticker": "FRSH",
+      "name": "Freshworks Inc.",
+      "industry": "Software - Application",
+      "sector": "Technology",
+      "blurb": "Freshworks Inc., a software development company, provides software-as-a-service products in North America, Europe, the Middle East, Africa, the Asia Pacific, and internationally. The company's software-as-a-service solutions includes Customer Experience (CX) and Employee Experience (EX)."
     }
   }
 }

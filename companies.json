@@ -544,5 +544,12 @@
     "industry": "Software - Infrastructure",
     "sector": "Technology",
     "blurb": "Five9, Inc., together with its subsidiaries, provides intelligent cloud software for contact centers in the United States and internationally. It offers CX platform that delivers a suite of applications, which enables the breadth of customer service, sales, and marketing functions."
+  },
+  "FRSH": {
+    "ticker": "FRSH",
+    "name": "Freshworks Inc.",
+    "industry": "Software - Application",
+    "sector": "Technology",
+    "blurb": "Freshworks Inc., a software development company, provides software-as-a-service products in North America, Europe, the Middle East, Africa, the Asia Pacific, and internationally. The company's software-as-a-service solutions includes Customer Experience (CX) and Employee Experience (EX)."
   }
 }
