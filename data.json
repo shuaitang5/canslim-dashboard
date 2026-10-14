@@ -1,6 +1,6 @@
 {
   "dates": [
-    "2026-10-13",
+    "2026-10-14",
     "2026-10-12",
     "2026-10-10",
     "2026-10-08",
@@ -93,9 +93,9 @@
     "2026-05-10"
   ],
   "reports": {
-    "2026-10-13": {
-      "date": "2026-10-13",
-      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-10-13_024728/",
+    "2026-10-14": {
+      "date": "2026-10-14",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-10-14_004549/",
       "regime": "UPTREND",
       "full_matches_total": 10,
       "full_matches": [
@@ -136,17 +136,17 @@
         },
         {
           "rank": 6,
-          "ticker": "AYA",
-          "score": 0.88,
-          "gates": "CANSLIM",
-          "ad": "B"
-        },
-        {
-          "rank": 7,
           "ticker": "FIVN",
           "score": 0.88,
           "gates": "CANSLIM",
           "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "AYA",
+          "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "B"
         },
         {
           "rank": 8,
