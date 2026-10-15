@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-10-15",
     "2026-10-14",
     "2026-10-12",
     "2026-10-10",
@@ -93,6 +94,63 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-10-15": {
+      "date": "2026-10-15",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-10-15_001246/",
+      "regime": "UPTREND",
+      "full_matches_total": 7,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "TEAM",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "FRSH",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "DK",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 4,
+          "ticker": "AYA",
+          "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 5,
+          "ticker": "ESTC",
+          "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "FIVN",
+          "score": 0.87,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "AVAH",
+          "score": 0.81,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        }
+      ]
+    },
     "2026-10-14": {
       "date": "2026-10-14",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-10-14_004549/",
