@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-10-18",
     "2026-10-17",
     "2026-10-15",
     "2026-10-14",
@@ -95,9 +96,9 @@
     "2026-05-10"
   ],
   "reports": {
-    "2026-10-17": {
-      "date": "2026-10-17",
-      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-10-17_234006/",
+    "2026-10-18": {
+      "date": "2026-10-18",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-10-18_234942/",
       "regime": "UPTREND",
       "full_matches_total": 6,
       "full_matches": [
@@ -141,6 +142,70 @@
           "ticker": "FIVN",
           "score": 0.83,
           "gates": "CAnSLIM",
+          "ad": "A"
+        }
+      ]
+    },
+    "2026-10-17": {
+      "date": "2026-10-17",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-10-17_000510/",
+      "regime": "UPTREND",
+      "full_matches_total": 8,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "FRSH",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "TEAM",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "ESTC",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "DK",
+          "score": 0.89,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 5,
+          "ticker": "AYA",
+          "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 6,
+          "ticker": "MRVL",
+          "score": 0.88,
+          "gates": "CAnSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 7,
+          "ticker": "CMBT",
+          "score": 0.87,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 8,
+          "ticker": "FIVN",
+          "score": 0.87,
+          "gates": "CANSLIM",
           "ad": "A"
         }
       ]
