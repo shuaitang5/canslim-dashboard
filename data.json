@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-10-23",
     "2026-10-22",
     "2026-10-21",
     "2026-10-20",
@@ -98,6 +99,49 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-10-23": {
+      "date": "2026-10-23",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-10-23_001648/",
+      "regime": "UPTREND",
+      "full_matches_total": 5,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "MEDP",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "TEAM",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "ESTC",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "CMBT",
+          "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 5,
+          "ticker": "FIVN",
+          "score": 0.87,
+          "gates": "CANSLIM",
+          "ad": "B"
+        }
+      ]
+    },
     "2026-10-22": {
       "date": "2026-10-22",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-10-22_002047/",
