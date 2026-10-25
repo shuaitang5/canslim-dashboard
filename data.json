@@ -102,28 +102,42 @@
   "reports": {
     "2026-10-24": {
       "date": "2026-10-24",
-      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-10-24_000955/",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-10-24_235305/",
       "regime": "UPTREND",
-      "full_matches_total": 3,
+      "full_matches_total": 5,
       "full_matches": [
         {
           "rank": 1,
+          "ticker": "RNG",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
           "ticker": "TEAM",
           "score": 0.93,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "ticker": "ESTC",
-          "score": 0.91,
+          "score": 0.92,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
-          "rank": 3,
+          "rank": 4,
+          "ticker": "FIVN",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 5,
           "ticker": "CMBT",
-          "score": 0.87,
+          "score": 0.88,
           "gates": "CANSLIM",
           "ad": "C"
         }
@@ -7997,6 +8011,13 @@
       "industry": "Software - Application",
       "sector": "Technology",
       "blurb": "Freshworks Inc., a software development company, provides software-as-a-service products in North America, Europe, the Middle East, Africa, the Asia Pacific, and internationally. The company's software-as-a-service solutions includes Customer Experience (CX) and Employee Experience (EX)."
+    },
+    "RNG": {
+      "ticker": "RNG",
+      "name": "RingCentral, Inc.",
+      "industry": "Software - Application",
+      "sector": "Technology",
+      "blurb": "RingCentral, Inc., an agentic voice AI\u0096powered cloud business communication services provider, delivering an integrated platform for business phone, SMS, contact center, workforce engagement management, video collaboration, and messaging."
     }
   }
 }
