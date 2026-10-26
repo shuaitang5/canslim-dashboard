@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-10-25",
     "2026-10-24",
     "2026-10-23",
     "2026-10-22",
@@ -100,9 +101,9 @@
     "2026-05-10"
   ],
   "reports": {
-    "2026-10-24": {
-      "date": "2026-10-24",
-      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-10-24_235305/",
+    "2026-10-25": {
+      "date": "2026-10-25",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-10-25_234219/",
       "regime": "UPTREND",
       "full_matches_total": 5,
       "full_matches": [
@@ -138,6 +139,35 @@
           "rank": 5,
           "ticker": "CMBT",
           "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "C"
+        }
+      ]
+    },
+    "2026-10-24": {
+      "date": "2026-10-24",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-10-24_000955/",
+      "regime": "UPTREND",
+      "full_matches_total": 3,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "TEAM",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "ESTC",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "CMBT",
+          "score": 0.87,
           "gates": "CANSLIM",
           "ad": "C"
         }
