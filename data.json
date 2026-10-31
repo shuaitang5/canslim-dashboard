@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-10-31",
     "2026-10-30",
     "2026-10-29",
     "2026-10-28",
@@ -104,6 +105,49 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-10-31": {
+      "date": "2026-10-31",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-10-31_011711/",
+      "regime": "UPTREND",
+      "full_matches_total": 5,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "CVLT",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "RNG",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "OKTA",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "ESTC",
+          "score": 0.89,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "TEAM",
+          "score": 0.87,
+          "gates": "CANSLIM",
+          "ad": "B"
+        }
+      ]
+    },
     "2026-10-30": {
       "date": "2026-10-30",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-10-30_012817/",
@@ -8194,6 +8238,13 @@
       "industry": "Software - Infrastructure",
       "sector": "Technology",
       "blurb": "F5, Inc. provides multicloud application security and delivery solutions in the United States, Europe, the Middle East, Africa, and the Asia Pacific region."
+    },
+    "CVLT": {
+      "ticker": "CVLT",
+      "name": "Commvault Systems, Inc.",
+      "industry": "Software - Application",
+      "sector": "Technology",
+      "blurb": "Commvault Systems, Inc. provides cyber resiliency solutions for enterprises to protect, secure, and recover data, applications, and identity system."
     }
   }
 }

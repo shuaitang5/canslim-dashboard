@@ -565,5 +565,12 @@
     "industry": "Software - Infrastructure",
     "sector": "Technology",
     "blurb": "F5, Inc. provides multicloud application security and delivery solutions in the United States, Europe, the Middle East, Africa, and the Asia Pacific region."
+  },
+  "CVLT": {
+    "ticker": "CVLT",
+    "name": "Commvault Systems, Inc.",
+    "industry": "Software - Application",
+    "sector": "Technology",
+    "blurb": "Commvault Systems, Inc. provides cyber resiliency solutions for enterprises to protect, secure, and recover data, applications, and identity system."
   }
 }
