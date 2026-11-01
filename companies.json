@@ -572,5 +572,12 @@
     "industry": "Software - Application",
     "sector": "Technology",
     "blurb": "Commvault Systems, Inc. provides cyber resiliency solutions for enterprises to protect, secure, and recover data, applications, and identity system."
+  },
+  "LNG": {
+    "ticker": "LNG",
+    "name": "Cheniere Energy, Inc.",
+    "industry": "Oil & Gas Midstream",
+    "sector": "Energy",
+    "blurb": "Cheniere Energy, Inc., an energy infrastructure company, primarily engages in the liquefied natural gas (LNG) related businesses in the United States. The company owns and operates the Sabine Pass LNG terminal in Cameron Parish, Louisiana; and the Corpus Christi LNG terminal near Corpus Christi, Texas."
   }
 }

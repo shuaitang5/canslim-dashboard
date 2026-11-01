@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-11-01",
     "2026-10-31",
     "2026-10-30",
     "2026-10-29",
@@ -105,6 +106,56 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-11-01": {
+      "date": "2026-11-01",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-01_003522/",
+      "regime": "UPTREND",
+      "full_matches_total": 6,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "LNG",
+          "score": 0.98,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "RNG",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "CVLT",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 4,
+          "ticker": "OKTA",
+          "score": 0.87,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "ESTC",
+          "score": 0.85,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "TEAM",
+          "score": 0.84,
+          "gates": "CAnSLIM",
+          "ad": "B"
+        }
+      ]
+    },
     "2026-10-31": {
       "date": "2026-10-31",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-10-31_011711/",
@@ -8245,6 +8296,13 @@
       "industry": "Software - Application",
       "sector": "Technology",
       "blurb": "Commvault Systems, Inc. provides cyber resiliency solutions for enterprises to protect, secure, and recover data, applications, and identity system."
+    },
+    "LNG": {
+      "ticker": "LNG",
+      "name": "Cheniere Energy, Inc.",
+      "industry": "Oil & Gas Midstream",
+      "sector": "Energy",
+      "blurb": "Cheniere Energy, Inc., an energy infrastructure company, primarily engages in the liquefied natural gas (LNG) related businesses in the United States. The company owns and operates the Sabine Pass LNG terminal in Cameron Parish, Louisiana; and the Corpus Christi LNG terminal near Corpus Christi, Texas."
     }
   }
 }
