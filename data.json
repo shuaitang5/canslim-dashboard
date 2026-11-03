@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-11-03",
     "2026-11-02",
     "2026-10-31",
     "2026-10-30",
@@ -106,6 +107,70 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-11-03": {
+      "date": "2026-11-03",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-03_031250/",
+      "regime": "UPTREND",
+      "full_matches_total": 8,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "LNG",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 2,
+          "ticker": "CVLT",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 3,
+          "ticker": "RNG",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 4,
+          "ticker": "TDC",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "EBAY",
+          "score": 0.89,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "OKTA",
+          "score": 0.84,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "TEAM",
+          "score": 0.84,
+          "gates": "CAnSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 8,
+          "ticker": "ESTC",
+          "score": 0.82,
+          "gates": "CANSLIM",
+          "ad": "A"
+        }
+      ]
+    },
     "2026-11-02": {
       "date": "2026-11-02",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-02_010918/",
@@ -8303,6 +8368,13 @@
       "industry": "Oil & Gas Midstream",
       "sector": "Energy",
       "blurb": "Cheniere Energy, Inc., an energy infrastructure company, primarily engages in the liquefied natural gas (LNG) related businesses in the United States. The company owns and operates the Sabine Pass LNG terminal in Cameron Parish, Louisiana; and the Corpus Christi LNG terminal near Corpus Christi, Texas."
+    },
+    "EBAY": {
+      "ticker": "EBAY",
+      "name": "eBay Inc.",
+      "industry": "Internet Retail",
+      "sector": "Consumer Cyclical",
+      "blurb": "eBay Inc., together with its subsidiaries, operates marketplace platforms that connect buyers and sellers in the United States, the United Kingdom, China, Germany, and internationally."
     }
   }
 }
