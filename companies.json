@@ -586,5 +586,12 @@
     "industry": "Internet Retail",
     "sector": "Consumer Cyclical",
     "blurb": "eBay Inc., together with its subsidiaries, operates marketplace platforms that connect buyers and sellers in the United States, the United Kingdom, China, Germany, and internationally."
+  },
+  "CAKE": {
+    "ticker": "CAKE",
+    "name": "The Cheesecake Factory Incorporated",
+    "industry": "Restaurants",
+    "sector": "Consumer Cyclical",
+    "blurb": "The Cheesecake Factory Incorporated operates and licenses restaurants in the United States and Canada. It operates bakeries that produce cheesecakes and other baked products for its restaurants, international licensees, third-party bakery customers, external foodservice operators, retailers, and distributors."
   }
 }

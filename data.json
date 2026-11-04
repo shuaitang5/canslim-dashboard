@@ -1,6 +1,6 @@
 {
   "dates": [
-    "2026-11-03",
+    "2026-11-04",
     "2026-11-02",
     "2026-10-31",
     "2026-10-30",
@@ -107,18 +107,18 @@
     "2026-05-10"
   ],
   "reports": {
-    "2026-11-03": {
-      "date": "2026-11-03",
-      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-03_031250/",
+    "2026-11-04": {
+      "date": "2026-11-04",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-04_014641/",
       "regime": "UPTREND",
-      "full_matches_total": 8,
+      "full_matches_total": 7,
       "full_matches": [
         {
           "rank": 1,
-          "ticker": "LNG",
-          "score": 0.94,
+          "ticker": "CAKE",
+          "score": 0.97,
           "gates": "CANSLIM",
-          "ad": "B"
+          "ad": "C"
         },
         {
           "rank": 2,
@@ -143,27 +143,20 @@
         },
         {
           "rank": 5,
-          "ticker": "EBAY",
-          "score": 0.89,
-          "gates": "CANSLIM",
-          "ad": "A"
-        },
-        {
-          "rank": 6,
           "ticker": "OKTA",
           "score": 0.84,
           "gates": "CAnSLIM",
           "ad": "A"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "ticker": "TEAM",
           "score": 0.84,
           "gates": "CAnSLIM",
           "ad": "B"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "ticker": "ESTC",
           "score": 0.82,
           "gates": "CANSLIM",
@@ -8375,6 +8368,13 @@
       "industry": "Internet Retail",
       "sector": "Consumer Cyclical",
       "blurb": "eBay Inc., together with its subsidiaries, operates marketplace platforms that connect buyers and sellers in the United States, the United Kingdom, China, Germany, and internationally."
+    },
+    "CAKE": {
+      "ticker": "CAKE",
+      "name": "The Cheesecake Factory Incorporated",
+      "industry": "Restaurants",
+      "sector": "Consumer Cyclical",
+      "blurb": "The Cheesecake Factory Incorporated operates and licenses restaurants in the United States and Canada. It operates bakeries that produce cheesecakes and other baked products for its restaurants, international licensees, third-party bakery customers, external foodservice operators, retailers, and distributors."
     }
   }
 }
