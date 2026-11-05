@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-11-05",
     "2026-11-04",
     "2026-11-02",
     "2026-10-31",
@@ -107,6 +108,77 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-11-05": {
+      "date": "2026-11-05",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-05_015528/",
+      "regime": "UPTREND",
+      "full_matches_total": 9,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "CAKE",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 2,
+          "ticker": "CVLT",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 3,
+          "ticker": "RNG",
+          "score": 0.91,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 4,
+          "ticker": "TDC",
+          "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "FIVN",
+          "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 6,
+          "ticker": "OKTA",
+          "score": 0.88,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "GEV",
+          "score": 0.85,
+          "gates": "CAnSLIM",
+          "ad": "D"
+        },
+        {
+          "rank": 8,
+          "ticker": "TEAM",
+          "score": 0.84,
+          "gates": "CAnSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 9,
+          "ticker": "ESTC",
+          "score": 0.81,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        }
+      ]
+    },
     "2026-11-04": {
       "date": "2026-11-04",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-04_014641/",
