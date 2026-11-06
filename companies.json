@@ -593,5 +593,12 @@
     "industry": "Restaurants",
     "sector": "Consumer Cyclical",
     "blurb": "The Cheesecake Factory Incorporated operates and licenses restaurants in the United States and Canada. It operates bakeries that produce cheesecakes and other baked products for its restaurants, international licensees, third-party bakery customers, external foodservice operators, retailers, and distributors."
+  },
+  "RELY": {
+    "ticker": "RELY",
+    "name": "Remitly Global, Inc.",
+    "industry": "Software - Infrastructure",
+    "sector": "Technology",
+    "blurb": "Remitly Global, Inc., a cross-border payment company engages in the provision of digital financial services in the United States, Canada, and internationally. It offers cross-border remittances and complementary financial services through mobile application and website."
   }
 }
