@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-11-07",
     "2026-11-06",
     "2026-11-05",
     "2026-11-04",
@@ -109,6 +110,49 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-11-07": {
+      "date": "2026-11-07",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-07_012906/",
+      "regime": "UPTREND",
+      "full_matches_total": 5,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "CAKE",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 2,
+          "ticker": "PCTY",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 3,
+          "ticker": "YOU",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "RNG",
+          "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 5,
+          "ticker": "SEZL",
+          "score": 0.88,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        }
+      ]
+    },
     "2026-11-06": {
       "date": "2026-11-06",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-06_015703/",
@@ -8505,6 +8549,20 @@
       "industry": "Software - Infrastructure",
       "sector": "Technology",
       "blurb": "Remitly Global, Inc., a cross-border payment company engages in the provision of digital financial services in the United States, Canada, and internationally. It offers cross-border remittances and complementary financial services through mobile application and website."
+    },
+    "PCTY": {
+      "ticker": "PCTY",
+      "name": "Paylocity Holding Corporation",
+      "industry": "Software - Application",
+      "sector": "Technology",
+      "blurb": "Paylocity Holding Corporation provides cloud-based human capital management, finance, and IT software solutions in the United States. The company offers payroll solutions comprising payroll and tax services, global payroll, on-demand payment, garnishments, and elevate payroll; human resources (HR) solutions consisti\u2026"
+    },
+    "SEZL": {
+      "ticker": "SEZL",
+      "name": "Sezzle Inc.",
+      "industry": "Credit Services",
+      "sector": "Financial Services",
+      "blurb": "Sezzle Inc. operates as a technology-enabled payments company in the United States and Canada."
     }
   }
 }
