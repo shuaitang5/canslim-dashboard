@@ -614,5 +614,12 @@
     "industry": "Credit Services",
     "sector": "Financial Services",
     "blurb": "Sezzle Inc. operates as a technology-enabled payments company in the United States and Canada."
+  },
+  "NBN": {
+    "ticker": "NBN",
+    "name": "Northeast Bank",
+    "industry": "Banks - Regional",
+    "sector": "Financial Services",
+    "blurb": "Northeast Bank provides various banking services to individual and corporate customers in Maine. The company's deposit products include demand deposit, NOW, money market, savings, certificate of deposit, and checking accounts."
   }
 }
