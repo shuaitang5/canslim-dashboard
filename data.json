@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-11-11",
     "2026-11-10",
     "2026-11-09",
     "2026-11-07",
@@ -112,6 +113,56 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-11-11": {
+      "date": "2026-11-11",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-11_013739/",
+      "regime": "UPTREND",
+      "full_matches_total": 6,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "PCTY",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "CAKE",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 3,
+          "ticker": "NBN",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 4,
+          "ticker": "YOU",
+          "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "SEZL",
+          "score": 0.88,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 6,
+          "ticker": "QNST",
+          "score": 0.84,
+          "gates": "CAnSLIM",
+          "ad": "D"
+        }
+      ]
+    },
     "2026-11-10": {
       "date": "2026-11-10",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-10_035438/",
