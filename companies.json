@@ -621,5 +621,26 @@
     "industry": "Banks - Regional",
     "sector": "Financial Services",
     "blurb": "Northeast Bank provides various banking services to individual and corporate customers in Maine. The company's deposit products include demand deposit, NOW, money market, savings, certificate of deposit, and checking accounts."
+  },
+  "PLMR": {
+    "ticker": "PLMR",
+    "name": "Palomar Holdings, Inc.",
+    "industry": "Insurance - Property & Casualty",
+    "sector": "Financial Services",
+    "blurb": "Palomar Holdings, Inc., a specialty insurance company, provides property and casualty insurance to individuals and businesses in the United States. The company offers personal and commercial specialty insurance products, including residential and commercial earthquake; fronting; and inland marine and other property\u2026"
+  },
+  "SN": {
+    "ticker": "SN",
+    "name": "SharkNinja, Inc.",
+    "industry": "Furnishings, Fixtures & Appliances",
+    "sector": "Consumer Cyclical",
+    "blurb": "SharkNinja, Inc., a product design and technology company, engages in the provision of various solutions for consumers in the United States, China, and internationally. It offers cleaning appliances, including corded and cordless vacuums, such as handheld and robotic vacuums, as well as other floorcare products comp\u2026"
+  },
+  "TRGP": {
+    "ticker": "TRGP",
+    "name": "Targa Resources Corp.",
+    "industry": "Oil & Gas Midstream",
+    "sector": "Energy",
+    "blurb": "Targa Resources Corp., together with its subsidiaries, owns, operates, acquires, and develops a portfolio of complementary domestic infrastructure assets in North America. It operates in two segments, Gathering and Processing, and Logistics and Transportation."
   }
 }

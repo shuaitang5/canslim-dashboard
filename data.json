@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-11-12",
     "2026-11-11",
     "2026-11-10",
     "2026-11-09",
@@ -113,6 +114,70 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-11-12": {
+      "date": "2026-11-12",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-12_023730/",
+      "regime": "UPTREND",
+      "full_matches_total": 8,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "GCT",
+          "score": 0.99,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "SN",
+          "score": 0.99,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "PCTY",
+          "score": 0.96,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "PLMR",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "TRGP",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 6,
+          "ticker": "YOU",
+          "score": 0.88,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "SEZL",
+          "score": 0.88,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 8,
+          "ticker": "QNST",
+          "score": 0.86,
+          "gates": "CANSLIM",
+          "ad": "C"
+        }
+      ]
+    },
     "2026-11-11": {
       "date": "2026-11-11",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-11_013739/",
@@ -8737,6 +8802,27 @@
       "industry": "Banks - Regional",
       "sector": "Financial Services",
       "blurb": "Northeast Bank provides various banking services to individual and corporate customers in Maine. The company's deposit products include demand deposit, NOW, money market, savings, certificate of deposit, and checking accounts."
+    },
+    "PLMR": {
+      "ticker": "PLMR",
+      "name": "Palomar Holdings, Inc.",
+      "industry": "Insurance - Property & Casualty",
+      "sector": "Financial Services",
+      "blurb": "Palomar Holdings, Inc., a specialty insurance company, provides property and casualty insurance to individuals and businesses in the United States. The company offers personal and commercial specialty insurance products, including residential and commercial earthquake; fronting; and inland marine and other property\u2026"
+    },
+    "SN": {
+      "ticker": "SN",
+      "name": "SharkNinja, Inc.",
+      "industry": "Furnishings, Fixtures & Appliances",
+      "sector": "Consumer Cyclical",
+      "blurb": "SharkNinja, Inc., a product design and technology company, engages in the provision of various solutions for consumers in the United States, China, and internationally. It offers cleaning appliances, including corded and cordless vacuums, such as handheld and robotic vacuums, as well as other floorcare products comp\u2026"
+    },
+    "TRGP": {
+      "ticker": "TRGP",
+      "name": "Targa Resources Corp.",
+      "industry": "Oil & Gas Midstream",
+      "sector": "Energy",
+      "blurb": "Targa Resources Corp., together with its subsidiaries, owns, operates, acquires, and develops a portfolio of complementary domestic infrastructure assets in North America. It operates in two segments, Gathering and Processing, and Logistics and Transportation."
     }
   }
 }
