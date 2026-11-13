@@ -1,6 +1,6 @@
 {
   "dates": [
-    "2026-11-12",
+    "2026-11-13",
     "2026-11-11",
     "2026-11-10",
     "2026-11-09",
@@ -114,11 +114,11 @@
     "2026-05-10"
   ],
   "reports": {
-    "2026-11-12": {
-      "date": "2026-11-12",
-      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-12_023730/",
+    "2026-11-13": {
+      "date": "2026-11-13",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-13_021814/",
       "regime": "UPTREND",
-      "full_matches_total": 8,
+      "full_matches_total": 7,
       "full_matches": [
         {
           "rank": 1,
@@ -168,13 +168,6 @@
           "score": 0.88,
           "gates": "CAnSLIM",
           "ad": "A"
-        },
-        {
-          "rank": 8,
-          "ticker": "QNST",
-          "score": 0.86,
-          "gates": "CANSLIM",
-          "ad": "C"
         }
       ]
     },
