@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-11-14",
     "2026-11-13",
     "2026-11-11",
     "2026-11-10",
@@ -114,6 +115,70 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-11-14": {
+      "date": "2026-11-14",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-14_015538/",
+      "regime": "UPTREND",
+      "full_matches_total": 8,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "GCT",
+          "score": 0.99,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "SN",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "PCTY",
+          "score": 0.95,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "PLMR",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "TRGP",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 6,
+          "ticker": "HG",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "YOU",
+          "score": 0.9,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 8,
+          "ticker": "SEZL",
+          "score": 0.88,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        }
+      ]
+    },
     "2026-11-13": {
       "date": "2026-11-13",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-13_021814/",
@@ -8816,6 +8881,13 @@
       "industry": "Oil & Gas Midstream",
       "sector": "Energy",
       "blurb": "Targa Resources Corp., together with its subsidiaries, owns, operates, acquires, and develops a portfolio of complementary domestic infrastructure assets in North America. It operates in two segments, Gathering and Processing, and Logistics and Transportation."
+    },
+    "HG": {
+      "ticker": "HG",
+      "name": "Hamilton Insurance Group, Ltd.",
+      "industry": "Insurance - Reinsurance",
+      "sector": "Financial Services",
+      "blurb": "Hamilton Insurance Group, Ltd., through its subsidiaries, operates as specialty insurance and reinsurance company in Bermuda and internationally. It operates Hamilton Global Specialty, Hamilton Select, and Hamilton Re underwriting platforms."
     }
   }
 }
