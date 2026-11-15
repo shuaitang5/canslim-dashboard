@@ -1,6 +1,6 @@
 {
   "dates": [
-    "2026-11-14",
+    "2026-11-15",
     "2026-11-13",
     "2026-11-11",
     "2026-11-10",
@@ -115,11 +115,11 @@
     "2026-05-10"
   ],
   "reports": {
-    "2026-11-14": {
-      "date": "2026-11-14",
-      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-14_015538/",
+    "2026-11-15": {
+      "date": "2026-11-15",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-15_012736/",
       "regime": "UPTREND",
-      "full_matches_total": 8,
+      "full_matches_total": 6,
       "full_matches": [
         {
           "rank": 1,
@@ -131,47 +131,33 @@
         {
           "rank": 2,
           "ticker": "SN",
-          "score": 0.97,
+          "score": 0.99,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
           "rank": 3,
-          "ticker": "PCTY",
-          "score": 0.95,
-          "gates": "CANSLIM",
-          "ad": "A"
-        },
-        {
-          "rank": 4,
-          "ticker": "PLMR",
-          "score": 0.94,
-          "gates": "CANSLIM",
-          "ad": "A"
-        },
-        {
-          "rank": 5,
           "ticker": "TRGP",
           "score": 0.93,
           "gates": "CANSLIM",
           "ad": "C"
         },
         {
-          "rank": 6,
-          "ticker": "HG",
-          "score": 0.92,
-          "gates": "CANSLIM",
-          "ad": "A"
-        },
-        {
-          "rank": 7,
+          "rank": 4,
           "ticker": "YOU",
-          "score": 0.9,
+          "score": 0.91,
           "gates": "CANSLIM",
           "ad": "A"
         },
         {
-          "rank": 8,
+          "rank": 5,
+          "ticker": "ATEN",
+          "score": 0.89,
+          "gates": "CAnSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 6,
           "ticker": "SEZL",
           "score": 0.88,
           "gates": "CAnSLIM",
