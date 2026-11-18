@@ -649,5 +649,12 @@
     "industry": "Insurance - Reinsurance",
     "sector": "Financial Services",
     "blurb": "Hamilton Insurance Group, Ltd., through its subsidiaries, operates as specialty insurance and reinsurance company in Bermuda and internationally. It operates Hamilton Global Specialty, Hamilton Select, and Hamilton Re underwriting platforms."
+  },
+  "AER": {
+    "ticker": "AER",
+    "name": "AerCap Holdings N.V.",
+    "industry": "Rental & Leasing Services",
+    "sector": "Industrials",
+    "blurb": "AerCap Holdings N.V. engages in the lease, financing, sale, and management of commercial flight equipment in the United States, China, and internationally."
   }
 }

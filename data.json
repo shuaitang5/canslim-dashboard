@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-11-18",
     "2026-11-17",
     "2026-11-16",
     "2026-11-13",
@@ -116,6 +117,84 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-11-18": {
+      "date": "2026-11-18",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-18_031536/",
+      "regime": "UPTREND",
+      "full_matches_total": 10,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "GCT",
+          "score": 0.97,
+          "gates": "CANSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 2,
+          "ticker": "PLMR",
+          "score": 0.94,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "AER",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "PCTY",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 5,
+          "ticker": "TRGP",
+          "score": 0.93,
+          "gates": "CANSLIM",
+          "ad": "C"
+        },
+        {
+          "rank": 6,
+          "ticker": "HG",
+          "score": 0.92,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 7,
+          "ticker": "ATEN",
+          "score": 0.9,
+          "gates": "CAnSLIM",
+          "ad": "B"
+        },
+        {
+          "rank": 8,
+          "ticker": "YOU",
+          "score": 0.89,
+          "gates": "CANSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 9,
+          "ticker": "SEZL",
+          "score": 0.88,
+          "gates": "CAnSLIM",
+          "ad": "A"
+        },
+        {
+          "rank": 10,
+          "ticker": "VIK",
+          "score": 0.86,
+          "gates": "CANSLIM",
+          "ad": "C"
+        }
+      ]
+    },
     "2026-11-17": {
       "date": "2026-11-17",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-17_041615/",
@@ -8946,6 +9025,13 @@
       "industry": "Insurance - Reinsurance",
       "sector": "Financial Services",
       "blurb": "Hamilton Insurance Group, Ltd., through its subsidiaries, operates as specialty insurance and reinsurance company in Bermuda and internationally. It operates Hamilton Global Specialty, Hamilton Select, and Hamilton Re underwriting platforms."
+    },
+    "AER": {
+      "ticker": "AER",
+      "name": "AerCap Holdings N.V.",
+      "industry": "Rental & Leasing Services",
+      "sector": "Industrials",
+      "blurb": "AerCap Holdings N.V. engages in the lease, financing, sale, and management of commercial flight equipment in the United States, China, and internationally."
     }
   }
 }
