@@ -1,6 +1,6 @@
 {
   "dates": [
-    "2026-11-21",
+    "2026-11-22",
     "2026-11-20",
     "2026-11-19",
     "2026-11-18",
@@ -120,9 +120,9 @@
     "2026-05-10"
   ],
   "reports": {
-    "2026-11-21": {
-      "date": "2026-11-21",
-      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-21_025640/",
+    "2026-11-22": {
+      "date": "2026-11-22",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-22_015013/",
       "regime": "CAUTION",
       "full_matches_total": 6,
       "full_matches": [
@@ -149,16 +149,16 @@
         },
         {
           "rank": 4,
-          "ticker": "GDYN",
+          "ticker": "ATEN",
           "score": 0.82,
-          "gates": "CANSLIm",
+          "gates": "CAnSLIm",
           "ad": "A"
         },
         {
           "rank": 5,
-          "ticker": "ATEN",
+          "ticker": "GDYN",
           "score": 0.82,
-          "gates": "CAnSLIm",
+          "gates": "CANSLIm",
           "ad": "A"
         },
         {
