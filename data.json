@@ -1,5 +1,6 @@
 {
   "dates": [
+    "2026-11-26",
     "2026-11-25",
     "2026-11-24",
     "2026-11-23",
@@ -122,6 +123,56 @@
     "2026-05-10"
   ],
   "reports": {
+    "2026-11-26": {
+      "date": "2026-11-26",
+      "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-26_035223/",
+      "regime": "CAUTION",
+      "full_matches_total": 6,
+      "full_matches": [
+        {
+          "rank": 1,
+          "ticker": "GDYN",
+          "score": 0.88,
+          "gates": "CANSLIm",
+          "ad": "A"
+        },
+        {
+          "rank": 2,
+          "ticker": "GFF",
+          "score": 0.88,
+          "gates": "CANSLIm",
+          "ad": "A"
+        },
+        {
+          "rank": 3,
+          "ticker": "PLMR",
+          "score": 0.86,
+          "gates": "CANSLIm",
+          "ad": "A"
+        },
+        {
+          "rank": 4,
+          "ticker": "ATEN",
+          "score": 0.82,
+          "gates": "CAnSLIm",
+          "ad": "B"
+        },
+        {
+          "rank": 5,
+          "ticker": "HG",
+          "score": 0.81,
+          "gates": "CANSLIm",
+          "ad": "B"
+        },
+        {
+          "rank": 6,
+          "ticker": "VIK",
+          "score": 0.81,
+          "gates": "CANSLIm",
+          "ad": "B"
+        }
+      ]
+    },
     "2026-11-25": {
       "date": "2026-11-25",
       "source_url": "https://shuaitang5.github.io/canslim-scanner/runs/2026-11-25_044351/",
